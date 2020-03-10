@@ -736,3 +736,1068 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.03.10-14.59.04:271][199]LogUObjectHash: Compacting FUObjectHashTables data took   1.19ms
 [2020.03.10-14.59.04:421][199]AssetCheck: New page: Asset Save: T_hpFront
 [2020.03.10-14.59.04:421][199]LogContentValidation: Display: Validating Texture2D /Game/Widgets/T_hpFront.T_hpFront
+[2020.03.10-14.59.41:896][245]LogEditorTransaction: Undo Move Widget
+[2020.03.10-15.01.16:698][100]BlueprintLog: New page: Compile WD_LiquidHealth
+[2020.03.10-15.01.16:756][100]LogUObjectHash: Compacting FUObjectHashTables data took   5.58ms
+[2020.03.10-15.01.19:527][403]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/WD_LiquidHealth" FILE="D:/UnrealProjects/WillMarch1/Will_o_wisp2/Content/Widgets/WD_LiquidHealth.uasset" SILENT=true
+[2020.03.10-15.01.19:553][403]LogSavePackage: Moving 'D:/UnrealProjects/WillMarch1/Will_o_wisp2/Saved/WD_LiquidHealth1D0FDC6D4E49F9DBA39B3CB476C3B82D.tmp' to 'D:/UnrealProjects/WillMarch1/Will_o_wisp2/Content/Widgets/WD_LiquidHealth.uasset'
+[2020.03.10-15.01.19:566][403]AssetCheck: New page: Asset Save: WD_LiquidHealth
+[2020.03.10-15.01.19:566][403]LogContentValidation: Display: Validating WidgetBlueprint /Game/Widgets/WD_LiquidHealth.WD_LiquidHealth
+[2020.03.10-15.01.20:298][489]LogTemp: Repeating last play command: Selected Viewport
+[2020.03.10-15.01.20:327][489]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/my/levl/III_modul_ann.III_modul_ann:PersistentLevel' has LevelScriptBlueprint '/Game/my/levl/III_modul_ann.III_modul_ann:PersistentLevel.III_modul_ann' with GeneratedClass '/Game/my/levl/III_modul_ann.III_modul_ann_C' with ClassGeneratedBy '/Game/my/levl/III_modul_ann.III_modul_ann:PersistentLevel.III_modul_ann'
+[2020.03.10-15.01.20:327][489]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.03.10-15.01.20:327][489]PIE: New page: PIE session: III_modul_ann (Mar 10, 2020, 9:01:20 PM)
+[2020.03.10-15.01.20:328][489]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2020.03.10-15.01.20:329][489]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2020.03.10-15.01.20:329][489]LogPlayLevel: Creating play world package: /Game/my/levl/UEDPIE_0_III_modul_ann
+[2020.03.10-15.01.20:408][489]LogPlayLevel: PIE: StaticDuplicateObject took: (0.078285s)
+[2020.03.10-15.01.20:409][489]LogAIModule: Creating AISystem for world III_modul_ann
+[2020.03.10-15.01.20:409][489]LogPlayLevel: PIE: World Init took: (0.000963s)
+[2020.03.10-15.01.20:409][489]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/my/levl/III_modul_ann.III_modul_ann to /Game/my/levl/UEDPIE_0_III_modul_ann.III_modul_ann (0.079516s)
+[2020.03.10-15.01.20:450][489]LogUObjectHash: Compacting FUObjectHashTables data took   5.09ms
+[2020.03.10-15.01.20:453][489]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.03.10-15.01.20:453][489]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.03.10-15.01.20:453][489]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.03.10-15.01.20:453][489]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.03.10-15.01.20:453][489]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.03.10-15.01.20:453][489]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.03.10-15.01.20:453][489]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.03.10-15.01.20:453][489]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.03.10-15.01.20:454][489]LogAudio: Display: Using built-in audio occlusion.
+[2020.03.10-15.01.20:454][489]LogAudioMixer: Display: Initializing audio mixer.
+[2020.03.10-15.01.20:474][489]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.03.10-15.01.20:474][489]LogAudioMixer: Display: Name: Speakers (2- Realtek(R) Audio)
+[2020.03.10-15.01.20:474][489]LogAudioMixer: Display: Is Default: Yes
+[2020.03.10-15.01.20:474][489]LogAudioMixer: Display: Sample Rate: 48000
+[2020.03.10-15.01.20:474][489]LogAudioMixer: Display: Channel Count Used: 2
+[2020.03.10-15.01.20:474][489]LogAudioMixer: Display: Device Channel Count: 2
+[2020.03.10-15.01.20:474][489]LogAudioMixer: Display: Channel Order:
+[2020.03.10-15.01.20:474][489]LogAudioMixer: Display: 0: FrontLeft
+[2020.03.10-15.01.20:474][489]LogAudioMixer: Display: 1: FrontRight
+[2020.03.10-15.01.20:491][489]LogAudioMixer: Display: Using Audio Device Speakers (2- Realtek(R) Audio)
+[2020.03.10-15.01.20:493][489]LogInit: FAudioDevice initialized.
+[2020.03.10-15.01.20:559][489]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.10-15.01.20:583][489]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2020.03.10-15.01.20:593][489]LogPhysics: Warning: Scale for /Game/my/levl/UEDPIE_0_III_modul_ann.III_modul_ann:PersistentLevel.room_statick_camera14.bottom_free_cam has a component set to zero, which will result in a bad body instance. Scale:X=18.375 Y=108.750 Z=0.000
+[2020.03.10-15.01.20:599][489]LogBlueprintUserMessages: [ABP_CustomMovement_C_0] 2_4
+[2020.03.10-15.01.20:600][489]LogBlueprintUserMessages: [ABP_CustomMovement_C_0] 2_4
+[2020.03.10-15.01.20:600][489]LogWorld: Bringing World /Game/my/levl/UEDPIE_0_III_modul_ann.III_modul_ann up for play (max tick rate 0) at 2020.03.10-18.01.20
+[2020.03.10-15.01.20:603][489]LogWorld: Bringing up level for play took: 0.019221
+[2020.03.10-15.01.20:603][489]LogOnline: OSS: Creating online subsystem instance for: :Context_7
+[2020.03.10-15.01.20:606][489]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 20 classes and 0 folders.
+[2020.03.10-15.01.20:613][489]PIE: Play in editor start time for /Game/my/levl/UEDPIE_0_III_modul_ann 0.733
+[2020.03.10-15.01.20:613][489]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/my/levl/III_modul_ann.III_modul_ann:PersistentLevel' has LevelScriptBlueprint '/Game/my/levl/III_modul_ann.III_modul_ann:PersistentLevel.III_modul_ann' with GeneratedClass '/Game/my/levl/III_modul_ann.III_modul_ann_C' with ClassGeneratedBy '/Game/my/levl/III_modul_ann.III_modul_ann:PersistentLevel.III_modul_ann'
+[2020.03.10-15.01.20:614][489]LogBlueprintUserMessages: [ABP_CustomMovement_C_0] 2_4
+[2020.03.10-15.01.52:392][222]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.10-15.01.52:392][222]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.10-15.01.52:392][222]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/my/levl/III_modul_ann.III_modul_ann:PersistentLevel' has LevelScriptBlueprint '/Game/my/levl/III_modul_ann.III_modul_ann:PersistentLevel.III_modul_ann' with GeneratedClass '/Game/my/levl/III_modul_ann.III_modul_ann_C' with ClassGeneratedBy '/Game/my/levl/III_modul_ann.III_modul_ann:PersistentLevel.III_modul_ann'
+[2020.03.10-15.01.52:392][222]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.10-15.01.52:392][222]LogWorld: BeginTearingDown for /Game/my/levl/UEDPIE_0_III_modul_ann
+[2020.03.10-15.01.52:408][222]LogSlate: Window 'akvarel Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2020.03.10-15.01.52:412][222]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.10-15.01.52:413][222]LogWorld: UWorld::CleanupWorld for III_modul_ann, bSessionEnded=true, bCleanupResources=true
+[2020.03.10-15.01.52:416][222]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.03.10-15.01.52:425][222]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.03.10-15.01.52:426][222]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/my/levl/III_modul_ann.III_modul_ann:PersistentLevel' has LevelScriptBlueprint '/Game/my/levl/III_modul_ann.III_modul_ann:PersistentLevel.III_modul_ann' with GeneratedClass '/Game/my/levl/III_modul_ann.III_modul_ann_C' with ClassGeneratedBy '/Game/my/levl/III_modul_ann.III_modul_ann:PersistentLevel.III_modul_ann'
+[2020.03.10-15.01.52:434][222]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.03.10-15.01.52:481][222]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.10-15.01.52:529][222]LogUObjectHash: Compacting FUObjectHashTables data took   6.32ms
+[2020.03.10-15.01.52:541][223]LogPlayLevel: Display: Destroying online subsystem :Context_7
+[2020.03.10-15.02.30:490][721]BlueprintLog: New page: Compile WD_LiquidHealth
+[2020.03.10-15.02.30:565][721]LogUObjectHash: Compacting FUObjectHashTables data took   6.06ms
+[2020.03.10-15.02.31:998][853]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/WD_LiquidHealth" FILE="D:/UnrealProjects/WillMarch1/Will_o_wisp2/Content/Widgets/WD_LiquidHealth.uasset" SILENT=true
+[2020.03.10-15.02.32:018][853]LogSavePackage: Moving 'D:/UnrealProjects/WillMarch1/Will_o_wisp2/Saved/WD_LiquidHealth43A18644406F52EC6F4827A8905F98FB.tmp' to 'D:/UnrealProjects/WillMarch1/Will_o_wisp2/Content/Widgets/WD_LiquidHealth.uasset'
+[2020.03.10-15.02.32:032][853]AssetCheck: New page: Asset Save: WD_LiquidHealth
+[2020.03.10-15.02.32:032][853]LogContentValidation: Display: Validating WidgetBlueprint /Game/Widgets/WD_LiquidHealth.WD_LiquidHealth
+[2020.03.10-15.02.32:689][928]LogTemp: Repeating last play command: Selected Viewport
+[2020.03.10-15.02.32:707][928]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/my/levl/III_modul_ann.III_modul_ann:PersistentLevel' has LevelScriptBlueprint '/Game/my/levl/III_modul_ann.III_modul_ann:PersistentLevel.III_modul_ann' with GeneratedClass '/Game/my/levl/III_modul_ann.III_modul_ann_C' with ClassGeneratedBy '/Game/my/levl/III_modul_ann.III_modul_ann:PersistentLevel.III_modul_ann'
+[2020.03.10-15.02.32:707][928]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.03.10-15.02.32:708][928]PIE: New page: PIE session: III_modul_ann (Mar 10, 2020, 9:02:32 PM)
+[2020.03.10-15.02.32:708][928]LogPlayLevel: Creating play world package: /Game/my/levl/UEDPIE_0_III_modul_ann
+[2020.03.10-15.02.32:786][928]LogPlayLevel: PIE: StaticDuplicateObject took: (0.078401s)
+[2020.03.10-15.02.32:787][928]LogAIModule: Creating AISystem for world III_modul_ann
+[2020.03.10-15.02.32:787][928]LogPlayLevel: PIE: World Init took: (0.000928s)
+[2020.03.10-15.02.32:787][928]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/my/levl/III_modul_ann.III_modul_ann to /Game/my/levl/UEDPIE_0_III_modul_ann.III_modul_ann (0.079509s)
+[2020.03.10-15.02.32:831][928]LogUObjectHash: Compacting FUObjectHashTables data took   7.18ms
+[2020.03.10-15.02.32:832][928]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.03.10-15.02.32:832][928]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.03.10-15.02.32:832][928]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.03.10-15.02.32:832][928]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.03.10-15.02.32:832][928]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.03.10-15.02.32:832][928]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.03.10-15.02.32:832][928]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.03.10-15.02.32:832][928]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.03.10-15.02.32:833][928]LogAudio: Display: Using built-in audio occlusion.
+[2020.03.10-15.02.32:833][928]LogAudioMixer: Display: Initializing audio mixer.
+[2020.03.10-15.02.32:853][928]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.03.10-15.02.32:853][928]LogAudioMixer: Display: Name: Speakers (2- Realtek(R) Audio)
+[2020.03.10-15.02.32:853][928]LogAudioMixer: Display: Is Default: Yes
+[2020.03.10-15.02.32:853][928]LogAudioMixer: Display: Sample Rate: 48000
+[2020.03.10-15.02.32:853][928]LogAudioMixer: Display: Channel Count Used: 2
+[2020.03.10-15.02.32:853][928]LogAudioMixer: Display: Device Channel Count: 2
+[2020.03.10-15.02.32:853][928]LogAudioMixer: Display: Channel Order:
+[2020.03.10-15.02.32:853][928]LogAudioMixer: Display: 0: FrontLeft
+[2020.03.10-15.02.32:853][928]LogAudioMixer: Display: 1: FrontRight
+[2020.03.10-15.02.32:870][928]LogAudioMixer: Display: Using Audio Device Speakers (2- Realtek(R) Audio)
+[2020.03.10-15.02.32:871][928]LogInit: FAudioDevice initialized.
+[2020.03.10-15.02.32:915][928]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.10-15.02.32:915][928]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2020.03.10-15.02.32:926][928]LogPhysics: Warning: Scale for /Game/my/levl/UEDPIE_0_III_modul_ann.III_modul_ann:PersistentLevel.room_statick_camera14.bottom_free_cam has a component set to zero, which will result in a bad body instance. Scale:X=18.375 Y=108.750 Z=0.000
+[2020.03.10-15.02.32:932][928]LogBlueprintUserMessages: [ABP_CustomMovement_C_0] 2_4
+[2020.03.10-15.02.32:932][928]LogBlueprintUserMessages: [ABP_CustomMovement_C_0] 2_4
+[2020.03.10-15.02.32:933][928]LogWorld: Bringing World /Game/my/levl/UEDPIE_0_III_modul_ann.III_modul_ann up for play (max tick rate 0) at 2020.03.10-18.02.32
+[2020.03.10-15.02.32:935][928]LogWorld: Bringing up level for play took: 0.019052
+[2020.03.10-15.02.32:935][928]LogOnline: OSS: Creating online subsystem instance for: :Context_8
+[2020.03.10-15.02.32:944][928]PIE: Play in editor start time for /Game/my/levl/UEDPIE_0_III_modul_ann 1.063
+[2020.03.10-15.02.32:944][928]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/my/levl/III_modul_ann.III_modul_ann:PersistentLevel' has LevelScriptBlueprint '/Game/my/levl/III_modul_ann.III_modul_ann:PersistentLevel.III_modul_ann' with GeneratedClass '/Game/my/levl/III_modul_ann.III_modul_ann_C' with ClassGeneratedBy '/Game/my/levl/III_modul_ann.III_modul_ann:PersistentLevel.III_modul_ann'
+[2020.03.10-15.02.32:945][928]LogBlueprintUserMessages: [ABP_CustomMovement_C_0] 2_4
+[2020.03.10-15.02.47:585][520]LogRenderer: Reallocating scene render targets to support 1920x1016 Format 10 NumSamples 1 (Frame:1593).
+[2020.03.10-15.02.58:907][748]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.10-15.02.58:915][748]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2020.03.10-15.02.58:935][748]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2020.03.10-15.02.58:935][748]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/my/levl/III_modul_ann.III_modul_ann:PersistentLevel' has LevelScriptBlueprint '/Game/my/levl/III_modul_ann.III_modul_ann:PersistentLevel.III_modul_ann' with GeneratedClass '/Game/my/levl/III_modul_ann.III_modul_ann_C' with ClassGeneratedBy '/Game/my/levl/III_modul_ann.III_modul_ann:PersistentLevel.III_modul_ann'
+[2020.03.10-15.02.58:935][748]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.10-15.02.58:935][748]LogWorld: BeginTearingDown for /Game/my/levl/UEDPIE_0_III_modul_ann
+[2020.03.10-15.02.58:949][748]LogSlate: Window 'akvarel Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2020.03.10-15.02.58:954][748]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.10-15.02.58:955][748]LogWorld: UWorld::CleanupWorld for III_modul_ann, bSessionEnded=true, bCleanupResources=true
+[2020.03.10-15.02.58:959][748]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.03.10-15.02.58:968][748]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.03.10-15.02.58:969][748]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/my/levl/III_modul_ann.III_modul_ann:PersistentLevel' has LevelScriptBlueprint '/Game/my/levl/III_modul_ann.III_modul_ann:PersistentLevel.III_modul_ann' with GeneratedClass '/Game/my/levl/III_modul_ann.III_modul_ann_C' with ClassGeneratedBy '/Game/my/levl/III_modul_ann.III_modul_ann:PersistentLevel.III_modul_ann'
+[2020.03.10-15.02.58:976][748]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.03.10-15.02.59:011][748]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.10-15.02.59:028][748]LogUObjectHash: Compacting FUObjectHashTables data took   4.01ms
+[2020.03.10-15.02.59:043][749]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2020.03.10-15.05.54:625][953]LogEditorTransaction: Undo Set Vector Property
+[2020.03.10-15.06.35:029][719]LogEditorTransaction: Undo Set Vector Property
+[2020.03.10-15.07.24:473][194]LogEditorTransaction: Undo Edit Bottom
+[2020.03.10-15.07.53:253][552]BlueprintLog: New page: Compile WD_LiquidHealth
+[2020.03.10-15.07.53:313][552]LogUObjectHash: Compacting FUObjectHashTables data took   7.49ms
+[2020.03.10-15.07.55:015][744]LogTemp: Repeating last play command: Selected Viewport
+[2020.03.10-15.07.55:035][744]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/my/levl/III_modul_ann.III_modul_ann:PersistentLevel' has LevelScriptBlueprint '/Game/my/levl/III_modul_ann.III_modul_ann:PersistentLevel.III_modul_ann' with GeneratedClass '/Game/my/levl/III_modul_ann.III_modul_ann_C' with ClassGeneratedBy '/Game/my/levl/III_modul_ann.III_modul_ann:PersistentLevel.III_modul_ann'
+[2020.03.10-15.07.55:035][744]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.03.10-15.07.55:035][744]PIE: New page: PIE session: III_modul_ann (Mar 10, 2020, 9:07:55 PM)
+[2020.03.10-15.07.55:035][744]LogPlayLevel: Creating play world package: /Game/my/levl/UEDPIE_0_III_modul_ann
+[2020.03.10-15.07.55:113][744]LogPlayLevel: PIE: StaticDuplicateObject took: (0.078011s)
+[2020.03.10-15.07.55:114][744]LogAIModule: Creating AISystem for world III_modul_ann
+[2020.03.10-15.07.55:114][744]LogPlayLevel: PIE: World Init took: (0.000930s)
+[2020.03.10-15.07.55:114][744]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/my/levl/III_modul_ann.III_modul_ann to /Game/my/levl/UEDPIE_0_III_modul_ann.III_modul_ann (0.079120s)
+[2020.03.10-15.07.55:157][744]LogUObjectHash: Compacting FUObjectHashTables data took   5.20ms
+[2020.03.10-15.07.55:158][744]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.03.10-15.07.55:158][744]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.03.10-15.07.55:158][744]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.03.10-15.07.55:158][744]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.03.10-15.07.55:158][744]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.03.10-15.07.55:158][744]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.03.10-15.07.55:158][744]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.03.10-15.07.55:158][744]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.03.10-15.07.55:158][744]LogAudio: Display: Using built-in audio occlusion.
+[2020.03.10-15.07.55:158][744]LogAudioMixer: Display: Initializing audio mixer.
+[2020.03.10-15.07.55:179][744]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.03.10-15.07.55:179][744]LogAudioMixer: Display: Name: Speakers (2- Realtek(R) Audio)
+[2020.03.10-15.07.55:179][744]LogAudioMixer: Display: Is Default: Yes
+[2020.03.10-15.07.55:179][744]LogAudioMixer: Display: Sample Rate: 48000
+[2020.03.10-15.07.55:179][744]LogAudioMixer: Display: Channel Count Used: 2
+[2020.03.10-15.07.55:179][744]LogAudioMixer: Display: Device Channel Count: 2
+[2020.03.10-15.07.55:179][744]LogAudioMixer: Display: Channel Order:
+[2020.03.10-15.07.55:179][744]LogAudioMixer: Display: 0: FrontLeft
+[2020.03.10-15.07.55:179][744]LogAudioMixer: Display: 1: FrontRight
+[2020.03.10-15.07.55:196][744]LogAudioMixer: Display: Using Audio Device Speakers (2- Realtek(R) Audio)
+[2020.03.10-15.07.55:198][744]LogInit: FAudioDevice initialized.
+[2020.03.10-15.07.55:250][744]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.10-15.07.55:250][744]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2020.03.10-15.07.55:261][744]LogPhysics: Warning: Scale for /Game/my/levl/UEDPIE_0_III_modul_ann.III_modul_ann:PersistentLevel.room_statick_camera14.bottom_free_cam has a component set to zero, which will result in a bad body instance. Scale:X=18.375 Y=108.750 Z=0.000
+[2020.03.10-15.07.55:267][744]LogBlueprintUserMessages: [ABP_CustomMovement_C_0] 2_4
+[2020.03.10-15.07.55:268][744]LogBlueprintUserMessages: [ABP_CustomMovement_C_0] 2_4
+[2020.03.10-15.07.55:268][744]LogWorld: Bringing World /Game/my/levl/UEDPIE_0_III_modul_ann.III_modul_ann up for play (max tick rate 0) at 2020.03.10-18.07.55
+[2020.03.10-15.07.55:270][744]LogWorld: Bringing up level for play took: 0.019668
+[2020.03.10-15.07.55:270][744]LogOnline: OSS: Creating online subsystem instance for: :Context_9
+[2020.03.10-15.07.55:279][744]PIE: Play in editor start time for /Game/my/levl/UEDPIE_0_III_modul_ann -0.602
+[2020.03.10-15.07.55:279][744]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/my/levl/III_modul_ann.III_modul_ann:PersistentLevel' has LevelScriptBlueprint '/Game/my/levl/III_modul_ann.III_modul_ann:PersistentLevel.III_modul_ann' with GeneratedClass '/Game/my/levl/III_modul_ann.III_modul_ann_C' with ClassGeneratedBy '/Game/my/levl/III_modul_ann.III_modul_ann:PersistentLevel.III_modul_ann'
+[2020.03.10-15.07.55:280][744]LogBlueprintUserMessages: [ABP_CustomMovement_C_0] 2_4
+[2020.03.10-15.08.10:179][512]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.10-15.08.10:179][512]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.10-15.08.10:179][512]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/my/levl/III_modul_ann.III_modul_ann:PersistentLevel' has LevelScriptBlueprint '/Game/my/levl/III_modul_ann.III_modul_ann:PersistentLevel.III_modul_ann' with GeneratedClass '/Game/my/levl/III_modul_ann.III_modul_ann_C' with ClassGeneratedBy '/Game/my/levl/III_modul_ann.III_modul_ann:PersistentLevel.III_modul_ann'
+[2020.03.10-15.08.10:179][512]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.10-15.08.10:179][512]LogWorld: BeginTearingDown for /Game/my/levl/UEDPIE_0_III_modul_ann
+[2020.03.10-15.08.10:193][512]LogSlate: Window 'akvarel Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2020.03.10-15.08.10:197][512]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.10-15.08.10:198][512]LogWorld: UWorld::CleanupWorld for III_modul_ann, bSessionEnded=true, bCleanupResources=true
+[2020.03.10-15.08.10:202][512]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.03.10-15.08.10:206][512]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.03.10-15.08.10:206][512]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/my/levl/III_modul_ann.III_modul_ann:PersistentLevel' has LevelScriptBlueprint '/Game/my/levl/III_modul_ann.III_modul_ann:PersistentLevel.III_modul_ann' with GeneratedClass '/Game/my/levl/III_modul_ann.III_modul_ann_C' with ClassGeneratedBy '/Game/my/levl/III_modul_ann.III_modul_ann:PersistentLevel.III_modul_ann'
+[2020.03.10-15.08.10:213][512]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.03.10-15.08.10:245][512]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.10-15.08.10:259][512]LogUObjectHash: Compacting FUObjectHashTables data took   3.99ms
+[2020.03.10-15.08.10:278][514]LogPlayLevel: Display: Destroying online subsystem :Context_9
+[2020.03.10-15.08.17:769][375]LogAssetEditorSubsystem: Opening Asset editor for MaterialInstanceConstant /Game/RoboBars/Materials/ExamplesUmg/MI_UmgPatternStars.MI_UmgPatternStars
+[2020.03.10-15.08.23:481][ 13]LogTemp: Repeating last play command: Selected Viewport
+[2020.03.10-15.08.23:500][ 13]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/my/levl/III_modul_ann.III_modul_ann:PersistentLevel' has LevelScriptBlueprint '/Game/my/levl/III_modul_ann.III_modul_ann:PersistentLevel.III_modul_ann' with GeneratedClass '/Game/my/levl/III_modul_ann.III_modul_ann_C' with ClassGeneratedBy '/Game/my/levl/III_modul_ann.III_modul_ann:PersistentLevel.III_modul_ann'
+[2020.03.10-15.08.23:500][ 13]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.03.10-15.08.23:500][ 13]PIE: New page: PIE session: III_modul_ann (Mar 10, 2020, 9:08:23 PM)
+[2020.03.10-15.08.23:500][ 13]LogPlayLevel: Creating play world package: /Game/my/levl/UEDPIE_0_III_modul_ann
+[2020.03.10-15.08.23:601][ 13]LogPlayLevel: PIE: StaticDuplicateObject took: (0.100962s)
+[2020.03.10-15.08.23:602][ 13]LogAIModule: Creating AISystem for world III_modul_ann
+[2020.03.10-15.08.23:602][ 13]LogPlayLevel: PIE: World Init took: (0.000911s)
+[2020.03.10-15.08.23:602][ 13]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/my/levl/III_modul_ann.III_modul_ann to /Game/my/levl/UEDPIE_0_III_modul_ann.III_modul_ann (0.102048s)
+[2020.03.10-15.08.23:644][ 13]LogUObjectHash: Compacting FUObjectHashTables data took   4.94ms
+[2020.03.10-15.08.23:645][ 13]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.03.10-15.08.23:645][ 13]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.03.10-15.08.23:645][ 13]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.03.10-15.08.23:645][ 13]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.03.10-15.08.23:645][ 13]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.03.10-15.08.23:645][ 13]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.03.10-15.08.23:645][ 13]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.03.10-15.08.23:645][ 13]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.03.10-15.08.23:646][ 13]LogAudio: Display: Using built-in audio occlusion.
+[2020.03.10-15.08.23:646][ 13]LogAudioMixer: Display: Initializing audio mixer.
+[2020.03.10-15.08.23:665][ 13]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.03.10-15.08.23:665][ 13]LogAudioMixer: Display: Name: Speakers (2- Realtek(R) Audio)
+[2020.03.10-15.08.23:665][ 13]LogAudioMixer: Display: Is Default: Yes
+[2020.03.10-15.08.23:665][ 13]LogAudioMixer: Display: Sample Rate: 48000
+[2020.03.10-15.08.23:665][ 13]LogAudioMixer: Display: Channel Count Used: 2
+[2020.03.10-15.08.23:665][ 13]LogAudioMixer: Display: Device Channel Count: 2
+[2020.03.10-15.08.23:665][ 13]LogAudioMixer: Display: Channel Order:
+[2020.03.10-15.08.23:665][ 13]LogAudioMixer: Display: 0: FrontLeft
+[2020.03.10-15.08.23:665][ 13]LogAudioMixer: Display: 1: FrontRight
+[2020.03.10-15.08.23:681][ 13]LogAudioMixer: Display: Using Audio Device Speakers (2- Realtek(R) Audio)
+[2020.03.10-15.08.23:683][ 13]LogInit: FAudioDevice initialized.
+[2020.03.10-15.08.23:689][ 13]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2020.03.10-15.08.23:699][ 13]LogPhysics: Warning: Scale for /Game/my/levl/UEDPIE_0_III_modul_ann.III_modul_ann:PersistentLevel.room_statick_camera14.bottom_free_cam has a component set to zero, which will result in a bad body instance. Scale:X=18.375 Y=108.750 Z=0.000
+[2020.03.10-15.08.23:705][ 13]LogBlueprintUserMessages: [ABP_CustomMovement_C_0] 2_4
+[2020.03.10-15.08.23:706][ 13]LogBlueprintUserMessages: [ABP_CustomMovement_C_0] 2_4
+[2020.03.10-15.08.23:706][ 13]LogWorld: Bringing World /Game/my/levl/UEDPIE_0_III_modul_ann.III_modul_ann up for play (max tick rate 0) at 2020.03.10-18.08.23
+[2020.03.10-15.08.23:708][ 13]LogWorld: Bringing up level for play took: 0.018393
+[2020.03.10-15.08.23:708][ 13]LogOnline: OSS: Creating online subsystem instance for: :Context_11
+[2020.03.10-15.08.23:715][ 13]PIE: Play in editor start time for /Game/my/levl/UEDPIE_0_III_modul_ann -0.165
+[2020.03.10-15.08.23:716][ 13]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/my/levl/III_modul_ann.III_modul_ann:PersistentLevel' has LevelScriptBlueprint '/Game/my/levl/III_modul_ann.III_modul_ann:PersistentLevel.III_modul_ann' with GeneratedClass '/Game/my/levl/III_modul_ann.III_modul_ann_C' with ClassGeneratedBy '/Game/my/levl/III_modul_ann.III_modul_ann:PersistentLevel.III_modul_ann'
+[2020.03.10-15.08.23:716][ 13]LogBlueprintUserMessages: [ABP_CustomMovement_C_0] 2_4
+[2020.03.10-15.08.25:969][280]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.10-15.08.25:969][280]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.10-15.08.25:969][280]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/my/levl/III_modul_ann.III_modul_ann:PersistentLevel' has LevelScriptBlueprint '/Game/my/levl/III_modul_ann.III_modul_ann:PersistentLevel.III_modul_ann' with GeneratedClass '/Game/my/levl/III_modul_ann.III_modul_ann_C' with ClassGeneratedBy '/Game/my/levl/III_modul_ann.III_modul_ann:PersistentLevel.III_modul_ann'
+[2020.03.10-15.08.25:969][280]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.10-15.08.25:969][280]LogWorld: BeginTearingDown for /Game/my/levl/UEDPIE_0_III_modul_ann
+[2020.03.10-15.08.25:969][280]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.10-15.08.25:970][280]LogWorld: UWorld::CleanupWorld for III_modul_ann, bSessionEnded=true, bCleanupResources=true
+[2020.03.10-15.08.25:973][280]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.03.10-15.08.25:977][280]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.03.10-15.08.25:977][280]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/my/levl/III_modul_ann.III_modul_ann:PersistentLevel' has LevelScriptBlueprint '/Game/my/levl/III_modul_ann.III_modul_ann:PersistentLevel.III_modul_ann' with GeneratedClass '/Game/my/levl/III_modul_ann.III_modul_ann_C' with ClassGeneratedBy '/Game/my/levl/III_modul_ann.III_modul_ann:PersistentLevel.III_modul_ann'
+[2020.03.10-15.08.25:984][280]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.03.10-15.08.26:022][280]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.10-15.08.26:025][280]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.10-15.08.26:032][280]LogUObjectHash: Compacting FUObjectHashTables data took   3.76ms
+[2020.03.10-15.08.26:083][282]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2020.03.10-15.08.26:773][361]LogTemp: Repeating last play command: Selected Viewport
+[2020.03.10-15.08.26:792][361]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/my/levl/III_modul_ann.III_modul_ann:PersistentLevel' has LevelScriptBlueprint '/Game/my/levl/III_modul_ann.III_modul_ann:PersistentLevel.III_modul_ann' with GeneratedClass '/Game/my/levl/III_modul_ann.III_modul_ann_C' with ClassGeneratedBy '/Game/my/levl/III_modul_ann.III_modul_ann:PersistentLevel.III_modul_ann'
+[2020.03.10-15.08.26:792][361]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.03.10-15.08.26:792][361]PIE: New page: PIE session: III_modul_ann (Mar 10, 2020, 9:08:26 PM)
+[2020.03.10-15.08.26:792][361]LogPlayLevel: Creating play world package: /Game/my/levl/UEDPIE_0_III_modul_ann
+[2020.03.10-15.08.26:870][361]LogPlayLevel: PIE: StaticDuplicateObject took: (0.077648s)
+[2020.03.10-15.08.26:871][361]LogAIModule: Creating AISystem for world III_modul_ann
+[2020.03.10-15.08.26:871][361]LogPlayLevel: PIE: World Init took: (0.000895s)
+[2020.03.10-15.08.26:871][361]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/my/levl/III_modul_ann.III_modul_ann to /Game/my/levl/UEDPIE_0_III_modul_ann.III_modul_ann (0.078711s)
+[2020.03.10-15.08.26:907][361]LogUObjectHash: Compacting FUObjectHashTables data took   3.76ms
+[2020.03.10-15.08.26:907][361]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.03.10-15.08.26:907][361]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.03.10-15.08.26:907][361]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.03.10-15.08.26:908][361]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.03.10-15.08.26:908][361]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.03.10-15.08.26:908][361]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.03.10-15.08.26:908][361]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.03.10-15.08.26:908][361]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.03.10-15.08.26:908][361]LogAudio: Display: Using built-in audio occlusion.
+[2020.03.10-15.08.26:908][361]LogAudioMixer: Display: Initializing audio mixer.
+[2020.03.10-15.08.26:927][361]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.03.10-15.08.26:927][361]LogAudioMixer: Display: Name: Speakers (2- Realtek(R) Audio)
+[2020.03.10-15.08.26:927][361]LogAudioMixer: Display: Is Default: Yes
+[2020.03.10-15.08.26:927][361]LogAudioMixer: Display: Sample Rate: 48000
+[2020.03.10-15.08.26:927][361]LogAudioMixer: Display: Channel Count Used: 2
+[2020.03.10-15.08.26:927][361]LogAudioMixer: Display: Device Channel Count: 2
+[2020.03.10-15.08.26:927][361]LogAudioMixer: Display: Channel Order:
+[2020.03.10-15.08.26:927][361]LogAudioMixer: Display: 0: FrontLeft
+[2020.03.10-15.08.26:927][361]LogAudioMixer: Display: 1: FrontRight
+[2020.03.10-15.08.26:944][361]LogAudioMixer: Display: Using Audio Device Speakers (2- Realtek(R) Audio)
+[2020.03.10-15.08.26:946][361]LogInit: FAudioDevice initialized.
+[2020.03.10-15.08.26:952][361]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2020.03.10-15.08.26:962][361]LogPhysics: Warning: Scale for /Game/my/levl/UEDPIE_0_III_modul_ann.III_modul_ann:PersistentLevel.room_statick_camera14.bottom_free_cam has a component set to zero, which will result in a bad body instance. Scale:X=18.375 Y=108.750 Z=0.000
+[2020.03.10-15.08.26:968][361]LogBlueprintUserMessages: [ABP_CustomMovement_C_0] 2_4
+[2020.03.10-15.08.26:968][361]LogBlueprintUserMessages: [ABP_CustomMovement_C_0] 2_4
+[2020.03.10-15.08.26:969][361]LogWorld: Bringing World /Game/my/levl/UEDPIE_0_III_modul_ann.III_modul_ann up for play (max tick rate 0) at 2020.03.10-18.08.26
+[2020.03.10-15.08.26:971][361]LogWorld: Bringing up level for play took: 0.018121
+[2020.03.10-15.08.26:971][361]LogOnline: OSS: Creating online subsystem instance for: :Context_12
+[2020.03.10-15.08.26:978][361]PIE: Play in editor start time for /Game/my/levl/UEDPIE_0_III_modul_ann 1.098
+[2020.03.10-15.08.26:978][361]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/my/levl/III_modul_ann.III_modul_ann:PersistentLevel' has LevelScriptBlueprint '/Game/my/levl/III_modul_ann.III_modul_ann:PersistentLevel.III_modul_ann' with GeneratedClass '/Game/my/levl/III_modul_ann.III_modul_ann_C' with ClassGeneratedBy '/Game/my/levl/III_modul_ann.III_modul_ann:PersistentLevel.III_modul_ann'
+[2020.03.10-15.08.26:979][361]LogBlueprintUserMessages: [ABP_CustomMovement_C_0] 2_4
+[2020.03.10-15.08.33:747][171]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.10-15.08.33:747][171]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.10-15.08.33:747][171]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/my/levl/III_modul_ann.III_modul_ann:PersistentLevel' has LevelScriptBlueprint '/Game/my/levl/III_modul_ann.III_modul_ann:PersistentLevel.III_modul_ann' with GeneratedClass '/Game/my/levl/III_modul_ann.III_modul_ann_C' with ClassGeneratedBy '/Game/my/levl/III_modul_ann.III_modul_ann:PersistentLevel.III_modul_ann'
+[2020.03.10-15.08.33:747][171]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.10-15.08.33:747][171]LogWorld: BeginTearingDown for /Game/my/levl/UEDPIE_0_III_modul_ann
+[2020.03.10-15.08.33:747][171]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.10-15.08.33:747][171]LogWorld: UWorld::CleanupWorld for III_modul_ann, bSessionEnded=true, bCleanupResources=true
+[2020.03.10-15.08.33:750][171]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.03.10-15.08.33:761][171]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.03.10-15.08.33:761][171]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/my/levl/III_modul_ann.III_modul_ann:PersistentLevel' has LevelScriptBlueprint '/Game/my/levl/III_modul_ann.III_modul_ann:PersistentLevel.III_modul_ann' with GeneratedClass '/Game/my/levl/III_modul_ann.III_modul_ann_C' with ClassGeneratedBy '/Game/my/levl/III_modul_ann.III_modul_ann:PersistentLevel.III_modul_ann'
+[2020.03.10-15.08.33:768][171]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.03.10-15.08.33:806][171]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.10-15.08.33:809][171]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.10-15.08.33:819][171]LogUObjectHash: Compacting FUObjectHashTables data took   3.74ms
+[2020.03.10-15.08.33:870][173]LogPlayLevel: Display: Destroying online subsystem :Context_12
+[2020.03.10-15.09.57:104][ 57]LogUObjectHash: Compacting FUObjectHashTables data took   1.36ms
+[2020.03.10-15.09.57:122][ 57]TextureStreamingBuild: Display: Compiling optional shaders took 0.000 seconds.
+[2020.03.10-15.09.57:158][ 57]LogUObjectHash: Compacting FUObjectHashTables data took   1.20ms
+[2020.03.10-15.09.57:187][ 57]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2020.03.10-15.09.57:188][ 57]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.03.10-15.10.46:432][887]LogUObjectHash: Compacting FUObjectHashTables data took   4.19ms
+[2020.03.10-15.10.46:434][887]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/my/levl/III_modul_ann' took 0.041
+[2020.03.10-15.10.46:434][887]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Widgets/WD_LiquidHealth] ([1] browsable assets)...
+[2020.03.10-15.10.46:434][887]OBJ SavePackage: Finished generating thumbnails for package [/Game/Widgets/WD_LiquidHealth]
+[2020.03.10-15.10.46:434][887]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/WD_LiquidHealth" FILE="D:/UnrealProjects/WillMarch1/Will_o_wisp2/Saved/Autosaves/Game/Widgets/WD_LiquidHealth_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2020.03.10-15.10.46:460][887]LogSavePackage: Moving 'D:/UnrealProjects/WillMarch1/Will_o_wisp2/Saved/WD_LiquidHealth_Auto1419BDC2B4785DDAF088A1788B8945869.tmp' to 'D:/UnrealProjects/WillMarch1/Will_o_wisp2/Saved/Autosaves/Game/Widgets/WD_LiquidHealth_Auto1.uasset'
+[2020.03.10-15.10.46:481][887]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/RoboBars/Materials/ExamplesUmgCircle/MI_SoftNeon] ([1] browsable assets)...
+[2020.03.10-15.10.46:481][887]OBJ SavePackage: Finished generating thumbnails for package [/Game/RoboBars/Materials/ExamplesUmgCircle/MI_SoftNeon]
+[2020.03.10-15.10.46:497][887]LogSavePackage: Moving 'D:/UnrealProjects/WillMarch1/Will_o_wisp2/Saved/MI_SoftNeon_Auto1F89457DC4B8CFF7ADC2A6AAE8BCC4D37.tmp' to 'D:/UnrealProjects/WillMarch1/Will_o_wisp2/Saved/Autosaves/Game/RoboBars/Materials/ExamplesUmgCircle/MI_SoftNeon_Auto1.uasset'
+[2020.03.10-15.10.46:497][887]LogFileHelpers: Auto-saving content packages took 0.063
+[2020.03.10-15.17.24:632][ 63]LogUObjectHash: Compacting FUObjectHashTables data took   1.35ms
+[2020.03.10-15.17.24:634][ 63]TextureStreamingBuild: Display: Compiling optional shaders took 0.000 seconds.
+[2020.03.10-15.17.24:671][ 63]LogUObjectHash: Compacting FUObjectHashTables data took   1.21ms
+[2020.03.10-15.17.24:688][ 63]LogSavePackage: Moving 'D:/UnrealProjects/WillMarch1/Will_o_wisp2/Saved/MI_UmgPatternStars6DD3EBFD4CF05155F90AF18B1153C533.tmp' to 'D:/UnrealProjects/WillMarch1/Will_o_wisp2/Content/RoboBars/Materials/ExamplesUmg/MI_UmgPatternStars.uasset'
+[2020.03.10-15.17.24:701][ 63]AssetCheck: New page: Asset Save: MI_UmgPatternStars
+[2020.03.10-15.17.24:701][ 63]LogContentValidation: Display: Validating MaterialInstanceConstant /Game/RoboBars/Materials/ExamplesUmg/MI_UmgPatternStars.MI_UmgPatternStars
+[2020.03.10-15.18.18:111][439]LogSlate: Window 'Color Picker' being destroyed
+[2020.03.10-15.18.41:978][281]LogSlate: Window 'Color Picker' being destroyed
+[2020.03.10-15.18.52:598][542]LogSlate: Window 'Color Picker' being destroyed
+[2020.03.10-15.18.58:088][179]LogSlate: Window 'Color Picker' being destroyed
+[2020.03.10-15.19.13:846][ 31]LogSlate: Window 'Color Picker' being destroyed
+[2020.03.10-15.19.19:030][626]LogSlate: Window 'Color Picker' being destroyed
+[2020.03.10-15.19.19:948][733]Cmd: TRANSACTION UNDO
+[2020.03.10-15.19.19:948][733]LogEditorTransaction: Undo Edit ProgressColor1
+[2020.03.10-15.19.51:732][467]LogSlate: Window 'Color Picker' being destroyed
+[2020.03.10-15.20.06:583][228]LogSlate: Window 'Color Picker' being destroyed
+[2020.03.10-15.20.11:184][764]LogSlate: Window 'Color Picker' being destroyed
+[2020.03.10-15.20.19:068][688]LogUObjectHash: Compacting FUObjectHashTables data took   4.21ms
+[2020.03.10-15.20.19:070][688]TextureStreamingBuild: Display: Compiling optional shaders took 0.000 seconds.
+[2020.03.10-15.20.19:109][688]LogUObjectHash: Compacting FUObjectHashTables data took   1.21ms
+[2020.03.10-15.20.19:122][688]LogSavePackage: Moving 'D:/UnrealProjects/WillMarch1/Will_o_wisp2/Saved/MI_UmgPatternStars64B3502B48C7E6997E3EC480241EC6B0.tmp' to 'D:/UnrealProjects/WillMarch1/Will_o_wisp2/Content/RoboBars/Materials/ExamplesUmg/MI_UmgPatternStars.uasset'
+[2020.03.10-15.20.19:135][688]AssetCheck: New page: Asset Save: MI_UmgPatternStars
+[2020.03.10-15.20.19:135][688]LogContentValidation: Display: Validating MaterialInstanceConstant /Game/RoboBars/Materials/ExamplesUmg/MI_UmgPatternStars.MI_UmgPatternStars
+[2020.03.10-15.20.20:409][823]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2020.03.10-15.20.20:409][823]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.03.10-15.20.32:570][248]LogAssetEditorSubsystem: Opening Asset editor for MaterialInstanceConstant /Game/RoboBars/Materials/ExamplesUmg/MI_UmgPatternStars.MI_UmgPatternStars
+[2020.03.10-15.21.35:356][725]LogEditorTransaction: Undo Resize Widget
+[2020.03.10-15.22.35:942][900]BlueprintLog: New page: Compile WD_LiquidHealth
+[2020.03.10-15.22.36:014][900]LogUObjectHash: Compacting FUObjectHashTables data took   5.56ms
+[2020.03.10-15.22.37:280][ 38]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/WD_LiquidHealth" FILE="D:/UnrealProjects/WillMarch1/Will_o_wisp2/Content/Widgets/WD_LiquidHealth.uasset" SILENT=true
+[2020.03.10-15.22.37:310][ 38]LogSavePackage: Moving 'D:/UnrealProjects/WillMarch1/Will_o_wisp2/Saved/WD_LiquidHealth3364D0844E0ECF274A8CAFBB8553BE56.tmp' to 'D:/UnrealProjects/WillMarch1/Will_o_wisp2/Content/Widgets/WD_LiquidHealth.uasset'
+[2020.03.10-15.22.37:367][ 38]AssetCheck: New page: Asset Save: WD_LiquidHealth
+[2020.03.10-15.22.37:367][ 38]LogContentValidation: Display: Validating WidgetBlueprint /Game/Widgets/WD_LiquidHealth.WD_LiquidHealth
+[2020.03.10-15.22.38:241][133]LogTemp: Repeating last play command: Selected Viewport
+[2020.03.10-15.22.38:260][133]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/my/levl/III_modul_ann.III_modul_ann:PersistentLevel' has LevelScriptBlueprint '/Game/my/levl/III_modul_ann.III_modul_ann:PersistentLevel.III_modul_ann' with GeneratedClass '/Game/my/levl/III_modul_ann.III_modul_ann_C' with ClassGeneratedBy '/Game/my/levl/III_modul_ann.III_modul_ann:PersistentLevel.III_modul_ann'
+[2020.03.10-15.22.38:260][133]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.03.10-15.22.38:260][133]PIE: New page: PIE session: III_modul_ann (Mar 10, 2020, 9:22:38 PM)
+[2020.03.10-15.22.38:260][133]LogPlayLevel: Creating play world package: /Game/my/levl/UEDPIE_0_III_modul_ann
+[2020.03.10-15.22.38:338][133]LogPlayLevel: PIE: StaticDuplicateObject took: (0.077619s)
+[2020.03.10-15.22.38:338][133]LogAIModule: Creating AISystem for world III_modul_ann
+[2020.03.10-15.22.38:339][133]LogPlayLevel: PIE: World Init took: (0.001003s)
+[2020.03.10-15.22.38:339][133]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/my/levl/III_modul_ann.III_modul_ann to /Game/my/levl/UEDPIE_0_III_modul_ann.III_modul_ann (0.078815s)
+[2020.03.10-15.22.38:383][133]LogUObjectHash: Compacting FUObjectHashTables data took   7.01ms
+[2020.03.10-15.22.38:384][133]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.03.10-15.22.38:384][133]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.03.10-15.22.38:384][133]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.03.10-15.22.38:384][133]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.03.10-15.22.38:384][133]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.03.10-15.22.38:384][133]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.03.10-15.22.38:384][133]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.03.10-15.22.38:384][133]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.03.10-15.22.38:385][133]LogAudio: Display: Using built-in audio occlusion.
+[2020.03.10-15.22.38:385][133]LogAudioMixer: Display: Initializing audio mixer.
+[2020.03.10-15.22.38:405][133]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.03.10-15.22.38:405][133]LogAudioMixer: Display: Name: Speakers (2- Realtek(R) Audio)
+[2020.03.10-15.22.38:405][133]LogAudioMixer: Display: Is Default: Yes
+[2020.03.10-15.22.38:405][133]LogAudioMixer: Display: Sample Rate: 48000
+[2020.03.10-15.22.38:405][133]LogAudioMixer: Display: Channel Count Used: 2
+[2020.03.10-15.22.38:405][133]LogAudioMixer: Display: Device Channel Count: 2
+[2020.03.10-15.22.38:405][133]LogAudioMixer: Display: Channel Order:
+[2020.03.10-15.22.38:405][133]LogAudioMixer: Display: 0: FrontLeft
+[2020.03.10-15.22.38:405][133]LogAudioMixer: Display: 1: FrontRight
+[2020.03.10-15.22.38:423][133]LogAudioMixer: Display: Using Audio Device Speakers (2- Realtek(R) Audio)
+[2020.03.10-15.22.38:424][133]LogInit: FAudioDevice initialized.
+[2020.03.10-15.22.38:484][133]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.10-15.22.38:484][133]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2020.03.10-15.22.38:495][133]LogPhysics: Warning: Scale for /Game/my/levl/UEDPIE_0_III_modul_ann.III_modul_ann:PersistentLevel.room_statick_camera14.bottom_free_cam has a component set to zero, which will result in a bad body instance. Scale:X=18.375 Y=108.750 Z=0.000
+[2020.03.10-15.22.38:501][133]LogBlueprintUserMessages: [ABP_CustomMovement_C_0] 2_4
+[2020.03.10-15.22.38:501][133]LogBlueprintUserMessages: [ABP_CustomMovement_C_0] 2_4
+[2020.03.10-15.22.38:502][133]LogWorld: Bringing World /Game/my/levl/UEDPIE_0_III_modul_ann.III_modul_ann up for play (max tick rate 0) at 2020.03.10-18.22.38
+[2020.03.10-15.22.38:504][133]LogWorld: Bringing up level for play took: 0.019356
+[2020.03.10-15.22.38:504][133]LogOnline: OSS: Creating online subsystem instance for: :Context_14
+[2020.03.10-15.22.38:512][133]PIE: Play in editor start time for /Game/my/levl/UEDPIE_0_III_modul_ann 0.632
+[2020.03.10-15.22.38:513][133]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/my/levl/III_modul_ann.III_modul_ann:PersistentLevel' has LevelScriptBlueprint '/Game/my/levl/III_modul_ann.III_modul_ann:PersistentLevel.III_modul_ann' with GeneratedClass '/Game/my/levl/III_modul_ann.III_modul_ann_C' with ClassGeneratedBy '/Game/my/levl/III_modul_ann.III_modul_ann:PersistentLevel.III_modul_ann'
+[2020.03.10-15.22.38:513][133]LogBlueprintUserMessages: [ABP_CustomMovement_C_0] 2_4
+[2020.03.10-15.22.49:811][481]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.10-15.22.49:817][481]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2020.03.10-15.22.49:837][481]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2020.03.10-15.22.49:838][481]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/my/levl/III_modul_ann.III_modul_ann:PersistentLevel' has LevelScriptBlueprint '/Game/my/levl/III_modul_ann.III_modul_ann:PersistentLevel.III_modul_ann' with GeneratedClass '/Game/my/levl/III_modul_ann.III_modul_ann_C' with ClassGeneratedBy '/Game/my/levl/III_modul_ann.III_modul_ann:PersistentLevel.III_modul_ann'
+[2020.03.10-15.22.49:838][481]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.10-15.22.49:838][481]LogWorld: BeginTearingDown for /Game/my/levl/UEDPIE_0_III_modul_ann
+[2020.03.10-15.22.49:851][481]LogSlate: Window 'akvarel Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2020.03.10-15.22.49:854][481]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.10-15.22.49:855][481]LogWorld: UWorld::CleanupWorld for III_modul_ann, bSessionEnded=true, bCleanupResources=true
+[2020.03.10-15.22.49:859][481]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.03.10-15.22.49:869][481]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.03.10-15.22.49:869][481]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/my/levl/III_modul_ann.III_modul_ann:PersistentLevel' has LevelScriptBlueprint '/Game/my/levl/III_modul_ann.III_modul_ann:PersistentLevel.III_modul_ann' with GeneratedClass '/Game/my/levl/III_modul_ann.III_modul_ann_C' with ClassGeneratedBy '/Game/my/levl/III_modul_ann.III_modul_ann:PersistentLevel.III_modul_ann'
+[2020.03.10-15.22.49:876][481]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.03.10-15.22.49:913][481]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.10-15.22.49:926][481]LogUObjectHash: Compacting FUObjectHashTables data took   3.98ms
+[2020.03.10-15.22.49:937][482]LogPlayLevel: Display: Destroying online subsystem :Context_14
+[2020.03.10-15.23.02:212][920]LogSlate: Window 'Color Picker' being destroyed
+[2020.03.10-15.23.23:319][428]LogSlate: Window 'Color Picker' being destroyed
+[2020.03.10-15.23.25:940][713]LogUObjectHash: Compacting FUObjectHashTables data took   1.36ms
+[2020.03.10-15.23.25:942][713]TextureStreamingBuild: Display: Compiling optional shaders took 0.000 seconds.
+[2020.03.10-15.23.25:976][713]LogUObjectHash: Compacting FUObjectHashTables data took   1.19ms
+[2020.03.10-15.23.25:994][713]LogSavePackage: Moving 'D:/UnrealProjects/WillMarch1/Will_o_wisp2/Saved/MI_UmgPatternStars2666CEAD4EB64BAB184464A45A99477D.tmp' to 'D:/UnrealProjects/WillMarch1/Will_o_wisp2/Content/RoboBars/Materials/ExamplesUmg/MI_UmgPatternStars.uasset'
+[2020.03.10-15.23.26:007][713]AssetCheck: New page: Asset Save: MI_UmgPatternStars
+[2020.03.10-15.23.26:007][713]LogContentValidation: Display: Validating MaterialInstanceConstant /Game/RoboBars/Materials/ExamplesUmg/MI_UmgPatternStars.MI_UmgPatternStars
+[2020.03.10-15.24.17:794][882]LogUObjectHash: Compacting FUObjectHashTables data took   1.36ms
+[2020.03.10-15.24.17:795][882]TextureStreamingBuild: Display: Compiling optional shaders took 0.000 seconds.
+[2020.03.10-15.24.17:830][882]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
+[2020.03.10-15.24.17:843][882]LogSavePackage: Moving 'D:/UnrealProjects/WillMarch1/Will_o_wisp2/Saved/MI_UmgPatternStars8F26B64E480412726EC1F1B54B114205.tmp' to 'D:/UnrealProjects/WillMarch1/Will_o_wisp2/Content/RoboBars/Materials/ExamplesUmg/MI_UmgPatternStars.uasset'
+[2020.03.10-15.24.17:867][882]AssetCheck: New page: Asset Save: MI_UmgPatternStars
+[2020.03.10-15.24.17:868][882]LogContentValidation: Display: Validating MaterialInstanceConstant /Game/RoboBars/Materials/ExamplesUmg/MI_UmgPatternStars.MI_UmgPatternStars
+[2020.03.10-15.24.19:915][115]LogTemp: Repeating last play command: Selected Viewport
+[2020.03.10-15.24.19:933][115]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/my/levl/III_modul_ann.III_modul_ann:PersistentLevel' has LevelScriptBlueprint '/Game/my/levl/III_modul_ann.III_modul_ann:PersistentLevel.III_modul_ann' with GeneratedClass '/Game/my/levl/III_modul_ann.III_modul_ann_C' with ClassGeneratedBy '/Game/my/levl/III_modul_ann.III_modul_ann:PersistentLevel.III_modul_ann'
+[2020.03.10-15.24.19:933][115]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.03.10-15.24.19:934][115]PIE: New page: PIE session: III_modul_ann (Mar 10, 2020, 9:24:19 PM)
+[2020.03.10-15.24.19:934][115]LogPlayLevel: Creating play world package: /Game/my/levl/UEDPIE_0_III_modul_ann
+[2020.03.10-15.24.20:012][115]LogPlayLevel: PIE: StaticDuplicateObject took: (0.078037s)
+[2020.03.10-15.24.20:013][115]LogAIModule: Creating AISystem for world III_modul_ann
+[2020.03.10-15.24.20:013][115]LogPlayLevel: PIE: World Init took: (0.000981s)
+[2020.03.10-15.24.20:013][115]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/my/levl/III_modul_ann.III_modul_ann to /Game/my/levl/UEDPIE_0_III_modul_ann.III_modul_ann (0.079201s)
+[2020.03.10-15.24.20:052][115]LogUObjectHash: Compacting FUObjectHashTables data took   3.76ms
+[2020.03.10-15.24.20:053][115]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.03.10-15.24.20:053][115]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.03.10-15.24.20:053][115]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.03.10-15.24.20:053][115]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.03.10-15.24.20:053][115]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.03.10-15.24.20:053][115]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.03.10-15.24.20:053][115]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.03.10-15.24.20:053][115]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.03.10-15.24.20:054][115]LogAudio: Display: Using built-in audio occlusion.
+[2020.03.10-15.24.20:054][115]LogAudioMixer: Display: Initializing audio mixer.
+[2020.03.10-15.24.20:072][115]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.03.10-15.24.20:072][115]LogAudioMixer: Display: Name: Speakers (2- Realtek(R) Audio)
+[2020.03.10-15.24.20:073][115]LogAudioMixer: Display: Is Default: Yes
+[2020.03.10-15.24.20:073][115]LogAudioMixer: Display: Sample Rate: 48000
+[2020.03.10-15.24.20:073][115]LogAudioMixer: Display: Channel Count Used: 2
+[2020.03.10-15.24.20:073][115]LogAudioMixer: Display: Device Channel Count: 2
+[2020.03.10-15.24.20:073][115]LogAudioMixer: Display: Channel Order:
+[2020.03.10-15.24.20:073][115]LogAudioMixer: Display: 0: FrontLeft
+[2020.03.10-15.24.20:073][115]LogAudioMixer: Display: 1: FrontRight
+[2020.03.10-15.24.20:089][115]LogAudioMixer: Display: Using Audio Device Speakers (2- Realtek(R) Audio)
+[2020.03.10-15.24.20:091][115]LogInit: FAudioDevice initialized.
+[2020.03.10-15.24.20:100][115]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2020.03.10-15.24.20:111][115]LogPhysics: Warning: Scale for /Game/my/levl/UEDPIE_0_III_modul_ann.III_modul_ann:PersistentLevel.room_statick_camera14.bottom_free_cam has a component set to zero, which will result in a bad body instance. Scale:X=18.375 Y=108.750 Z=0.000
+[2020.03.10-15.24.20:116][115]LogBlueprintUserMessages: [ABP_CustomMovement_C_0] 2_4
+[2020.03.10-15.24.20:117][115]LogBlueprintUserMessages: [ABP_CustomMovement_C_0] 2_4
+[2020.03.10-15.24.20:118][115]LogWorld: Bringing World /Game/my/levl/UEDPIE_0_III_modul_ann.III_modul_ann up for play (max tick rate 0) at 2020.03.10-18.24.20
+[2020.03.10-15.24.20:120][115]LogWorld: Bringing up level for play took: 0.018686
+[2020.03.10-15.24.20:120][115]LogOnline: OSS: Creating online subsystem instance for: :Context_15
+[2020.03.10-15.24.20:127][115]PIE: Play in editor start time for /Game/my/levl/UEDPIE_0_III_modul_ann 0.247
+[2020.03.10-15.24.20:127][115]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/my/levl/III_modul_ann.III_modul_ann:PersistentLevel' has LevelScriptBlueprint '/Game/my/levl/III_modul_ann.III_modul_ann:PersistentLevel.III_modul_ann' with GeneratedClass '/Game/my/levl/III_modul_ann.III_modul_ann_C' with ClassGeneratedBy '/Game/my/levl/III_modul_ann.III_modul_ann:PersistentLevel.III_modul_ann'
+[2020.03.10-15.24.20:128][115]LogBlueprintUserMessages: [ABP_CustomMovement_C_0] 2_4
+[2020.03.10-15.24.50:800][773]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.10-15.24.50:800][773]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.10-15.24.50:800][773]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/my/levl/III_modul_ann.III_modul_ann:PersistentLevel' has LevelScriptBlueprint '/Game/my/levl/III_modul_ann.III_modul_ann:PersistentLevel.III_modul_ann' with GeneratedClass '/Game/my/levl/III_modul_ann.III_modul_ann_C' with ClassGeneratedBy '/Game/my/levl/III_modul_ann.III_modul_ann:PersistentLevel.III_modul_ann'
+[2020.03.10-15.24.50:801][773]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.10-15.24.50:801][773]LogWorld: BeginTearingDown for /Game/my/levl/UEDPIE_0_III_modul_ann
+[2020.03.10-15.24.50:801][773]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.10-15.24.50:801][773]LogWorld: UWorld::CleanupWorld for III_modul_ann, bSessionEnded=true, bCleanupResources=true
+[2020.03.10-15.24.50:805][773]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.03.10-15.24.50:810][773]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.03.10-15.24.50:810][773]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/my/levl/III_modul_ann.III_modul_ann:PersistentLevel' has LevelScriptBlueprint '/Game/my/levl/III_modul_ann.III_modul_ann:PersistentLevel.III_modul_ann' with GeneratedClass '/Game/my/levl/III_modul_ann.III_modul_ann_C' with ClassGeneratedBy '/Game/my/levl/III_modul_ann.III_modul_ann:PersistentLevel.III_modul_ann'
+[2020.03.10-15.24.50:817][773]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.03.10-15.24.50:856][773]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.10-15.24.50:859][773]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.10-15.24.50:870][773]LogUObjectHash: Compacting FUObjectHashTables data took   3.85ms
+[2020.03.10-15.24.50:902][775]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2020.03.10-15.25.11:695][256]LogMaterial: Display: Missing cached shader map for material M_UmgRectBar, compiling. 
+[2020.03.10-15.25.11:725][256]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 19
+[2020.03.10-15.25.11:725][256]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 16
+[2020.03.10-15.25.11:725][256]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 13
+[2020.03.10-15.25.11:725][256]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 10
+[2020.03.10-15.25.11:725][256]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 7
+[2020.03.10-15.25.11:725][256]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 4
+[2020.03.10-15.25.11:725][256]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 1
+[2020.03.10-15.25.11:725][256]LogMaterial: Display: Missing cached shader map for material M_UmgRectBar, compiling. 
+[2020.03.10-15.25.11:789][260]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 19
+[2020.03.10-15.25.12:074][287]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 16
+[2020.03.10-15.25.12:637][330]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 13
+[2020.03.10-15.25.12:813][341]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 11
+[2020.03.10-15.25.12:859][344]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 9
+[2020.03.10-15.25.12:920][348]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 7
+[2020.03.10-15.25.12:979][353]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 6
+[2020.03.10-15.25.13:046][359]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 5
+[2020.03.10-15.25.13:179][368]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 4
+[2020.03.10-15.25.13:286][371]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 3
+[2020.03.10-15.25.13:301][372]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 2
+[2020.03.10-15.25.13:330][374]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 1
+[2020.03.10-15.25.59:455][861]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2020.03.10-15.25.59:455][861]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2020.03.10-15.25.59:456][861]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2020.03.10-15.25.59:456][861]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2020.03.10-15.25.59:457][861]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2020.03.10-15.25.59:458][861]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2020.03.10-15.25.59:458][861]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2020.03.10-15.25.59:459][861]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2020.03.10-15.25.59:460][861]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2020.03.10-15.25.59:460][861]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2020.03.10-15.25.59:461][861]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2020.03.10-15.25.59:462][861]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2020.03.10-15.25.59:462][861]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2020.03.10-15.25.59:463][861]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2020.03.10-15.25.59:464][861]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2020.03.10-15.25.59:464][861]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2020.03.10-15.25.59:471][862]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2020.03.10-15.25.59:472][862]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2020.03.10-15.25.59:472][862]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2020.03.10-15.25.59:473][862]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2020.03.10-15.25.59:473][862]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2020.03.10-15.25.59:474][862]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2020.03.10-15.25.59:474][862]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2020.03.10-15.25.59:475][862]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2020.03.10-15.25.59:476][862]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2020.03.10-15.25.59:476][862]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2020.03.10-15.25.59:477][862]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2020.03.10-15.25.59:477][862]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2020.03.10-15.25.59:478][862]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2020.03.10-15.25.59:478][862]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2020.03.10-15.25.59:479][862]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2020.03.10-15.25.59:479][862]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2020.03.10-15.25.59:480][862]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2020.03.10-15.25.59:486][863]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2020.03.10-15.25.59:487][863]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2020.03.10-15.25.59:487][863]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2020.03.10-15.25.59:488][863]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2020.03.10-15.25.59:489][863]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2020.03.10-15.25.59:489][863]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2020.03.10-15.25.59:490][863]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2020.03.10-15.25.59:491][863]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2020.03.10-15.25.59:491][863]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2020.03.10-15.25.59:492][863]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2020.03.10-15.25.59:492][863]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2020.03.10-15.25.59:493][863]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2020.03.10-15.25.59:493][863]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2020.03.10-15.25.59:494][863]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2020.03.10-15.25.59:494][863]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2020.03.10-15.25.59:495][863]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2020.03.10-15.25.59:495][863]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2020.03.10-15.25.59:503][864]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2020.03.10-15.25.59:503][864]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2020.03.10-15.25.59:504][864]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2020.03.10-15.25.59:505][864]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2020.03.10-15.25.59:505][864]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2020.03.10-15.25.59:506][864]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2020.03.10-15.26.07:437][799]LogUObjectHash: Compacting FUObjectHashTables data took   1.36ms
+[2020.03.10-15.26.07:439][799]TextureStreamingBuild: Display: Compiling optional shaders took 0.000 seconds.
+[2020.03.10-15.26.07:474][799]LogUObjectHash: Compacting FUObjectHashTables data took   1.22ms
+[2020.03.10-15.26.07:486][799]LogSavePackage: Moving 'D:/UnrealProjects/WillMarch1/Will_o_wisp2/Saved/MI_UmgPatternStars3476F3B14D5BA6D36FD494B6AA903467.tmp' to 'D:/UnrealProjects/WillMarch1/Will_o_wisp2/Content/RoboBars/Materials/ExamplesUmg/MI_UmgPatternStars.uasset'
+[2020.03.10-15.26.07:499][799]AssetCheck: New page: Asset Save: MI_UmgPatternStars
+[2020.03.10-15.26.07:499][799]LogContentValidation: Display: Validating MaterialInstanceConstant /Game/RoboBars/Materials/ExamplesUmg/MI_UmgPatternStars.MI_UmgPatternStars
+[2020.03.10-15.26.10:129][ 86]LogTemp: Repeating last play command: Selected Viewport
+[2020.03.10-15.26.10:149][ 86]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/my/levl/III_modul_ann.III_modul_ann:PersistentLevel' has LevelScriptBlueprint '/Game/my/levl/III_modul_ann.III_modul_ann:PersistentLevel.III_modul_ann' with GeneratedClass '/Game/my/levl/III_modul_ann.III_modul_ann_C' with ClassGeneratedBy '/Game/my/levl/III_modul_ann.III_modul_ann:PersistentLevel.III_modul_ann'
+[2020.03.10-15.26.10:149][ 86]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.03.10-15.26.10:149][ 86]PIE: New page: PIE session: III_modul_ann (Mar 10, 2020, 9:26:10 PM)
+[2020.03.10-15.26.10:149][ 86]LogPlayLevel: Creating play world package: /Game/my/levl/UEDPIE_0_III_modul_ann
+[2020.03.10-15.26.10:228][ 86]LogPlayLevel: PIE: StaticDuplicateObject took: (0.079149s)
+[2020.03.10-15.26.10:229][ 86]LogAIModule: Creating AISystem for world III_modul_ann
+[2020.03.10-15.26.10:229][ 86]LogPlayLevel: PIE: World Init took: (0.000942s)
+[2020.03.10-15.26.10:229][ 86]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/my/levl/III_modul_ann.III_modul_ann to /Game/my/levl/UEDPIE_0_III_modul_ann.III_modul_ann (0.080275s)
+[2020.03.10-15.26.10:270][ 86]LogUObjectHash: Compacting FUObjectHashTables data took   4.91ms
+[2020.03.10-15.26.10:271][ 86]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.03.10-15.26.10:271][ 86]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.03.10-15.26.10:271][ 86]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.03.10-15.26.10:271][ 86]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.03.10-15.26.10:271][ 86]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.03.10-15.26.10:271][ 86]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.03.10-15.26.10:271][ 86]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.03.10-15.26.10:271][ 86]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.03.10-15.26.10:271][ 86]LogAudio: Display: Using built-in audio occlusion.
+[2020.03.10-15.26.10:271][ 86]LogAudioMixer: Display: Initializing audio mixer.
+[2020.03.10-15.26.10:291][ 86]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.03.10-15.26.10:291][ 86]LogAudioMixer: Display: Name: Speakers (2- Realtek(R) Audio)
+[2020.03.10-15.26.10:291][ 86]LogAudioMixer: Display: Is Default: Yes
+[2020.03.10-15.26.10:291][ 86]LogAudioMixer: Display: Sample Rate: 48000
+[2020.03.10-15.26.10:291][ 86]LogAudioMixer: Display: Channel Count Used: 2
+[2020.03.10-15.26.10:291][ 86]LogAudioMixer: Display: Device Channel Count: 2
+[2020.03.10-15.26.10:291][ 86]LogAudioMixer: Display: Channel Order:
+[2020.03.10-15.26.10:292][ 86]LogAudioMixer: Display: 0: FrontLeft
+[2020.03.10-15.26.10:292][ 86]LogAudioMixer: Display: 1: FrontRight
+[2020.03.10-15.26.10:308][ 86]LogAudioMixer: Display: Using Audio Device Speakers (2- Realtek(R) Audio)
+[2020.03.10-15.26.10:310][ 86]LogInit: FAudioDevice initialized.
+[2020.03.10-15.26.10:319][ 86]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2020.03.10-15.26.10:329][ 86]LogPhysics: Warning: Scale for /Game/my/levl/UEDPIE_0_III_modul_ann.III_modul_ann:PersistentLevel.room_statick_camera14.bottom_free_cam has a component set to zero, which will result in a bad body instance. Scale:X=18.375 Y=108.750 Z=0.000
+[2020.03.10-15.26.10:335][ 86]LogBlueprintUserMessages: [ABP_CustomMovement_C_0] 2_4
+[2020.03.10-15.26.10:335][ 86]LogBlueprintUserMessages: [ABP_CustomMovement_C_0] 2_4
+[2020.03.10-15.26.10:336][ 86]LogWorld: Bringing World /Game/my/levl/UEDPIE_0_III_modul_ann.III_modul_ann up for play (max tick rate 0) at 2020.03.10-18.26.10
+[2020.03.10-15.26.10:338][ 86]LogWorld: Bringing up level for play took: 0.018311
+[2020.03.10-15.26.10:338][ 86]LogOnline: OSS: Creating online subsystem instance for: :Context_16
+[2020.03.10-15.26.10:345][ 86]PIE: Play in editor start time for /Game/my/levl/UEDPIE_0_III_modul_ann 0.464
+[2020.03.10-15.26.10:345][ 86]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/my/levl/III_modul_ann.III_modul_ann:PersistentLevel' has LevelScriptBlueprint '/Game/my/levl/III_modul_ann.III_modul_ann:PersistentLevel.III_modul_ann' with GeneratedClass '/Game/my/levl/III_modul_ann.III_modul_ann_C' with ClassGeneratedBy '/Game/my/levl/III_modul_ann.III_modul_ann:PersistentLevel.III_modul_ann'
+[2020.03.10-15.26.10:346][ 86]LogBlueprintUserMessages: [ABP_CustomMovement_C_0] 2_4
+[2020.03.10-15.26.13:977][518]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.10-15.26.13:977][518]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.10-15.26.13:977][518]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/my/levl/III_modul_ann.III_modul_ann:PersistentLevel' has LevelScriptBlueprint '/Game/my/levl/III_modul_ann.III_modul_ann:PersistentLevel.III_modul_ann' with GeneratedClass '/Game/my/levl/III_modul_ann.III_modul_ann_C' with ClassGeneratedBy '/Game/my/levl/III_modul_ann.III_modul_ann:PersistentLevel.III_modul_ann'
+[2020.03.10-15.26.13:978][518]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.10-15.26.13:978][518]LogWorld: BeginTearingDown for /Game/my/levl/UEDPIE_0_III_modul_ann
+[2020.03.10-15.26.13:978][518]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.10-15.26.13:978][518]LogWorld: UWorld::CleanupWorld for III_modul_ann, bSessionEnded=true, bCleanupResources=true
+[2020.03.10-15.26.13:982][518]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.03.10-15.26.13:992][518]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.03.10-15.26.13:992][518]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/my/levl/III_modul_ann.III_modul_ann:PersistentLevel' has LevelScriptBlueprint '/Game/my/levl/III_modul_ann.III_modul_ann:PersistentLevel.III_modul_ann' with GeneratedClass '/Game/my/levl/III_modul_ann.III_modul_ann_C' with ClassGeneratedBy '/Game/my/levl/III_modul_ann.III_modul_ann:PersistentLevel.III_modul_ann'
+[2020.03.10-15.26.13:999][518]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.03.10-15.26.14:035][518]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.10-15.26.14:038][518]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.10-15.26.14:046][518]LogUObjectHash: Compacting FUObjectHashTables data took   3.78ms
+[2020.03.10-15.26.14:095][520]LogPlayLevel: Display: Destroying online subsystem :Context_16
+[2020.03.10-15.26.39:538][730]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2020.03.10-15.26.39:538][730]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2020.03.10-15.26.59:614][ 99]LogSlate: Window 'Color Picker' being destroyed
+[2020.03.10-15.27.14:842][921]Cmd: TRANSACTION UNDO
+[2020.03.10-15.27.14:842][921]LogEditorTransaction: Undo Edit PatternAAShift
+[2020.03.10-15.27.20:509][551]Cmd: TRANSACTION UNDO
+[2020.03.10-15.27.20:509][551]LogEditorTransaction: Undo Edit PatternAAWIdth
+[2020.03.10-15.27.20:558][551]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2020.03.10-15.27.36:040][363]Cmd: TRANSACTION UNDO
+[2020.03.10-15.27.36:040][363]LogEditorTransaction: Undo Edit ProgressAAShift
+[2020.03.10-15.29.30:134][951]LogUObjectHash: Compacting FUObjectHashTables data took   4.10ms
+[2020.03.10-15.29.30:136][951]TextureStreamingBuild: Display: Compiling optional shaders took 0.000 seconds.
+[2020.03.10-15.29.30:172][951]LogUObjectHash: Compacting FUObjectHashTables data took   1.21ms
+[2020.03.10-15.29.30:209][951]LogSavePackage: Moving 'D:/UnrealProjects/WillMarch1/Will_o_wisp2/Saved/MI_UmgPatternStarsE11083454CE545A46FA91ABB3E478A57.tmp' to 'D:/UnrealProjects/WillMarch1/Will_o_wisp2/Content/RoboBars/Materials/ExamplesUmg/MI_UmgPatternStars.uasset'
+[2020.03.10-15.29.30:222][951]AssetCheck: New page: Asset Save: MI_UmgPatternStars
+[2020.03.10-15.29.30:222][951]LogContentValidation: Display: Validating MaterialInstanceConstant /Game/RoboBars/Materials/ExamplesUmg/MI_UmgPatternStars.MI_UmgPatternStars
+[2020.03.10-15.29.31:756][121]LogTemp: Repeating last play command: Selected Viewport
+[2020.03.10-15.29.31:775][121]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/my/levl/III_modul_ann.III_modul_ann:PersistentLevel' has LevelScriptBlueprint '/Game/my/levl/III_modul_ann.III_modul_ann:PersistentLevel.III_modul_ann' with GeneratedClass '/Game/my/levl/III_modul_ann.III_modul_ann_C' with ClassGeneratedBy '/Game/my/levl/III_modul_ann.III_modul_ann:PersistentLevel.III_modul_ann'
+[2020.03.10-15.29.31:775][121]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.03.10-15.29.31:775][121]PIE: New page: PIE session: III_modul_ann (Mar 10, 2020, 9:29:31 PM)
+[2020.03.10-15.29.31:775][121]LogPlayLevel: Creating play world package: /Game/my/levl/UEDPIE_0_III_modul_ann
+[2020.03.10-15.29.31:854][121]LogPlayLevel: PIE: StaticDuplicateObject took: (0.078761s)
+[2020.03.10-15.29.31:855][121]LogAIModule: Creating AISystem for world III_modul_ann
+[2020.03.10-15.29.31:855][121]LogPlayLevel: PIE: World Init took: (0.000952s)
+[2020.03.10-15.29.31:855][121]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/my/levl/III_modul_ann.III_modul_ann to /Game/my/levl/UEDPIE_0_III_modul_ann.III_modul_ann (0.079895s)
+[2020.03.10-15.29.31:891][121]LogUObjectHash: Compacting FUObjectHashTables data took   4.96ms
+[2020.03.10-15.29.31:892][121]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.03.10-15.29.31:892][121]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.03.10-15.29.31:892][121]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.03.10-15.29.31:892][121]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.03.10-15.29.31:892][121]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.03.10-15.29.31:892][121]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.03.10-15.29.31:892][121]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.03.10-15.29.31:892][121]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.03.10-15.29.31:893][121]LogAudio: Display: Using built-in audio occlusion.
+[2020.03.10-15.29.31:893][121]LogAudioMixer: Display: Initializing audio mixer.
+[2020.03.10-15.29.31:913][121]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.03.10-15.29.31:913][121]LogAudioMixer: Display: Name: Speakers (2- Realtek(R) Audio)
+[2020.03.10-15.29.31:913][121]LogAudioMixer: Display: Is Default: Yes
+[2020.03.10-15.29.31:913][121]LogAudioMixer: Display: Sample Rate: 48000
+[2020.03.10-15.29.31:913][121]LogAudioMixer: Display: Channel Count Used: 2
+[2020.03.10-15.29.31:913][121]LogAudioMixer: Display: Device Channel Count: 2
+[2020.03.10-15.29.31:913][121]LogAudioMixer: Display: Channel Order:
+[2020.03.10-15.29.31:913][121]LogAudioMixer: Display: 0: FrontLeft
+[2020.03.10-15.29.31:913][121]LogAudioMixer: Display: 1: FrontRight
+[2020.03.10-15.29.31:930][121]LogAudioMixer: Display: Using Audio Device Speakers (2- Realtek(R) Audio)
+[2020.03.10-15.29.31:932][121]LogInit: FAudioDevice initialized.
+[2020.03.10-15.29.31:940][121]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2020.03.10-15.29.31:950][121]LogPhysics: Warning: Scale for /Game/my/levl/UEDPIE_0_III_modul_ann.III_modul_ann:PersistentLevel.room_statick_camera14.bottom_free_cam has a component set to zero, which will result in a bad body instance. Scale:X=18.375 Y=108.750 Z=0.000
+[2020.03.10-15.29.31:956][121]LogBlueprintUserMessages: [ABP_CustomMovement_C_0] 2_4
+[2020.03.10-15.29.31:956][121]LogBlueprintUserMessages: [ABP_CustomMovement_C_0] 2_4
+[2020.03.10-15.29.31:957][121]LogWorld: Bringing World /Game/my/levl/UEDPIE_0_III_modul_ann.III_modul_ann up for play (max tick rate 0) at 2020.03.10-18.29.31
+[2020.03.10-15.29.31:959][121]LogWorld: Bringing up level for play took: 0.018679
+[2020.03.10-15.29.31:959][121]LogOnline: OSS: Creating online subsystem instance for: :Context_17
+[2020.03.10-15.29.31:966][121]PIE: Play in editor start time for /Game/my/levl/UEDPIE_0_III_modul_ann 0.086
+[2020.03.10-15.29.31:967][121]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/my/levl/III_modul_ann.III_modul_ann:PersistentLevel' has LevelScriptBlueprint '/Game/my/levl/III_modul_ann.III_modul_ann:PersistentLevel.III_modul_ann' with GeneratedClass '/Game/my/levl/III_modul_ann.III_modul_ann_C' with ClassGeneratedBy '/Game/my/levl/III_modul_ann.III_modul_ann:PersistentLevel.III_modul_ann'
+[2020.03.10-15.29.31:967][121]LogBlueprintUserMessages: [ABP_CustomMovement_C_0] 2_4
+[2020.03.10-15.29.36:897][708]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.10-15.29.36:897][708]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.10-15.29.36:897][708]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/my/levl/III_modul_ann.III_modul_ann:PersistentLevel' has LevelScriptBlueprint '/Game/my/levl/III_modul_ann.III_modul_ann:PersistentLevel.III_modul_ann' with GeneratedClass '/Game/my/levl/III_modul_ann.III_modul_ann_C' with ClassGeneratedBy '/Game/my/levl/III_modul_ann.III_modul_ann:PersistentLevel.III_modul_ann'
+[2020.03.10-15.29.36:897][708]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.10-15.29.36:897][708]LogWorld: BeginTearingDown for /Game/my/levl/UEDPIE_0_III_modul_ann
+[2020.03.10-15.29.36:897][708]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.10-15.29.36:898][708]LogWorld: UWorld::CleanupWorld for III_modul_ann, bSessionEnded=true, bCleanupResources=true
+[2020.03.10-15.29.36:901][708]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.03.10-15.29.36:909][708]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.03.10-15.29.36:909][708]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/my/levl/III_modul_ann.III_modul_ann:PersistentLevel' has LevelScriptBlueprint '/Game/my/levl/III_modul_ann.III_modul_ann:PersistentLevel.III_modul_ann' with GeneratedClass '/Game/my/levl/III_modul_ann.III_modul_ann_C' with ClassGeneratedBy '/Game/my/levl/III_modul_ann.III_modul_ann:PersistentLevel.III_modul_ann'
+[2020.03.10-15.29.36:916][708]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.03.10-15.29.36:952][708]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.10-15.29.36:955][708]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.10-15.29.36:964][708]LogUObjectHash: Compacting FUObjectHashTables data took   3.74ms
+[2020.03.10-15.29.37:014][710]LogPlayLevel: Display: Destroying online subsystem :Context_17
+[2020.03.10-15.29.42:000][288]LogAssetEditorSubsystem: Opening Asset editor for MaterialInstanceConstant /Game/RoboBars/Materials/ExamplesUmg/MI_UmgPatternStars1.MI_UmgPatternStars1
+[2020.03.10-15.29.45:759][704]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.24/Engine/Content/EditorResources/LevelGrid1DStripes.uasset: 'C:/Program Files/Epic Games/UE_4.24/Engine/Content/EditorResources/LevelGrid1DStripes.uasset' is outside repository
+[2020.03.10-15.29.45:759][704]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.24/Engine/Content/EditorResources/LightIcons/Light_Point_Stationary_Statics.uasset: 'C:/Program Files/Epic Games/UE_4.24/Engine/Content/EditorResources/LightIcons/Light_Point_Stationary_Statics.uasset' is outside repository
+[2020.03.10-15.29.47:121][852]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2020.03.10-15.29.47:121][852]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2020.03.10-15.29.49:314][ 43]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.24/Engine/Content/Tutorial/BlueprintTutorials/TutorialAssets/Blueprint_64x.uasset: 'C:/Program Files/Epic Games/UE_4.24/Engine/Content/Tutorial/BlueprintTutorials/TutorialAssets/Blueprint_64x.uasset' is outside repository
+[2020.03.10-15.29.49:314][ 43]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.24/Engine/Content/MapTemplates/Sky/Desert_Outer_HDR.uasset: 'C:/Program Files/Epic Games/UE_4.24/Engine/Content/MapTemplates/Sky/Desert_Outer_HDR.uasset' is outside repository
+[2020.03.10-15.29.52:827][444]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.24/Engine/Content/Tutorial/BlueprintTutorials/TutorialAssets/Blueprint_64x.uasset: 'C:/Program Files/Epic Games/UE_4.24/Engine/Content/Tutorial/BlueprintTutorials/TutorialAssets/Blueprint_64x.uasset' is outside repository
+[2020.03.10-15.29.52:827][444]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.24/Engine/Content/MapTemplates/Sky/Desert_Outer_HDR.uasset: 'C:/Program Files/Epic Games/UE_4.24/Engine/Content/MapTemplates/Sky/Desert_Outer_HDR.uasset' is outside repository
+[2020.03.10-15.30.32:218][121]LogSlate: Window 'Color Picker' being destroyed
+[2020.03.10-15.31.37:272][885]LogSlate: Window 'Color Picker' being destroyed
+[2020.03.10-15.31.43:873][657]LogUObjectHash: Compacting FUObjectHashTables data took   4.13ms
+[2020.03.10-15.31.43:875][657]TextureStreamingBuild: Display: Compiling optional shaders took 0.000 seconds.
+[2020.03.10-15.31.43:908][657]LogUObjectHash: Compacting FUObjectHashTables data took   1.22ms
+[2020.03.10-15.31.43:926][657]LogSavePackage: Moving 'D:/UnrealProjects/WillMarch1/Will_o_wisp2/Saved/MI_UmgPatternStars12259DB9D46B24AC625279CB116D0C643.tmp' to 'D:/UnrealProjects/WillMarch1/Will_o_wisp2/Content/RoboBars/Materials/ExamplesUmg/MI_UmgPatternStars1.uasset'
+[2020.03.10-15.31.43:950][657]AssetCheck: New page: Asset Save: MI_UmgPatternStars1
+[2020.03.10-15.31.43:950][657]LogContentValidation: Display: Validating MaterialInstanceConstant /Game/RoboBars/Materials/ExamplesUmg/MI_UmgPatternStars1.MI_UmgPatternStars1
+[2020.03.10-15.31.45:973][878]LogTemp: Repeating last play command: Selected Viewport
+[2020.03.10-15.31.45:992][878]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/my/levl/III_modul_ann.III_modul_ann:PersistentLevel' has LevelScriptBlueprint '/Game/my/levl/III_modul_ann.III_modul_ann:PersistentLevel.III_modul_ann' with GeneratedClass '/Game/my/levl/III_modul_ann.III_modul_ann_C' with ClassGeneratedBy '/Game/my/levl/III_modul_ann.III_modul_ann:PersistentLevel.III_modul_ann'
+[2020.03.10-15.31.45:992][878]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.03.10-15.31.45:992][878]PIE: New page: PIE session: III_modul_ann (Mar 10, 2020, 9:31:45 PM)
+[2020.03.10-15.31.45:992][878]LogPlayLevel: Creating play world package: /Game/my/levl/UEDPIE_0_III_modul_ann
+[2020.03.10-15.31.46:071][878]LogPlayLevel: PIE: StaticDuplicateObject took: (0.078923s)
+[2020.03.10-15.31.46:072][878]LogAIModule: Creating AISystem for world III_modul_ann
+[2020.03.10-15.31.46:072][878]LogPlayLevel: PIE: World Init took: (0.000956s)
+[2020.03.10-15.31.46:072][878]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/my/levl/III_modul_ann.III_modul_ann to /Game/my/levl/UEDPIE_0_III_modul_ann.III_modul_ann (0.080064s)
+[2020.03.10-15.31.46:114][878]LogUObjectHash: Compacting FUObjectHashTables data took   4.92ms
+[2020.03.10-15.31.46:115][878]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.03.10-15.31.46:115][878]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.03.10-15.31.46:115][878]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.03.10-15.31.46:115][878]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.03.10-15.31.46:115][878]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.03.10-15.31.46:115][878]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.03.10-15.31.46:115][878]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.03.10-15.31.46:115][878]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.03.10-15.31.46:116][878]LogAudio: Display: Using built-in audio occlusion.
+[2020.03.10-15.31.46:116][878]LogAudioMixer: Display: Initializing audio mixer.
+[2020.03.10-15.31.46:136][878]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.03.10-15.31.46:136][878]LogAudioMixer: Display: Name: Speakers (2- Realtek(R) Audio)
+[2020.03.10-15.31.46:136][878]LogAudioMixer: Display: Is Default: Yes
+[2020.03.10-15.31.46:136][878]LogAudioMixer: Display: Sample Rate: 48000
+[2020.03.10-15.31.46:136][878]LogAudioMixer: Display: Channel Count Used: 2
+[2020.03.10-15.31.46:136][878]LogAudioMixer: Display: Device Channel Count: 2
+[2020.03.10-15.31.46:136][878]LogAudioMixer: Display: Channel Order:
+[2020.03.10-15.31.46:136][878]LogAudioMixer: Display: 0: FrontLeft
+[2020.03.10-15.31.46:136][878]LogAudioMixer: Display: 1: FrontRight
+[2020.03.10-15.31.46:153][878]LogAudioMixer: Display: Using Audio Device Speakers (2- Realtek(R) Audio)
+[2020.03.10-15.31.46:154][878]LogInit: FAudioDevice initialized.
+[2020.03.10-15.31.46:164][878]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2020.03.10-15.31.46:175][878]LogPhysics: Warning: Scale for /Game/my/levl/UEDPIE_0_III_modul_ann.III_modul_ann:PersistentLevel.room_statick_camera14.bottom_free_cam has a component set to zero, which will result in a bad body instance. Scale:X=18.375 Y=108.750 Z=0.000
+[2020.03.10-15.31.46:180][878]LogBlueprintUserMessages: [ABP_CustomMovement_C_0] 2_4
+[2020.03.10-15.31.46:181][878]LogBlueprintUserMessages: [ABP_CustomMovement_C_0] 2_4
+[2020.03.10-15.31.46:182][878]LogWorld: Bringing World /Game/my/levl/UEDPIE_0_III_modul_ann.III_modul_ann up for play (max tick rate 0) at 2020.03.10-18.31.46
+[2020.03.10-15.31.46:184][878]LogWorld: Bringing up level for play took: 0.019292
+[2020.03.10-15.31.46:184][878]LogOnline: OSS: Creating online subsystem instance for: :Context_19
+[2020.03.10-15.31.46:191][878]PIE: Play in editor start time for /Game/my/levl/UEDPIE_0_III_modul_ann 0.311
+[2020.03.10-15.31.46:191][878]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/my/levl/III_modul_ann.III_modul_ann:PersistentLevel' has LevelScriptBlueprint '/Game/my/levl/III_modul_ann.III_modul_ann:PersistentLevel.III_modul_ann' with GeneratedClass '/Game/my/levl/III_modul_ann.III_modul_ann_C' with ClassGeneratedBy '/Game/my/levl/III_modul_ann.III_modul_ann:PersistentLevel.III_modul_ann'
+[2020.03.10-15.31.46:192][878]LogBlueprintUserMessages: [ABP_CustomMovement_C_0] 2_4
+[2020.03.10-15.31.54:408][861]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.10-15.31.54:408][861]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.10-15.31.54:408][861]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/my/levl/III_modul_ann.III_modul_ann:PersistentLevel' has LevelScriptBlueprint '/Game/my/levl/III_modul_ann.III_modul_ann:PersistentLevel.III_modul_ann' with GeneratedClass '/Game/my/levl/III_modul_ann.III_modul_ann_C' with ClassGeneratedBy '/Game/my/levl/III_modul_ann.III_modul_ann:PersistentLevel.III_modul_ann'
+[2020.03.10-15.31.54:408][861]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.10-15.31.54:408][861]LogWorld: BeginTearingDown for /Game/my/levl/UEDPIE_0_III_modul_ann
+[2020.03.10-15.31.54:408][861]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.10-15.31.54:409][861]LogWorld: UWorld::CleanupWorld for III_modul_ann, bSessionEnded=true, bCleanupResources=true
+[2020.03.10-15.31.54:413][861]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.03.10-15.31.54:420][861]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.03.10-15.31.54:421][861]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/my/levl/III_modul_ann.III_modul_ann:PersistentLevel' has LevelScriptBlueprint '/Game/my/levl/III_modul_ann.III_modul_ann:PersistentLevel.III_modul_ann' with GeneratedClass '/Game/my/levl/III_modul_ann.III_modul_ann_C' with ClassGeneratedBy '/Game/my/levl/III_modul_ann.III_modul_ann:PersistentLevel.III_modul_ann'
+[2020.03.10-15.31.54:427][861]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.03.10-15.31.54:464][861]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.10-15.31.54:468][861]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.10-15.31.54:476][861]LogUObjectHash: Compacting FUObjectHashTables data took   3.73ms
+[2020.03.10-15.31.54:526][863]LogPlayLevel: Display: Destroying online subsystem :Context_19
+[2020.03.10-15.32.12:498][970]LogSlate: Window 'Color Picker' being destroyed
+[2020.03.10-15.32.13:586][ 76]LogUObjectHash: Compacting FUObjectHashTables data took   1.21ms
+[2020.03.10-15.32.13:587][ 76]TextureStreamingBuild: Display: Compiling optional shaders took 0.000 seconds.
+[2020.03.10-15.32.13:620][ 76]LogUObjectHash: Compacting FUObjectHashTables data took   1.22ms
+[2020.03.10-15.32.13:633][ 76]LogSavePackage: Moving 'D:/UnrealProjects/WillMarch1/Will_o_wisp2/Saved/MI_UmgPatternStars1787419C34C02C064D5536C9C6583D6F6.tmp' to 'D:/UnrealProjects/WillMarch1/Will_o_wisp2/Content/RoboBars/Materials/ExamplesUmg/MI_UmgPatternStars1.uasset'
+[2020.03.10-15.32.13:646][ 76]AssetCheck: New page: Asset Save: MI_UmgPatternStars1
+[2020.03.10-15.32.13:646][ 76]LogContentValidation: Display: Validating MaterialInstanceConstant /Game/RoboBars/Materials/ExamplesUmg/MI_UmgPatternStars1.MI_UmgPatternStars1
+[2020.03.10-15.32.39:775][183]LogSlate: Window 'Color Picker' being destroyed
+[2020.03.10-15.32.44:558][736]LogUObjectHash: Compacting FUObjectHashTables data took   1.33ms
+[2020.03.10-15.32.44:559][736]TextureStreamingBuild: Display: Compiling optional shaders took 0.000 seconds.
+[2020.03.10-15.32.44:594][736]LogUObjectHash: Compacting FUObjectHashTables data took   1.19ms
+[2020.03.10-15.32.44:606][736]LogSavePackage: Moving 'D:/UnrealProjects/WillMarch1/Will_o_wisp2/Saved/MI_UmgPatternStars1969B2C884963C6909E281EAC9EC4A4BC.tmp' to 'D:/UnrealProjects/WillMarch1/Will_o_wisp2/Content/RoboBars/Materials/ExamplesUmg/MI_UmgPatternStars1.uasset'
+[2020.03.10-15.32.44:619][736]AssetCheck: New page: Asset Save: MI_UmgPatternStars1
+[2020.03.10-15.32.44:619][736]LogContentValidation: Display: Validating MaterialInstanceConstant /Game/RoboBars/Materials/ExamplesUmg/MI_UmgPatternStars1.MI_UmgPatternStars1
+[2020.03.10-15.32.56:056][ 67]LogUObjectHash: Compacting FUObjectHashTables data took   1.47ms
+[2020.03.10-15.32.56:057][ 67]TextureStreamingBuild: Display: Compiling optional shaders took 0.000 seconds.
+[2020.03.10-15.32.56:092][ 67]LogUObjectHash: Compacting FUObjectHashTables data took   1.19ms
+[2020.03.10-15.32.56:104][ 67]LogSavePackage: Moving 'D:/UnrealProjects/WillMarch1/Will_o_wisp2/Saved/MI_UmgPatternStars1F498C08F4ACC85F51C1F83B2F6C8623C.tmp' to 'D:/UnrealProjects/WillMarch1/Will_o_wisp2/Content/RoboBars/Materials/ExamplesUmg/MI_UmgPatternStars1.uasset'
+[2020.03.10-15.32.56:117][ 67]AssetCheck: New page: Asset Save: MI_UmgPatternStars1
+[2020.03.10-15.32.56:117][ 67]LogContentValidation: Display: Validating MaterialInstanceConstant /Game/RoboBars/Materials/ExamplesUmg/MI_UmgPatternStars1.MI_UmgPatternStars1
+[2020.03.10-15.32.59:736][491]LogTemp: Repeating last play command: Selected Viewport
+[2020.03.10-15.32.59:755][491]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/my/levl/III_modul_ann.III_modul_ann:PersistentLevel' has LevelScriptBlueprint '/Game/my/levl/III_modul_ann.III_modul_ann:PersistentLevel.III_modul_ann' with GeneratedClass '/Game/my/levl/III_modul_ann.III_modul_ann_C' with ClassGeneratedBy '/Game/my/levl/III_modul_ann.III_modul_ann:PersistentLevel.III_modul_ann'
+[2020.03.10-15.32.59:755][491]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.03.10-15.32.59:755][491]PIE: New page: PIE session: III_modul_ann (Mar 10, 2020, 9:32:59 PM)
+[2020.03.10-15.32.59:755][491]LogPlayLevel: Creating play world package: /Game/my/levl/UEDPIE_0_III_modul_ann
+[2020.03.10-15.32.59:833][491]LogPlayLevel: PIE: StaticDuplicateObject took: (0.078062s)
+[2020.03.10-15.32.59:834][491]LogAIModule: Creating AISystem for world III_modul_ann
+[2020.03.10-15.32.59:834][491]LogPlayLevel: PIE: World Init took: (0.000896s)
+[2020.03.10-15.32.59:834][491]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/my/levl/III_modul_ann.III_modul_ann to /Game/my/levl/UEDPIE_0_III_modul_ann.III_modul_ann (0.079138s)
+[2020.03.10-15.32.59:872][491]LogUObjectHash: Compacting FUObjectHashTables data took   3.75ms
+[2020.03.10-15.32.59:873][491]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.03.10-15.32.59:873][491]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.03.10-15.32.59:873][491]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.03.10-15.32.59:873][491]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.03.10-15.32.59:873][491]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.03.10-15.32.59:873][491]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.03.10-15.32.59:873][491]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.03.10-15.32.59:873][491]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.03.10-15.32.59:874][491]LogAudio: Display: Using built-in audio occlusion.
+[2020.03.10-15.32.59:874][491]LogAudioMixer: Display: Initializing audio mixer.
+[2020.03.10-15.32.59:895][491]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.03.10-15.32.59:895][491]LogAudioMixer: Display: Name: Speakers (2- Realtek(R) Audio)
+[2020.03.10-15.32.59:895][491]LogAudioMixer: Display: Is Default: Yes
+[2020.03.10-15.32.59:895][491]LogAudioMixer: Display: Sample Rate: 48000
+[2020.03.10-15.32.59:896][491]LogAudioMixer: Display: Channel Count Used: 2
+[2020.03.10-15.32.59:896][491]LogAudioMixer: Display: Device Channel Count: 2
+[2020.03.10-15.32.59:896][491]LogAudioMixer: Display: Channel Order:
+[2020.03.10-15.32.59:896][491]LogAudioMixer: Display: 0: FrontLeft
+[2020.03.10-15.32.59:896][491]LogAudioMixer: Display: 1: FrontRight
+[2020.03.10-15.32.59:912][491]LogAudioMixer: Display: Using Audio Device Speakers (2- Realtek(R) Audio)
+[2020.03.10-15.32.59:914][491]LogInit: FAudioDevice initialized.
+[2020.03.10-15.32.59:962][491]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.10-15.32.59:962][491]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2020.03.10-15.32.59:974][491]LogPhysics: Warning: Scale for /Game/my/levl/UEDPIE_0_III_modul_ann.III_modul_ann:PersistentLevel.room_statick_camera14.bottom_free_cam has a component set to zero, which will result in a bad body instance. Scale:X=18.375 Y=108.750 Z=0.000
+[2020.03.10-15.32.59:979][491]LogBlueprintUserMessages: [ABP_CustomMovement_C_0] 2_4
+[2020.03.10-15.32.59:980][491]LogBlueprintUserMessages: [ABP_CustomMovement_C_0] 2_4
+[2020.03.10-15.32.59:981][491]LogWorld: Bringing World /Game/my/levl/UEDPIE_0_III_modul_ann.III_modul_ann up for play (max tick rate 0) at 2020.03.10-18.32.59
+[2020.03.10-15.32.59:983][491]LogWorld: Bringing up level for play took: 0.019753
+[2020.03.10-15.32.59:983][491]LogOnline: OSS: Creating online subsystem instance for: :Context_20
+[2020.03.10-15.32.59:992][491]PIE: Play in editor start time for /Game/my/levl/UEDPIE_0_III_modul_ann 0.112
+[2020.03.10-15.32.59:993][491]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/my/levl/III_modul_ann.III_modul_ann:PersistentLevel' has LevelScriptBlueprint '/Game/my/levl/III_modul_ann.III_modul_ann:PersistentLevel.III_modul_ann' with GeneratedClass '/Game/my/levl/III_modul_ann.III_modul_ann_C' with ClassGeneratedBy '/Game/my/levl/III_modul_ann.III_modul_ann:PersistentLevel.III_modul_ann'
+[2020.03.10-15.32.59:994][491]LogBlueprintUserMessages: [ABP_CustomMovement_C_0] 2_4
+[2020.03.10-15.33.15:140][183]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.10-15.33.15:140][183]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.10-15.33.15:140][183]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/my/levl/III_modul_ann.III_modul_ann:PersistentLevel' has LevelScriptBlueprint '/Game/my/levl/III_modul_ann.III_modul_ann:PersistentLevel.III_modul_ann' with GeneratedClass '/Game/my/levl/III_modul_ann.III_modul_ann_C' with ClassGeneratedBy '/Game/my/levl/III_modul_ann.III_modul_ann:PersistentLevel.III_modul_ann'
+[2020.03.10-15.33.15:140][183]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.10-15.33.15:140][183]LogWorld: BeginTearingDown for /Game/my/levl/UEDPIE_0_III_modul_ann
+[2020.03.10-15.33.15:154][183]LogSlate: Window 'akvarel Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2020.03.10-15.33.15:159][183]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.10-15.33.15:160][183]LogWorld: UWorld::CleanupWorld for III_modul_ann, bSessionEnded=true, bCleanupResources=true
+[2020.03.10-15.33.15:163][183]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.03.10-15.33.15:173][183]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.03.10-15.33.15:173][183]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/my/levl/III_modul_ann.III_modul_ann:PersistentLevel' has LevelScriptBlueprint '/Game/my/levl/III_modul_ann.III_modul_ann:PersistentLevel.III_modul_ann' with GeneratedClass '/Game/my/levl/III_modul_ann.III_modul_ann_C' with ClassGeneratedBy '/Game/my/levl/III_modul_ann.III_modul_ann:PersistentLevel.III_modul_ann'
+[2020.03.10-15.33.15:180][183]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.03.10-15.33.15:216][183]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.10-15.33.15:229][183]LogUObjectHash: Compacting FUObjectHashTables data took   3.80ms
+[2020.03.10-15.33.15:242][184]LogPlayLevel: Display: Destroying online subsystem :Context_20
+[2020.03.10-15.33.42:406][414]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
+[2020.03.10-15.33.42:407][414]TextureStreamingBuild: Display: Compiling optional shaders took 0.000 seconds.
+[2020.03.10-15.33.42:440][414]LogUObjectHash: Compacting FUObjectHashTables data took   1.19ms
+[2020.03.10-15.33.42:453][414]LogSavePackage: Moving 'D:/UnrealProjects/WillMarch1/Will_o_wisp2/Saved/MI_UmgPatternStars169F8EB174160F44980B110BD0A1AD152.tmp' to 'D:/UnrealProjects/WillMarch1/Will_o_wisp2/Content/RoboBars/Materials/ExamplesUmg/MI_UmgPatternStars1.uasset'
+[2020.03.10-15.33.42:466][414]AssetCheck: New page: Asset Save: MI_UmgPatternStars1
+[2020.03.10-15.33.42:466][414]LogContentValidation: Display: Validating MaterialInstanceConstant /Game/RoboBars/Materials/ExamplesUmg/MI_UmgPatternStars1.MI_UmgPatternStars1
+[2020.03.10-15.34.04:811][ 54]LogUObjectHash: Compacting FUObjectHashTables data took   1.36ms
+[2020.03.10-15.34.04:812][ 54]TextureStreamingBuild: Display: Compiling optional shaders took 0.000 seconds.
+[2020.03.10-15.34.04:845][ 54]LogUObjectHash: Compacting FUObjectHashTables data took   1.20ms
+[2020.03.10-15.34.04:857][ 54]LogSavePackage: Moving 'D:/UnrealProjects/WillMarch1/Will_o_wisp2/Saved/MI_UmgPatternStars11F1A9CE042B1315CCE72968E6535F4B3.tmp' to 'D:/UnrealProjects/WillMarch1/Will_o_wisp2/Content/RoboBars/Materials/ExamplesUmg/MI_UmgPatternStars1.uasset'
+[2020.03.10-15.34.04:870][ 54]AssetCheck: New page: Asset Save: MI_UmgPatternStars1
+[2020.03.10-15.34.04:870][ 54]LogContentValidation: Display: Validating MaterialInstanceConstant /Game/RoboBars/Materials/ExamplesUmg/MI_UmgPatternStars1.MI_UmgPatternStars1
+[2020.03.10-15.34.22:340][117]LogMaterial: Display: Missing cached shader map for material Material_3, compiling. 
+[2020.03.10-15.34.22:360][118]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 4
+[2020.03.10-15.34.22:360][118]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 3
+[2020.03.10-15.34.22:360][118]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 2
+[2020.03.10-15.34.22:360][118]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 1
+[2020.03.10-15.34.22:418][118]LogMaterial: Display: Missing cached shader map for material Material_4, compiling. 
+[2020.03.10-15.34.22:425][118]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 4
+[2020.03.10-15.34.22:425][118]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 3
+[2020.03.10-15.34.22:425][118]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 2
+[2020.03.10-15.34.22:425][118]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 1
+[2020.03.10-15.34.22:504][119]LogMaterial: Display: Missing cached shader map for material Material_5, compiling. 
+[2020.03.10-15.34.22:578][120]LogMaterial: Display: Missing cached shader map for material Material_6, compiling. 
+[2020.03.10-15.34.22:668][121]LogMaterial: Display: Missing cached shader map for material Material_7, compiling. 
+[2020.03.10-15.34.22:718][122]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 12
+[2020.03.10-15.34.22:792][122]LogMaterial: Display: Missing cached shader map for material Material_8, compiling. 
+[2020.03.10-15.34.22:849][123]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 14
+[2020.03.10-15.34.22:869][123]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 12
+[2020.03.10-15.34.22:929][123]LogMaterial: Display: Missing cached shader map for material Material_9, compiling. 
+[2020.03.10-15.34.23:018][125]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 14
+[2020.03.10-15.34.23:094][127]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 12
+[2020.03.10-15.34.23:136][128]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 10
+[2020.03.10-15.34.23:274][133]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 8
+[2020.03.10-15.34.23:275][133]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 6
+[2020.03.10-15.34.23:369][134]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 5
+[2020.03.10-15.34.23:461][137]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 4
+[2020.03.10-15.34.23:706][147]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 3
+[2020.03.10-15.34.23:729][148]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 2
+[2020.03.10-15.34.23:851][154]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 1
+[2020.03.10-15.34.28:149][632]LogMaterial: Display: Missing cached shader map for material M_SurfaceCircleBar, compiling. 
+[2020.03.10-15.34.28:181][632]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 12
+[2020.03.10-15.34.28:181][632]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 10
+[2020.03.10-15.34.28:181][632]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 8
+[2020.03.10-15.34.28:181][632]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 6
+[2020.03.10-15.34.28:181][632]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 4
+[2020.03.10-15.34.28:181][632]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 2
+[2020.03.10-15.34.28:186][632]LogAssetEditorSubsystem: Opening Asset editor for MaterialInstanceConstant /Game/RoboBars/Materials/ExamplesSurfaceCircle/MI_SimplePogress.MI_SimplePogress
+[2020.03.10-15.34.38:473][798]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2020.03.10-15.34.38:473][798]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.03.10-15.34.43:344][304]LogMaterial: Display: Missing cached shader map for material M_SurfaceRectBar, compiling. 
+[2020.03.10-15.34.43:361][304]LogMaterial: Display: Missing cached shader map for material M_SurfaceRectBar, compiling. 
+[2020.03.10-15.34.43:442][304]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 12
+[2020.03.10-15.34.43:442][304]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 10
+[2020.03.10-15.34.43:442][304]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 8
+[2020.03.10-15.34.43:442][304]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 6
+[2020.03.10-15.34.43:442][304]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 4
+[2020.03.10-15.34.43:442][304]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 2
+[2020.03.10-15.34.43:442][304]LogMaterial: Display: Missing cached shader map for material M_SurfaceRectBar, compiling. 
+[2020.03.10-15.34.43:459][304]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 24
+[2020.03.10-15.34.43:459][304]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 20
+[2020.03.10-15.34.43:497][304]LogAssetEditorSubsystem: Opening Asset editor for MaterialInstanceConstant /Game/RoboBars/Materials/ExamplesSurface/MI_PatternStars.MI_PatternStars
+[2020.03.10-15.34.43:652][304]LogStaticMesh: Building static mesh SM_PreviewModel...
+[2020.03.10-15.34.43:654][304]LogStaticMesh: Built static mesh [0.02s] /Game/RoboBars/Materials/ExamplesSurface/SM_PreviewModel.SM_PreviewModel
+[2020.03.10-15.34.43:949][305]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 16
+[2020.03.10-15.34.43:949][305]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 13
+[2020.03.10-15.34.43:949][305]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 11
+[2020.03.10-15.34.44:034][305]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 9
+[2020.03.10-15.34.44:447][327]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 7
+[2020.03.10-15.34.44:698][345]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 6
+[2020.03.10-15.34.44:745][348]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 5
+[2020.03.10-15.34.44:773][350]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 4
+[2020.03.10-15.34.44:795][352]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 3
+[2020.03.10-15.34.44:979][368]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 2
+[2020.03.10-15.34.44:991][369]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 1
+[2020.03.10-15.35.09:526][270]LogSlate: Window 'Color Picker' being destroyed
+[2020.03.10-15.35.43:786][321]LogSlate: Window 'Color Picker' being destroyed
+[2020.03.10-15.35.54:186][346]LogUObjectHash: Compacting FUObjectHashTables data took   4.33ms
+[2020.03.10-15.35.54:189][346]TextureStreamingBuild: Display: Compiling optional shaders took 0.000 seconds.
+[2020.03.10-15.35.54:226][346]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
+[2020.03.10-15.35.54:238][346]LogSavePackage: Moving 'D:/UnrealProjects/WillMarch1/Will_o_wisp2/Saved/MI_UmgPatternStars1280D35E84AB4C94A03E63FAC8645F5D5.tmp' to 'D:/UnrealProjects/WillMarch1/Will_o_wisp2/Content/RoboBars/Materials/ExamplesUmg/MI_UmgPatternStars1.uasset'
+[2020.03.10-15.35.54:251][346]AssetCheck: New page: Asset Save: MI_UmgPatternStars1
+[2020.03.10-15.35.54:251][346]LogContentValidation: Display: Validating MaterialInstanceConstant /Game/RoboBars/Materials/ExamplesUmg/MI_UmgPatternStars1.MI_UmgPatternStars1
+[2020.03.10-15.36.01:076][135]LogTexture: Display: Building textures: T_GlossShadowEdge (AutoDXT, 16X256)
+[2020.03.10-15.36.04:397][498]LogUObjectHash: Compacting FUObjectHashTables data took   1.19ms
+[2020.03.10-15.36.04:398][498]TextureStreamingBuild: Display: Compiling optional shaders took 0.000 seconds.
+[2020.03.10-15.36.04:433][498]LogUObjectHash: Compacting FUObjectHashTables data took   1.22ms
+[2020.03.10-15.36.04:445][498]LogSavePackage: Moving 'D:/UnrealProjects/WillMarch1/Will_o_wisp2/Saved/MI_UmgPatternStars1CCBFE9A54EC68A36FE199C8064084123.tmp' to 'D:/UnrealProjects/WillMarch1/Will_o_wisp2/Content/RoboBars/Materials/ExamplesUmg/MI_UmgPatternStars1.uasset'
+[2020.03.10-15.36.04:459][498]AssetCheck: New page: Asset Save: MI_UmgPatternStars1
+[2020.03.10-15.36.04:459][498]LogContentValidation: Display: Validating MaterialInstanceConstant /Game/RoboBars/Materials/ExamplesUmg/MI_UmgPatternStars1.MI_UmgPatternStars1
+[2020.03.10-15.36.15:464][765]LogUObjectHash: Compacting FUObjectHashTables data took   1.22ms
+[2020.03.10-15.36.15:465][765]TextureStreamingBuild: Display: Compiling optional shaders took 0.000 seconds.
+[2020.03.10-15.36.15:501][765]LogUObjectHash: Compacting FUObjectHashTables data took   1.24ms
+[2020.03.10-15.36.15:513][765]LogSavePackage: Moving 'D:/UnrealProjects/WillMarch1/Will_o_wisp2/Saved/MI_UmgPatternStars10573B4C84CCA4C71E4C0E6882A2AF3B9.tmp' to 'D:/UnrealProjects/WillMarch1/Will_o_wisp2/Content/RoboBars/Materials/ExamplesUmg/MI_UmgPatternStars1.uasset'
+[2020.03.10-15.36.15:526][765]AssetCheck: New page: Asset Save: MI_UmgPatternStars1
+[2020.03.10-15.36.15:526][765]LogContentValidation: Display: Validating MaterialInstanceConstant /Game/RoboBars/Materials/ExamplesUmg/MI_UmgPatternStars1.MI_UmgPatternStars1
+[2020.03.10-15.36.54:315][368]LogSlate: Window 'Color Picker' being destroyed
+[2020.03.10-15.37.07:650][945]LogUObjectHash: Compacting FUObjectHashTables data took   1.22ms
+[2020.03.10-15.37.07:717][945]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.03.10-15.37.08:150][945]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 2
+[2020.03.10-15.37.08:150][945]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 1
+[2020.03.10-15.37.08:152][945]TextureStreamingBuild: Display: Compiling optional shaders took 0.474 seconds.
+[2020.03.10-15.37.08:243][945]LogUObjectHash: Compacting FUObjectHashTables data took   1.19ms
+[2020.03.10-15.37.08:272][945]LogWorld: UWorld::CleanupWorld for World_11, bSessionEnded=true, bCleanupResources=true
+[2020.03.10-15.37.08:272][945]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.03.10-15.37.36:018][156]LogTexture: Display: Building textures: T_Gloss_Dark (AutoDXT, 32X256)
+[2020.03.10-15.37.43:027][944]LogUObjectHash: Compacting FUObjectHashTables data took   4.29ms
+[2020.03.10-15.37.43:029][944]TextureStreamingBuild: Display: Compiling optional shaders took 0.000 seconds.
+[2020.03.10-15.37.43:064][944]LogUObjectHash: Compacting FUObjectHashTables data took   1.22ms
+[2020.03.10-15.37.43:082][944]LogSavePackage: Moving 'D:/UnrealProjects/WillMarch1/Will_o_wisp2/Saved/MI_UmgPatternStars863913CC4ECFF4EF4A482F98BBE5D956.tmp' to 'D:/UnrealProjects/WillMarch1/Will_o_wisp2/Content/RoboBars/Materials/ExamplesUmg/MI_UmgPatternStars.uasset'
+[2020.03.10-15.37.43:095][944]AssetCheck: New page: Asset Save: MI_UmgPatternStars
+[2020.03.10-15.37.43:095][944]LogContentValidation: Display: Validating MaterialInstanceConstant /Game/RoboBars/Materials/ExamplesUmg/MI_UmgPatternStars.MI_UmgPatternStars
+[2020.03.10-15.39.03:975][561]LogUObjectHash: Compacting FUObjectHashTables data took   1.36ms
+[2020.03.10-15.39.03:977][561]TextureStreamingBuild: Display: Compiling optional shaders took 0.000 seconds.
+[2020.03.10-15.39.04:012][561]LogUObjectHash: Compacting FUObjectHashTables data took   1.19ms
+[2020.03.10-15.39.04:025][561]LogSavePackage: Moving 'D:/UnrealProjects/WillMarch1/Will_o_wisp2/Saved/MI_UmgPatternStars17E6FB4D45C7EC82F4BB10AED9992143.tmp' to 'D:/UnrealProjects/WillMarch1/Will_o_wisp2/Content/RoboBars/Materials/ExamplesUmg/MI_UmgPatternStars.uasset'
+[2020.03.10-15.39.04:038][561]AssetCheck: New page: Asset Save: MI_UmgPatternStars
+[2020.03.10-15.39.04:039][561]LogContentValidation: Display: Validating MaterialInstanceConstant /Game/RoboBars/Materials/ExamplesUmg/MI_UmgPatternStars.MI_UmgPatternStars
+[2020.03.10-15.39.48:083][813]Cmd: TRANSACTION UNDO
+[2020.03.10-15.39.48:083][813]LogEditorTransaction: Undo Edit R
+[2020.03.10-15.39.52:142][251]Cmd: TRANSACTION UNDO
+[2020.03.10-15.39.52:143][251]LogEditorTransaction: Undo Edit G
+[2020.03.10-15.39.55:783][640]Cmd: TRANSACTION UNDO
+[2020.03.10-15.39.55:783][640]LogEditorTransaction: Undo Edit B
+[2020.03.10-15.40.01:266][251]Cmd: TRANSACTION UNDO
+[2020.03.10-15.40.01:266][251]LogEditorTransaction: Undo Edit B
+[2020.03.10-15.40.03:834][509]Cmd: TRANSACTION UNDO
+[2020.03.10-15.40.03:834][509]LogEditorTransaction: Undo Edit B
+[2020.03.10-15.40.10:783][325]LogSlate: Window 'Color Picker' being destroyed
+[2020.03.10-15.40.15:212][855]Cmd: TRANSACTION UNDO
+[2020.03.10-15.40.15:212][855]LogEditorTransaction: Undo Edit R
+[2020.03.10-15.40.54:250][470]LogUObjectHash: Compacting FUObjectHashTables data took   4.24ms
+[2020.03.10-15.40.54:251][470]TextureStreamingBuild: Display: Compiling optional shaders took 0.000 seconds.
+[2020.03.10-15.40.54:285][470]LogUObjectHash: Compacting FUObjectHashTables data took   1.19ms
+[2020.03.10-15.40.54:297][470]LogSavePackage: Moving 'D:/UnrealProjects/WillMarch1/Will_o_wisp2/Saved/MI_UmgPatternStars192986F343EAB8FCAC9D0FA8D468A0D6.tmp' to 'D:/UnrealProjects/WillMarch1/Will_o_wisp2/Content/RoboBars/Materials/ExamplesUmg/MI_UmgPatternStars.uasset'
+[2020.03.10-15.40.54:312][470]AssetCheck: New page: Asset Save: MI_UmgPatternStars
+[2020.03.10-15.40.54:312][470]LogContentValidation: Display: Validating MaterialInstanceConstant /Game/RoboBars/Materials/ExamplesUmg/MI_UmgPatternStars.MI_UmgPatternStars
+[2020.03.10-15.41.07:380][988]LogUObjectHash: Compacting FUObjectHashTables data took   1.22ms
+[2020.03.10-15.41.07:380][988]TextureStreamingBuild: Display: Compiling optional shaders took 0.000 seconds.
+[2020.03.10-15.41.07:415][988]LogUObjectHash: Compacting FUObjectHashTables data took   1.19ms
+[2020.03.10-15.41.07:428][988]LogSavePackage: Moving 'D:/UnrealProjects/WillMarch1/Will_o_wisp2/Saved/MI_UmgPatternStars090DFD51457B7B71A67BCE952A355F29.tmp' to 'D:/UnrealProjects/WillMarch1/Will_o_wisp2/Content/RoboBars/Materials/ExamplesUmg/MI_UmgPatternStars.uasset'
+[2020.03.10-15.41.07:442][988]AssetCheck: New page: Asset Save: MI_UmgPatternStars
+[2020.03.10-15.41.07:442][988]LogContentValidation: Display: Validating MaterialInstanceConstant /Game/RoboBars/Materials/ExamplesUmg/MI_UmgPatternStars.MI_UmgPatternStars
+[2020.03.10-15.42.59:362][121]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.24/Engine/Content/UMG/Editor: 'C:/Program Files/Epic Games/UE_4.24/Engine/Content/UMG/Editor' is outside repository
+[2020.03.10-15.43.07:320][950]LogEditorTransaction: Undo Move Widget
+[2020.03.10-15.43.42:713][102]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.24/Engine/Content/UMG/Editor: 'C:/Program Files/Epic Games/UE_4.24/Engine/Content/UMG/Editor' is outside repository
+[2020.03.10-15.43.49:005][854]LogEditorTransaction: Undo Set Vector Property
+[2020.03.10-15.44.07:417][950]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.24/Engine/Content/UMG/Editor: 'C:/Program Files/Epic Games/UE_4.24/Engine/Content/UMG/Editor' is outside repository
+[2020.03.10-15.45.18:320][816]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/WD_LiquidHealth" FILE="D:/UnrealProjects/WillMarch1/Will_o_wisp2/Content/Widgets/WD_LiquidHealth.uasset" SILENT=true
+[2020.03.10-15.45.18:360][816]LogSavePackage: Moving 'D:/UnrealProjects/WillMarch1/Will_o_wisp2/Saved/WD_LiquidHealth84DE6E824EDCEBD57E0B74B37D976279.tmp' to 'D:/UnrealProjects/WillMarch1/Will_o_wisp2/Content/Widgets/WD_LiquidHealth.uasset'
+[2020.03.10-15.45.18:375][816]AssetCheck: New page: Asset Save: WD_LiquidHealth
+[2020.03.10-15.45.18:375][816]LogContentValidation: Display: Validating WidgetBlueprint /Game/Widgets/WD_LiquidHealth.WD_LiquidHealth
+[2020.03.10-15.45.21:875][206]LogTemp: Repeating last play command: Selected Viewport
+[2020.03.10-15.45.21:895][206]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/my/levl/III_modul_ann.III_modul_ann:PersistentLevel' has LevelScriptBlueprint '/Game/my/levl/III_modul_ann.III_modul_ann:PersistentLevel.III_modul_ann' with GeneratedClass '/Game/my/levl/III_modul_ann.III_modul_ann_C' with ClassGeneratedBy '/Game/my/levl/III_modul_ann.III_modul_ann:PersistentLevel.III_modul_ann'
+[2020.03.10-15.45.21:895][206]BlueprintLog: New page: Pre-Play auto-recompile
+[2020.03.10-15.45.21:900][206]LogPlayLevel: [PlayLevel] Compiling WD_LiquidHealth before play...
+[2020.03.10-15.45.22:379][206]LogUObjectHash: Compacting FUObjectHashTables data took   5.88ms
+[2020.03.10-15.45.22:380][206]LogPlayLevel: PlayLevel: Blueprint regeneration took 485 ms (1 blueprints)
+[2020.03.10-15.45.22:381][206]PIE: New page: PIE session: III_modul_ann (Mar 10, 2020, 9:45:22 PM)
+[2020.03.10-15.45.22:381][206]LogPlayLevel: Creating play world package: /Game/my/levl/UEDPIE_0_III_modul_ann
+[2020.03.10-15.45.22:459][206]LogPlayLevel: PIE: StaticDuplicateObject took: (0.078390s)
+[2020.03.10-15.45.22:460][206]LogAIModule: Creating AISystem for world III_modul_ann
+[2020.03.10-15.45.22:460][206]LogPlayLevel: PIE: World Init took: (0.000960s)
+[2020.03.10-15.45.22:460][206]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/my/levl/III_modul_ann.III_modul_ann to /Game/my/levl/UEDPIE_0_III_modul_ann.III_modul_ann (0.079521s)
+[2020.03.10-15.45.22:503][206]LogUObjectHash: Compacting FUObjectHashTables data took   5.17ms
+[2020.03.10-15.45.22:504][206]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.03.10-15.45.22:504][206]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.03.10-15.45.22:504][206]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.03.10-15.45.22:504][206]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.03.10-15.45.22:504][206]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.03.10-15.45.22:504][206]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.03.10-15.45.22:504][206]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.03.10-15.45.22:504][206]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.03.10-15.45.22:504][206]LogAudio: Display: Using built-in audio occlusion.
+[2020.03.10-15.45.22:504][206]LogAudioMixer: Display: Initializing audio mixer.
+[2020.03.10-15.45.22:524][206]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.03.10-15.45.22:524][206]LogAudioMixer: Display: Name: Speakers (2- Realtek(R) Audio)
+[2020.03.10-15.45.22:524][206]LogAudioMixer: Display: Is Default: Yes
+[2020.03.10-15.45.22:524][206]LogAudioMixer: Display: Sample Rate: 48000
+[2020.03.10-15.45.22:524][206]LogAudioMixer: Display: Channel Count Used: 2
+[2020.03.10-15.45.22:524][206]LogAudioMixer: Display: Device Channel Count: 2
+[2020.03.10-15.45.22:524][206]LogAudioMixer: Display: Channel Order:
+[2020.03.10-15.45.22:524][206]LogAudioMixer: Display: 0: FrontLeft
+[2020.03.10-15.45.22:524][206]LogAudioMixer: Display: 1: FrontRight
+[2020.03.10-15.45.22:542][206]LogAudioMixer: Display: Using Audio Device Speakers (2- Realtek(R) Audio)
+[2020.03.10-15.45.22:544][206]LogInit: FAudioDevice initialized.
+[2020.03.10-15.45.22:550][206]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2020.03.10-15.45.22:560][206]LogPhysics: Warning: Scale for /Game/my/levl/UEDPIE_0_III_modul_ann.III_modul_ann:PersistentLevel.room_statick_camera14.bottom_free_cam has a component set to zero, which will result in a bad body instance. Scale:X=18.375 Y=108.750 Z=0.000
+[2020.03.10-15.45.22:566][206]LogBlueprintUserMessages: [ABP_CustomMovement_C_0] 2_4
+[2020.03.10-15.45.22:567][206]LogBlueprintUserMessages: [ABP_CustomMovement_C_0] 2_4
+[2020.03.10-15.45.22:567][206]LogWorld: Bringing World /Game/my/levl/UEDPIE_0_III_modul_ann.III_modul_ann up for play (max tick rate 0) at 2020.03.10-18.45.22
+[2020.03.10-15.45.22:569][206]LogWorld: Bringing up level for play took: 0.018416
+[2020.03.10-15.45.22:569][206]LogOnline: OSS: Creating online subsystem instance for: :Context_24
+[2020.03.10-15.45.22:576][206]PIE: Play in editor start time for /Game/my/levl/UEDPIE_0_III_modul_ann 0.696
+[2020.03.10-15.45.22:577][206]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/my/levl/III_modul_ann.III_modul_ann:PersistentLevel' has LevelScriptBlueprint '/Game/my/levl/III_modul_ann.III_modul_ann:PersistentLevel.III_modul_ann' with GeneratedClass '/Game/my/levl/III_modul_ann.III_modul_ann_C' with ClassGeneratedBy '/Game/my/levl/III_modul_ann.III_modul_ann:PersistentLevel.III_modul_ann'
+[2020.03.10-15.45.22:577][206]LogBlueprintUserMessages: [ABP_CustomMovement_C_0] 2_4
+[2020.03.10-15.45.22:609][207]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.075821 > MaxSimulationTimeStep (0.050) for 'spider_body_SideScrollerCharacter1_2', movement 'Walking'
+[2020.03.10-15.45.28:091][853]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.10-15.45.28:091][853]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.10-15.45.28:091][853]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/my/levl/III_modul_ann.III_modul_ann:PersistentLevel' has LevelScriptBlueprint '/Game/my/levl/III_modul_ann.III_modul_ann:PersistentLevel.III_modul_ann' with GeneratedClass '/Game/my/levl/III_modul_ann.III_modul_ann_C' with ClassGeneratedBy '/Game/my/levl/III_modul_ann.III_modul_ann:PersistentLevel.III_modul_ann'
+[2020.03.10-15.45.28:091][853]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.10-15.45.28:091][853]LogWorld: BeginTearingDown for /Game/my/levl/UEDPIE_0_III_modul_ann
+[2020.03.10-15.45.28:091][853]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.10-15.45.28:092][853]LogWorld: UWorld::CleanupWorld for III_modul_ann, bSessionEnded=true, bCleanupResources=true
+[2020.03.10-15.45.28:095][853]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.03.10-15.45.28:104][853]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.03.10-15.45.28:104][853]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/my/levl/III_modul_ann.III_modul_ann:PersistentLevel' has LevelScriptBlueprint '/Game/my/levl/III_modul_ann.III_modul_ann:PersistentLevel.III_modul_ann' with GeneratedClass '/Game/my/levl/III_modul_ann.III_modul_ann_C' with ClassGeneratedBy '/Game/my/levl/III_modul_ann.III_modul_ann:PersistentLevel.III_modul_ann'
+[2020.03.10-15.45.28:111][853]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.03.10-15.45.28:148][853]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.10-15.45.28:154][853]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.10-15.45.28:164][853]LogUObjectHash: Compacting FUObjectHashTables data took   3.82ms
+[2020.03.10-15.45.28:223][855]LogPlayLevel: Display: Destroying online subsystem :Context_24
+[2020.03.10-15.45.31:946][280]LogUObjectHash: Compacting FUObjectHashTables data took   1.21ms
+[2020.03.10-15.45.31:970][280]TextureStreamingBuild: Display: Compiling optional shaders took 0.000 seconds.
+[2020.03.10-15.45.32:009][280]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
+[2020.03.10-15.45.32:040][280]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2020.03.10-15.45.32:040][280]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.03.10-15.45.38:643][ 55]BlueprintLog: New page: Compile WD_LiquidHealth
+[2020.03.10-15.45.38:703][ 55]LogUObjectHash: Compacting FUObjectHashTables data took   6.20ms
+[2020.03.10-15.46.14:087][221]BlueprintLog: New page: Compile WD_LiquidHealth
+[2020.03.10-15.46.14:143][221]LogUObjectHash: Compacting FUObjectHashTables data took   5.64ms
