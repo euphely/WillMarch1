@@ -1,4 +1,4 @@
-﻿Log file open, 03/10/20 17:37:10
+﻿Log file open, 03/10/20 17:51:41
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -9,7 +9,7 @@ LogConsoleResponse: Display: Failed to find resolution value strings in scalabil
 LogInit: Display: Running engine for game: akvarel
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 35 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.068359
+LogStats: Stats thread started at 0.067274
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +3:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -163,826 +163,576 @@ LogInit: Presizing for max 25165824 objects, including 0 objects not considered 
 LogInit: Object subsystem initialized
 LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
 LogConfig: Setting CVar [[r.setres:1280x720]]
-[2020.03.10-14.37.10:665][  0]LogConfig: Setting CVar [[r.VSync:0]]
-[2020.03.10-14.37.10:665][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
-[2020.03.10-14.37.10:665][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [D:/UnrealProjects/WillMarch1/Will_o_wisp2/Saved/Config/Windows/Engine.ini]
-[2020.03.10-14.37.10:665][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
-[2020.03.10-14.37.10:665][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure:0]]
-[2020.03.10-14.37.10:666][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [D:/UnrealProjects/WillMarch1/Will_o_wisp2/Saved/Config/Windows/Engine.ini]
-[2020.03.10-14.37.10:666][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/UnrealProjects/WillMarch1/Will_o_wisp2/Saved/Config/Windows/Engine.ini]
-[2020.03.10-14.37.10:666][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
-[2020.03.10-14.37.10:666][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
-[2020.03.10-14.37.10:666][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
-[2020.03.10-14.37.10:666][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
-[2020.03.10-14.37.10:666][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
-[2020.03.10-14.37.10:666][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
-[2020.03.10-14.37.10:666][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
-[2020.03.10-14.37.10:666][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
-[2020.03.10-14.37.10:666][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
-[2020.03.10-14.37.10:666][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
-[2020.03.10-14.37.10:666][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
-[2020.03.10-14.37.10:666][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
-[2020.03.10-14.37.10:666][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
-[2020.03.10-14.37.10:666][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
-[2020.03.10-14.37.10:666][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [D:/UnrealProjects/WillMarch1/Will_o_wisp2/Saved/Config/Windows/Engine.ini]
-[2020.03.10-14.37.10:666][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
-[2020.03.10-14.37.10:666][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
-[2020.03.10-14.37.10:666][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
-[2020.03.10-14.37.10:666][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
-[2020.03.10-14.37.10:666][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
-[2020.03.10-14.37.10:666][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
-[2020.03.10-14.37.10:666][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
-[2020.03.10-14.37.10:666][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
-[2020.03.10-14.37.10:666][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
-[2020.03.10-14.37.10:666][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
-[2020.03.10-14.37.10:666][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
-[2020.03.10-14.37.10:666][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
-[2020.03.10-14.37.10:666][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
-[2020.03.10-14.37.10:666][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [D:/UnrealProjects/WillMarch1/Will_o_wisp2/Saved/Config/Windows/Engine.ini]
-[2020.03.10-14.37.10:666][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [D:/UnrealProjects/WillMarch1/Will_o_wisp2/Saved/Config/Windows/Engine.ini]
-[2020.03.10-14.37.10:668][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/UnrealProjects/WillMarch1/Will_o_wisp2/Saved/Config/Windows/Scalability.ini]
-[2020.03.10-14.37.10:668][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2020.03.10-14.37.10:668][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2020.03.10-14.37.10:668][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/UnrealProjects/WillMarch1/Will_o_wisp2/Saved/Config/Windows/Scalability.ini]
-[2020.03.10-14.37.10:668][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2020.03.10-14.37.10:668][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/UnrealProjects/WillMarch1/Will_o_wisp2/Saved/Config/Windows/Scalability.ini]
-[2020.03.10-14.37.10:668][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2020.03.10-14.37.10:668][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2020.03.10-14.37.10:668][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2020.03.10-14.37.10:668][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2020.03.10-14.37.10:668][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2020.03.10-14.37.10:668][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2020.03.10-14.37.10:668][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2020.03.10-14.37.10:668][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2020.03.10-14.37.10:668][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2020.03.10-14.37.10:668][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2020.03.10-14.37.10:668][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2020.03.10-14.37.10:668][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2020.03.10-14.37.10:668][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2020.03.10-14.37.10:668][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2020.03.10-14.37.10:668][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2020.03.10-14.37.10:668][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2020.03.10-14.37.10:668][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2020.03.10-14.37.10:668][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2020.03.10-14.37.10:668][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/UnrealProjects/WillMarch1/Will_o_wisp2/Saved/Config/Windows/Scalability.ini]
-[2020.03.10-14.37.10:668][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2020.03.10-14.37.10:668][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2020.03.10-14.37.10:668][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2020.03.10-14.37.10:668][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2020.03.10-14.37.10:668][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2020.03.10-14.37.10:668][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2020.03.10-14.37.10:669][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2020.03.10-14.37.10:669][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2020.03.10-14.37.10:669][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2020.03.10-14.37.10:669][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2020.03.10-14.37.10:669][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2020.03.10-14.37.10:669][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2020.03.10-14.37.10:669][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2020.03.10-14.37.10:669][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2020.03.10-14.37.10:669][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2020.03.10-14.37.10:669][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2020.03.10-14.37.10:669][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2020.03.10-14.37.10:669][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2020.03.10-14.37.10:669][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2020.03.10-14.37.10:669][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2020.03.10-14.37.10:669][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2020.03.10-14.37.10:669][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2020.03.10-14.37.10:669][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2020.03.10-14.37.10:669][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2020.03.10-14.37.10:669][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2020.03.10-14.37.10:669][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2020.03.10-14.37.10:669][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2020.03.10-14.37.10:669][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2020.03.10-14.37.10:669][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2020.03.10-14.37.10:669][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2020.03.10-14.37.10:669][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/UnrealProjects/WillMarch1/Will_o_wisp2/Saved/Config/Windows/Scalability.ini]
-[2020.03.10-14.37.10:669][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2020.03.10-14.37.10:669][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2020.03.10-14.37.10:669][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2020.03.10-14.37.10:669][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2020.03.10-14.37.10:669][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2020.03.10-14.37.10:669][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
-[2020.03.10-14.37.10:669][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2020.03.10-14.37.10:669][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2020.03.10-14.37.10:669][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2020.03.10-14.37.10:669][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/UnrealProjects/WillMarch1/Will_o_wisp2/Saved/Config/Windows/Scalability.ini]
-[2020.03.10-14.37.10:669][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2020.03.10-14.37.10:669][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2020.03.10-14.37.10:669][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2020.03.10-14.37.10:669][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
-[2020.03.10-14.37.10:669][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2020.03.10-14.37.10:669][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2020.03.10-14.37.10:669][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2020.03.10-14.37.10:669][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2020.03.10-14.37.10:669][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2020.03.10-14.37.10:669][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2020.03.10-14.37.10:669][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2020.03.10-14.37.10:669][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
-[2020.03.10-14.37.10:669][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
-[2020.03.10-14.37.10:669][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2020.03.10-14.37.10:669][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2020.03.10-14.37.10:669][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
-[2020.03.10-14.37.10:669][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
-[2020.03.10-14.37.10:669][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
-[2020.03.10-14.37.10:669][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
-[2020.03.10-14.37.10:669][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
-[2020.03.10-14.37.10:669][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
-[2020.03.10-14.37.10:669][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
-[2020.03.10-14.37.10:669][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
-[2020.03.10-14.37.10:669][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
-[2020.03.10-14.37.10:669][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
-[2020.03.10-14.37.10:669][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
-[2020.03.10-14.37.10:669][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/UnrealProjects/WillMarch1/Will_o_wisp2/Saved/Config/Windows/Scalability.ini]
-[2020.03.10-14.37.10:669][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2020.03.10-14.37.10:669][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2020.03.10-14.37.10:669][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [D:/UnrealProjects/WillMarch1/Will_o_wisp2/Saved/Config/Windows/Scalability.ini]
-[2020.03.10-14.37.10:669][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
-[2020.03.10-14.37.10:669][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
-[2020.03.10-14.37.10:669][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
-[2020.03.10-14.37.10:670][  0]LogInit: Selected Device Profile: [Windows]
-[2020.03.10-14.37.10:670][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2020.03.10-14.37.10:672][  0]LogHAL: Display: Platform has ~ 8 GB [8518291456 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2020.03.10-14.37.10:672][  0]LogInit: Going up to parent DeviceProfile []
-[2020.03.10-14.37.10:672][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/UnrealProjects/WillMarch1/Will_o_wisp2/Saved/Config/Windows/Scalability.ini]
-[2020.03.10-14.37.10:672][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2020.03.10-14.37.10:672][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2020.03.10-14.37.10:672][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/UnrealProjects/WillMarch1/Will_o_wisp2/Saved/Config/Windows/Scalability.ini]
-[2020.03.10-14.37.10:672][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2020.03.10-14.37.10:672][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/UnrealProjects/WillMarch1/Will_o_wisp2/Saved/Config/Windows/Scalability.ini]
-[2020.03.10-14.37.10:672][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2020.03.10-14.37.10:672][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2020.03.10-14.37.10:672][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2020.03.10-14.37.10:672][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2020.03.10-14.37.10:672][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2020.03.10-14.37.10:672][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2020.03.10-14.37.10:672][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2020.03.10-14.37.10:672][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2020.03.10-14.37.10:672][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2020.03.10-14.37.10:673][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2020.03.10-14.37.10:673][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2020.03.10-14.37.10:673][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2020.03.10-14.37.10:673][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2020.03.10-14.37.10:673][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2020.03.10-14.37.10:673][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2020.03.10-14.37.10:673][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2020.03.10-14.37.10:673][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2020.03.10-14.37.10:673][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2020.03.10-14.37.10:673][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/UnrealProjects/WillMarch1/Will_o_wisp2/Saved/Config/Windows/Scalability.ini]
-[2020.03.10-14.37.10:673][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2020.03.10-14.37.10:673][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2020.03.10-14.37.10:673][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2020.03.10-14.37.10:673][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2020.03.10-14.37.10:673][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2020.03.10-14.37.10:673][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2020.03.10-14.37.10:673][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2020.03.10-14.37.10:673][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2020.03.10-14.37.10:673][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2020.03.10-14.37.10:673][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2020.03.10-14.37.10:673][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2020.03.10-14.37.10:673][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2020.03.10-14.37.10:673][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2020.03.10-14.37.10:673][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2020.03.10-14.37.10:673][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2020.03.10-14.37.10:673][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2020.03.10-14.37.10:673][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2020.03.10-14.37.10:673][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2020.03.10-14.37.10:673][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2020.03.10-14.37.10:673][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2020.03.10-14.37.10:673][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2020.03.10-14.37.10:673][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2020.03.10-14.37.10:673][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2020.03.10-14.37.10:673][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2020.03.10-14.37.10:673][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2020.03.10-14.37.10:673][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2020.03.10-14.37.10:673][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2020.03.10-14.37.10:673][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2020.03.10-14.37.10:673][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2020.03.10-14.37.10:673][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2020.03.10-14.37.10:673][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/UnrealProjects/WillMarch1/Will_o_wisp2/Saved/Config/Windows/Scalability.ini]
-[2020.03.10-14.37.10:673][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2020.03.10-14.37.10:673][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2020.03.10-14.37.10:673][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2020.03.10-14.37.10:673][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2020.03.10-14.37.10:673][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2020.03.10-14.37.10:673][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
-[2020.03.10-14.37.10:673][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2020.03.10-14.37.10:673][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2020.03.10-14.37.10:673][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2020.03.10-14.37.10:673][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/UnrealProjects/WillMarch1/Will_o_wisp2/Saved/Config/Windows/Scalability.ini]
-[2020.03.10-14.37.10:673][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2020.03.10-14.37.10:673][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2020.03.10-14.37.10:673][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2020.03.10-14.37.10:673][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
-[2020.03.10-14.37.10:673][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2020.03.10-14.37.10:673][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2020.03.10-14.37.10:673][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2020.03.10-14.37.10:673][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2020.03.10-14.37.10:673][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2020.03.10-14.37.10:673][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2020.03.10-14.37.10:673][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2020.03.10-14.37.10:673][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
-[2020.03.10-14.37.10:673][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
-[2020.03.10-14.37.10:673][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2020.03.10-14.37.10:673][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2020.03.10-14.37.10:673][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
-[2020.03.10-14.37.10:673][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
-[2020.03.10-14.37.10:673][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
-[2020.03.10-14.37.10:673][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
-[2020.03.10-14.37.10:673][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
-[2020.03.10-14.37.10:674][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
-[2020.03.10-14.37.10:674][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
-[2020.03.10-14.37.10:674][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
-[2020.03.10-14.37.10:674][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
-[2020.03.10-14.37.10:674][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
-[2020.03.10-14.37.10:674][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
-[2020.03.10-14.37.10:674][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/UnrealProjects/WillMarch1/Will_o_wisp2/Saved/Config/Windows/Scalability.ini]
-[2020.03.10-14.37.10:674][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2020.03.10-14.37.10:674][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2020.03.10-14.37.10:674][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [D:/UnrealProjects/WillMarch1/Will_o_wisp2/Saved/Config/Windows/Scalability.ini]
-[2020.03.10-14.37.10:674][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
-[2020.03.10-14.37.10:674][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
-[2020.03.10-14.37.10:674][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
-[2020.03.10-14.37.10:674][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
-[2020.03.10-14.37.10:674][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
-[2020.03.10-14.37.10:674][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
-[2020.03.10-14.37.10:674][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [D:/UnrealProjects/WillMarch1/Will_o_wisp2/Saved/Config/Windows/Engine.ini]
-[2020.03.10-14.37.10:674][  0]LogInit: Computer: LINHCHI
-[2020.03.10-14.37.10:674][  0]LogInit: User: user
-[2020.03.10-14.37.10:674][  0]LogInit: CPU Page size=4096, Cores=6
-[2020.03.10-14.37.10:674][  0]LogInit: High frequency timer resolution =10.000000 MHz
-[2020.03.10-14.37.10:674][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
-[2020.03.10-14.37.10:674][  0]LogMemory: Platform Memory Stats for Windows
-[2020.03.10-14.37.10:674][  0]LogMemory: Process Physical Memory: 105.26 MB used, 105.26 MB peak
-[2020.03.10-14.37.10:674][  0]LogMemory: Process Virtual Memory: 101.29 MB used, 101.29 MB peak
-[2020.03.10-14.37.10:674][  0]LogMemory: Physical Memory: 5122.50 MB used,  3001.18 MB free, 8123.68 MB total
-[2020.03.10-14.37.10:674][  0]LogMemory: Virtual Memory: 5159.24 MB used,  134212568.00 MB free, 134217728.00 MB total
-[2020.03.10-14.37.10:677][  0]LogWindows: WindowsPlatformFeatures enabled
-[2020.03.10-14.37.10:693][  0]LogInit: Using OS detected language (en-US).
-[2020.03.10-14.37.10:693][  0]LogInit: Using OS detected locale (en-US).
-[2020.03.10-14.37.10:693][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2020.03.10-14.37.10:846][  0]LogInit: Setting process to per monitor DPI aware
-[2020.03.10-14.37.10:877][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2020.03.10-14.37.10:877][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2020.03.10-14.37.11:065][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2020.03.10-14.37.11:066][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
-[2020.03.10-14.37.11:066][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
-[2020.03.10-14.37.11:066][  0]LogD3D11RHI: D3D11 adapters:
-[2020.03.10-14.37.11:142][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1050 Ti' (Feature Level 11_0)
-[2020.03.10-14.37.11:142][  0]LogD3D11RHI:       4018/0/4061 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2020.03.10-14.37.11:145][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2020.03.10-14.37.11:145][  0]LogD3D11RHI:       0/0/4061 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2020.03.10-14.37.11:145][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2020.03.10-14.37.11:155][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2020.03.10-14.37.11:155][  0]LogD3D11RHI:     GPU DeviceId: 0x1c82 (for the marketing name, search the web for "GPU Device Id")
-[2020.03.10-14.37.11:155][  0]LogWindows: EnumDisplayDevices:
-[2020.03.10-14.37.11:156][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1050 Ti' (P:1 D:1)
-[2020.03.10-14.37.11:156][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1050 Ti' (P:0 D:0)
-[2020.03.10-14.37.11:156][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1050 Ti' (P:0 D:0)
-[2020.03.10-14.37.11:156][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1050 Ti' (P:0 D:0)
-[2020.03.10-14.37.11:157][  0]LogWindows: DebugString: FoundDriverCount:4 
-[2020.03.10-14.37.11:157][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1050 Ti
-[2020.03.10-14.37.11:157][  0]LogD3D11RHI:   Driver Version: 432.00 (internal:26.21.14.3200, unified:432.00)
-[2020.03.10-14.37.11:157][  0]LogD3D11RHI:      Driver Date: 7-24-2019
-[2020.03.10-14.37.11:157][  0]LogRHI: Texture pool is 2812 MB (70% of 4018 MB)
-[2020.03.10-14.37.11:205][  0]LogD3D11RHI: RHI has support for 64 bit atomics
-[2020.03.10-14.37.11:205][  0]LogD3D11RHI: Async texture creation enabled
-[2020.03.10-14.37.11:218][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2020.03.10-14.37.11:482][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
-[2020.03.10-14.37.11:514][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
-[2020.03.10-14.37.11:514][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
-[2020.03.10-14.37.11:514][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ATC'
-[2020.03.10-14.37.11:514][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
-[2020.03.10-14.37.11:514][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1'
-[2020.03.10-14.37.11:514][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1a'
-[2020.03.10-14.37.11:514][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
-[2020.03.10-14.37.11:514][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_PVRTC'
-[2020.03.10-14.37.11:514][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
-[2020.03.10-14.37.11:514][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
-[2020.03.10-14.37.11:514][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ATCClient'
-[2020.03.10-14.37.11:514][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
-[2020.03.10-14.37.11:514][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1Client'
-[2020.03.10-14.37.11:514][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1aClient'
-[2020.03.10-14.37.11:514][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
-[2020.03.10-14.37.11:514][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_PVRTCClient'
-[2020.03.10-14.37.11:514][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
-[2020.03.10-14.37.11:514][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
-[2020.03.10-14.37.11:534][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
-[2020.03.10-14.37.11:534][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
-[2020.03.10-14.37.11:541][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
-[2020.03.10-14.37.11:548][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
-[2020.03.10-14.37.11:556][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
-[2020.03.10-14.37.11:563][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
-[2020.03.10-14.37.11:570][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
-[2020.03.10-14.37.11:578][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
-[2020.03.10-14.37.11:604][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
-[2020.03.10-14.37.11:604][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
-[2020.03.10-14.37.11:619][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
-[2020.03.10-14.37.11:619][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
-[2020.03.10-14.37.11:627][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
-[2020.03.10-14.37.11:635][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
-[2020.03.10-14.37.11:642][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
-[2020.03.10-14.37.11:650][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
-[2020.03.10-14.37.11:650][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2020.03.10-14.37.11:652][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
-[2020.03.10-14.37.11:675][  0]LogShaderCompilers: Guid format shader working directory is 3 characters bigger than the processId version (D:/UnrealProjects/WillMarch1/Will_o_wisp2/Intermediate/Shaders/WorkingDirectory/16788/).
-[2020.03.10-14.37.11:676][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/user/AppData/Local/Temp/UnrealShaderWorkingDir/7C93CC5F43F66EFFB0B9C8A96768F0D8/'.
-[2020.03.10-14.37.11:676][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2020.03.10-14.37.11:676][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2020.03.10-14.37.11:676][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2020.03.10-14.37.12:385][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2020.03.10-14.37.12:444][  0]LogDerivedDataCache: Loaded boot cache 0.06s 78MB C:/Users/user/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc.
-[2020.03.10-14.37.12:444][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/user/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc
-[2020.03.10-14.37.12:444][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/UnrealProjects/WillMarch1/Will_o_wisp2/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2020.03.10-14.37.12:444][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2020.03.10-14.37.12:444][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/UnrealProjects/WillMarch1/Will_o_wisp2/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2020.03.10-14.37.12:444][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2020.03.10-14.37.12:454][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2020.03.10-14.37.12:454][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2020.03.10-14.37.12:454][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
-[2020.03.10-14.37.12:456][  0]LogDerivedDataCache: Using Local data cache path C:/Users/user/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2020.03.10-14.37.12:456][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2020.03.10-14.37.12:456][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2020.03.10-14.37.12:483][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2020.03.10-14.37.12:486][  0]LogSlate: Using FreeType 2.10.0
-[2020.03.10-14.37.12:486][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2020.03.10-14.37.12:589][  0]LogAssetRegistry: FAssetRegistry took 0.0027 seconds to start up
-[2020.03.10-14.37.12:883][  0]LogInit: Selected Device Profile: [Windows]
-[2020.03.10-14.37.13:042][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2020.03.10-14.37.13:042][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
-[2020.03.10-14.37.13:042][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2020.03.10-14.37.13:042][  0]LogMeshReduction: No distributed automatic mesh merging module available
-[2020.03.10-14.37.13:042][  0]LogMeshMerging: No distributed automatic mesh merging module available
-[2020.03.10-14.37.13:057][  0]LogNetVersion: akvarel 1.0.0, NetCL: 10570792, EngineNetVer: 13, GameNetVer: 0 (Checksum: 1821014928)
-[2020.03.10-14.37.14:378][  0]LogPackageLocalizationCache: Processed 10 localized package path(s) for 1 prioritized culture(s) in 0.065541 seconds
-[2020.03.10-14.37.14:388][  0]LogUObjectArray: 46750 objects as part of root set at end of initial load.
-[2020.03.10-14.37.14:388][  0]LogUObjectAllocator: 8137160 out of 0 bytes used by permanent object pool.
-[2020.03.10-14.37.14:388][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2020.03.10-14.37.14:826][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2020.03.10-14.37.14:830][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2020.03.10-14.37.14:906][  0]SourceControl: Source control is disabled
-[2020.03.10-14.37.17:377][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2020.03.10-14.37.17:388][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
-[2020.03.10-14.37.17:388][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
-[2020.03.10-14.37.17:480][  0]LogOcInput: OculusInput pre-init called
-[2020.03.10-14.37.17:488][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
-[2020.03.10-14.37.17:488][  0]LogWindows: File 'OVRPlugin.dll' does not exist
-[2020.03.10-14.37.17:560][  0]LogEngine: Initializing Engine...
-[2020.03.10-14.37.17:561][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2020.03.10-14.37.17:562][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
-[2020.03.10-14.37.17:926][  0]LogInit: Initializing FReadOnlyCVARCache
-[2020.03.10-14.37.17:933][  0]LogAIModule: Creating AISystem for world Untitled
-[2020.03.10-14.37.18:016][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
-[2020.03.10-14.37.18:016][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
-[2020.03.10-14.37.18:016][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
-[2020.03.10-14.37.18:016][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
-[2020.03.10-14.37.18:016][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
-[2020.03.10-14.37.18:016][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
-[2020.03.10-14.37.18:016][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
-[2020.03.10-14.37.18:016][  0]LogAudio: Display: AudioDevice MaxSources: 32
-[2020.03.10-14.37.18:016][  0]LogAudio: Display: Using built-in audio occlusion.
-[2020.03.10-14.37.18:016][  0]LogAudioMixer: Display: Initializing audio mixer.
-[2020.03.10-14.37.18:043][  0]LogAudioMixer: Display: Audio Device Output Speaker Info:
-[2020.03.10-14.37.18:043][  0]LogAudioMixer: Display: Name: Speakers (2- Realtek(R) Audio)
-[2020.03.10-14.37.18:043][  0]LogAudioMixer: Display: Is Default: Yes
-[2020.03.10-14.37.18:043][  0]LogAudioMixer: Display: Sample Rate: 48000
-[2020.03.10-14.37.18:043][  0]LogAudioMixer: Display: Channel Count Used: 2
-[2020.03.10-14.37.18:043][  0]LogAudioMixer: Display: Device Channel Count: 2
-[2020.03.10-14.37.18:043][  0]LogAudioMixer: Display: Channel Order:
-[2020.03.10-14.37.18:043][  0]LogAudioMixer: Display: 0: FrontLeft
-[2020.03.10-14.37.18:043][  0]LogAudioMixer: Display: 1: FrontRight
-[2020.03.10-14.37.18:087][  0]LogAudioMixer: Display: Using Audio Device Speakers (2- Realtek(R) Audio)
-[2020.03.10-14.37.18:095][  0]LogInit: FAudioDevice initialized.
-[2020.03.10-14.37.18:095][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2020.03.10-14.37.18:783][  0]LogDerivedDataCache: Saved boot cache 0.69s 78MB C:/Users/user/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc.
-[2020.03.10-14.37.18:792][  0]LogInit: Texture streaming: Enabled
-[2020.03.10-14.37.18:803][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2020.03.10-14.37.18:803][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
-[2020.03.10-14.37.18:804][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
-[2020.03.10-14.37.18:884][  0]LogInit: Transaction tracking system initialized
-[2020.03.10-14.37.18:895][  0]BlueprintLog: New page: Editor Load
-[2020.03.10-14.37.18:923][  0]LocalizationService: Localization service is disabled
-[2020.03.10-14.37.18:999][  0]LogLinker: Warning: Failed to load '/Game/ThirdPersonBP/ThirdPersonOverview': Can't find file.
-[2020.03.10-14.37.18:999][  0]LogLinker: Warning: Failed to load '/Game/ThirdPersonBP/ThirdPersonOverview': Can't find file.
-[2020.03.10-14.37.18:999][  0]LogUObjectGlobals: Warning: Failed to find object 'Class /Game/ThirdPersonBP/ThirdPersonOverview.ThirdPersonOverview_C'
-[2020.03.10-14.37.19:300][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2020.03.10-14.37.19:301][  0]LogCook: Display: Mobile HDR setting 1
-[2020.03.10-14.37.19:388][  0]LogFileCache: Scanning file cache for directory 'D:/UnrealProjects/WillMarch1/Will_o_wisp2/Content/' took 0.08s
-[2020.03.10-14.37.20:032][  0]Cmd: MAP LOAD FILE="D:/UnrealProjects/WillMarch1/Will_o_wisp2/Content/my/levl/III_modul_ann.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2020.03.10-14.37.20:032][  0]LightingResults: New page: Lighting Build
-[2020.03.10-14.37.20:033][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
-[2020.03.10-14.37.20:033][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.03.10-14.37.20:033][  0]MapCheck: New page: Map Check
-[2020.03.10-14.37.20:033][  0]LightingResults: New page: Lighting Build
-[2020.03.10-14.37.20:068][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.17ms
-[2020.03.10-14.37.35:642][  0]LogTexture: Display: Building textures: lovushka1 (AutoDXT, 1000X1000)
-[2020.03.10-14.37.35:642][  0]LogTexture: Display: Building textures: piece6 (BGRA8, 3000X1723)
-[2020.03.10-14.37.35:642][  0]LogTexture: Display: Building textures: piece1 (BGRA8, 3000X1723)
-[2020.03.10-14.37.35:642][  0]LogTexture: Display: Building textures: piece2 (BGRA8, 3000X1723)
-[2020.03.10-14.37.35:642][  0]LogTexture: Display: Building textures: Bluegear (AutoDXT, 1000X1000)
-[2020.03.10-14.37.35:642][  0]LogTexture: Display: Building textures: Redgear (AutoDXT, 1000X1000)
-[2020.03.10-14.37.35:642][  0]LogTexture: Display: Building textures: lovushka2 (AutoDXT, 1000X1000)
-[2020.03.10-14.37.35:642][  0]LogMaterial: Display: Missing cached shader map for material lovuska_l, compiling. 
-[2020.03.10-14.37.37:419][  0]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 49
-[2020.03.10-14.37.37:419][  0]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 43
-[2020.03.10-14.37.37:419][  0]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 37
-[2020.03.10-14.37.37:419][  0]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 31
-[2020.03.10-14.37.37:419][  0]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 25
-[2020.03.10-14.37.37:419][  0]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 19
-[2020.03.10-14.37.37:419][  0]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 13
-[2020.03.10-14.37.37:419][  0]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 7
-[2020.03.10-14.37.37:419][  0]LogShaderCompilers: Display: Worker (9/9): shaders left to compile 1
-[2020.03.10-14.37.39:680][  0]LogStaticMesh: Building static mesh ledder_mash...
-[2020.03.10-14.37.39:786][  0]LogStaticMesh: Built static mesh [0.10s] /Game/my/interactiv_elements/ledder_mash.ledder_mash
-[2020.03.10-14.37.43:938][  0]LogMaterial: Display: Missing cached shader map for material ornament_Mat_2, compiling. 
-[2020.03.10-14.37.43:975][  0]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 36
-[2020.03.10-14.37.43:975][  0]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 31
-[2020.03.10-14.37.43:975][  0]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 26
-[2020.03.10-14.37.43:975][  0]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 21
-[2020.03.10-14.37.43:975][  0]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 16
-[2020.03.10-14.37.43:975][  0]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 11
-[2020.03.10-14.37.43:975][  0]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 6
-[2020.03.10-14.37.43:975][  0]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 1
-[2020.03.10-14.37.43:976][  0]LogMaterial: Display: Missing cached shader map for material horiz_ass_blac_pice6, compiling. 
-[2020.03.10-14.37.44:015][  0]LogMaterial: Display: Missing cached shader map for material ass_blac_pice5, compiling. 
-[2020.03.10-14.37.44:055][  0]LogShaderCompilers: Display: Worker (9/9): shaders left to compile 49
-[2020.03.10-14.37.44:055][  0]LogMaterial: Display: Missing cached shader map for material ass_blac_pice4, compiling. 
-[2020.03.10-14.37.44:088][  0]LogMaterial: Display: Missing cached shader map for material ass_blac_pice3, compiling. 
-[2020.03.10-14.37.44:532][  0]LogMaterial: Display: Missing cached shader map for material ass_blac_pice2, compiling. 
-[2020.03.10-14.37.44:582][  0]LogMaterial: Display: Missing cached shader map for material ass_blac_pice1, compiling. 
-[2020.03.10-14.37.44:614][  0]LogMaterial: Display: Missing cached shader map for material ass_blac_pice, compiling. 
-[2020.03.10-14.37.45:255][  0]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 337
-[2020.03.10-14.37.45:255][  0]LogMaterial: Display: Missing cached shader map for material gear_g_4, compiling. 
-[2020.03.10-14.37.45:426][  0]LogMaterial: Display: Missing cached shader map for material gear_4, compiling. 
-[2020.03.10-14.37.45:509][  0]LogMaterial: Display: Missing cached shader map for material lovuska_r, compiling. 
-[2020.03.10-14.37.46:799][  0]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 474
-[2020.03.10-14.37.46:799][  0]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 464
-[2020.03.10-14.37.46:799][  0]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 454
-[2020.03.10-14.37.46:799][  0]LogShaderCompilers: Display: Worker (9/9): shaders left to compile 444
-[2020.03.10-14.37.46:799][  0]LogAIModule: Creating AISystem for world III_modul_ann
-[2020.03.10-14.37.46:922][  0]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 434
-[2020.03.10-14.37.47:349][  0]LogPhysics: Warning: Scale for /Game/my/levl/III_modul_ann.III_modul_ann:PersistentLevel.room_statick_camera14.bottom_free_cam has a component set to zero, which will result in a bad body instance. Scale:X=18.375 Y=108.750 Z=0.000
-[2020.03.10-14.37.47:598][  0]LogBlueprintUserMessages: [ABP_CustomMovement_C_0] 2_4
-[2020.03.10-14.37.48:012][  0]LogBlueprintUserMessages: [ABP_CustomMovement_C_0] 2_4
-[2020.03.10-14.37.48:186][  0]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 424
-[2020.03.10-14.37.48:186][  0]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 414
-[2020.03.10-14.37.48:186][  0]LogPhysics: Warning: Scale for /Game/my/levl/III_modul_ann.III_modul_ann:PersistentLevel.room_statick_camera14.bottom_free_cam has a component set to zero, which will result in a bad body instance. Scale:X=18.375 Y=108.750 Z=0.000
-[2020.03.10-14.37.48:477][  0]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 404
-[2020.03.10-14.37.48:478][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2020.03.10-14.37.48:555][  0]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 394
-[2020.03.10-14.37.48:555][  0]LogNavigation: Warning: Recreating dtNavMesh instance due to saved navmesh origin (X=512.500 Y=32275.000 Z=1272.500, usually the RecastNavMesh location) not being aligned with tile size (988 uu) 
-[2020.03.10-14.37.48:698][  0]LogUObjectHash: Compacting FUObjectHashTables data took   6.32ms
-[2020.03.10-14.37.48:707][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2020.03.10-14.37.48:708][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.218ms to complete.
-[2020.03.10-14.37.48:708][  0]LogFileHelpers: Loading map 'III_modul_ann' took 28.675
-[2020.03.10-14.37.50:339][  0]LogShaderCompilers: Display: Worker (9/9): shaders left to compile 384
-[2020.03.10-14.37.50:339][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.03.10-14.37.50:380][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.03.10-14.37.50:403][  0]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 374
-[2020.03.10-14.37.50:404][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.03.10-14.37.50:426][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.03.10-14.37.50:672][  0]LogCollectionManager: Loaded 0 collections in 0.003640 seconds
-[2020.03.10-14.37.50:991][  0]LogFileCache: Scanning file cache for directory 'D:/UnrealProjects/WillMarch1/Will_o_wisp2/Saved/Collections/' took 0.00s
-[2020.03.10-14.37.50:992][  0]LogFileCache: Scanning file cache for directory 'D:/UnrealProjects/WillMarch1/Will_o_wisp2/Content/Developers/user/Collections/' took 0.00s
-[2020.03.10-14.37.50:992][  0]LogFileCache: Scanning file cache for directory 'D:/UnrealProjects/WillMarch1/Will_o_wisp2/Content/Collections/' took 0.00s
-[2020.03.10-14.37.50:992][  0]LogContentBrowser: Native class hierarchy populated in 0.0230 seconds. Added 3015 classes and 717 folders.
-[2020.03.10-14.37.51:192][  0]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 364
-[2020.03.10-14.37.51:192][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
-[2020.03.10-14.37.54:515][  0]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 354
-[2020.03.10-14.37.54:515][  0]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 344
-[2020.03.10-14.37.54:515][  0]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 334
-[2020.03.10-14.37.54:516][  0]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 324
-[2020.03.10-14.37.54:516][  0]LogShaderCompilers: Display: Worker (9/9): shaders left to compile 314
-[2020.03.10-14.37.54:516][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0011 seconds. Added 0 classes and 0 folders.
-[2020.03.10-14.37.54:702][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0011 seconds. Added 2 classes and 3 folders.
-[2020.03.10-14.37.55:347][  0]LogSlate: Took 0.000715 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2020.03.10-14.37.55:353][  0]LogSlate: Took 0.000763 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2020.03.10-14.37.55:530][  0]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 304
-[2020.03.10-14.37.55:530][  0]LogSlate: Took 0.068980 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2020.03.10-14.37.56:468][  0]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 294
-[2020.03.10-14.37.56:468][  0]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 284
-[2020.03.10-14.37.56:468][  0]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 274
-[2020.03.10-14.37.56:468][  0]LogRenderer: Reallocating scene render targets to support 1216x208 Format 10 NumSamples 1 (Frame:1).
-[2020.03.10-14.37.57:608][  0]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 264
-[2020.03.10-14.37.57:638][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0007 seconds. Added 0 classes and 0 folders.
-[2020.03.10-14.37.57:638][  0]LogLoad: (Engine Initialization) Total time: 48.79 seconds
-[2020.03.10-14.37.57:638][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2020.03.10-14.37.57:883][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2020.03.10-14.37.58:182][  0]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 254
-[2020.03.10-14.37.58:182][  0]LogSlate: Took 0.141169 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2020.03.10-14.37.58:207][  1]LogFileCache: Retrieving MD5 hashes for directory 'D:/UnrealProjects/WillMarch1/Will_o_wisp2/Content/' took 0.54s
-[2020.03.10-14.37.59:290][  6]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 244
-[2020.03.10-14.37.59:494][  9]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 234
-[2020.03.10-14.37.59:577][ 10]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 224
-[2020.03.10-14.37.59:772][ 12]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 214
-[2020.03.10-14.38.02:044][ 33]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 204
-[2020.03.10-14.38.02:044][ 33]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 194
-[2020.03.10-14.38.02:746][ 41]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 184
-[2020.03.10-14.38.02:999][ 43]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 174
-[2020.03.10-14.38.03:644][ 51]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 164
-[2020.03.10-14.38.03:679][ 51]LogAssetRegistry: Asset discovery search completed in 51.0904 seconds
-[2020.03.10-14.38.03:691][ 51]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000027 seconds (updated 0 objects)
-[2020.03.10-14.38.03:875][ 52]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 154
-[2020.03.10-14.38.05:653][143]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 144
-[2020.03.10-14.38.05:700][146]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 134
-[2020.03.10-14.38.06:307][181]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 124
-[2020.03.10-14.38.07:287][232]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 114
-[2020.03.10-14.38.07:674][254]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 104
-[2020.03.10-14.38.09:227][341]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 94
-[2020.03.10-14.38.09:355][349]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 84
-[2020.03.10-14.38.09:499][356]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 74
-[2020.03.10-14.38.09:970][381]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 64
-[2020.03.10-14.38.10:934][434]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 55
-[2020.03.10-14.38.12:630][528]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 48
-[2020.03.10-14.38.12:759][535]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 41
-[2020.03.10-14.38.13:457][575]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 35
-[2020.03.10-14.38.13:667][586]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 30
-[2020.03.10-14.38.14:573][638]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 26
-[2020.03.10-14.38.14:984][660]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 22
-[2020.03.10-14.38.14:999][661]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 19
-[2020.03.10-14.38.15:026][663]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 16
-[2020.03.10-14.38.15:294][680]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 13
-[2020.03.10-14.38.15:324][681]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 11
-[2020.03.10-14.38.16:636][748]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 9
-[2020.03.10-14.38.16:874][765]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 7
-[2020.03.10-14.38.17:120][780]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 6
-[2020.03.10-14.38.17:526][801]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 5
-[2020.03.10-14.38.17:542][802]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 4
-[2020.03.10-14.38.17:542][802]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 3
-[2020.03.10-14.38.17:615][807]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 2
-[2020.03.10-14.38.17:693][811]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 1
-[2020.03.10-14.38.44:993][ 33]LogRenderer: Reallocating scene render targets to support 1216x216 Format 10 NumSamples 1 (Frame:4013).
-[2020.03.10-14.38.45:073][ 34]LogRenderer: Reallocating scene render targets to support 1216x236 Format 10 NumSamples 1 (Frame:4015).
-[2020.03.10-14.38.45:140][ 34]LogRenderer: Reallocating scene render targets to support 1216x376 Format 10 NumSamples 1 (Frame:4017).
-[2020.03.10-14.38.45:191][ 36]LogRenderer: Reallocating scene render targets to support 1216x508 Format 10 NumSamples 1 (Frame:4019).
-[2020.03.10-14.38.45:223][ 37]LogRenderer: Reallocating scene render targets to support 1216x532 Format 10 NumSamples 1 (Frame:4021).
-[2020.03.10-14.38.45:259][ 38]LogRenderer: Reallocating scene render targets to support 1216x576 Format 10 NumSamples 1 (Frame:4023).
-[2020.03.10-14.38.45:303][ 39]LogRenderer: Reallocating scene render targets to support 1216x620 Format 10 NumSamples 1 (Frame:4025).
-[2020.03.10-14.38.45:340][ 40]LogRenderer: Reallocating scene render targets to support 1216x660 Format 10 NumSamples 1 (Frame:4027).
-[2020.03.10-14.38.45:370][ 41]LogRenderer: Reallocating scene render targets to support 1216x688 Format 10 NumSamples 1 (Frame:4029).
-[2020.03.10-14.38.45:398][ 42]LogRenderer: Reallocating scene render targets to support 1216x700 Format 10 NumSamples 1 (Frame:4031).
-[2020.03.10-14.38.45:424][ 43]LogRenderer: Reallocating scene render targets to support 1216x724 Format 10 NumSamples 1 (Frame:4033).
-[2020.03.10-14.38.45:450][ 44]LogRenderer: Reallocating scene render targets to support 1216x740 Format 10 NumSamples 1 (Frame:4035).
-[2020.03.10-14.38.45:480][ 45]LogRenderer: Reallocating scene render targets to support 1216x752 Format 10 NumSamples 1 (Frame:4037).
-[2020.03.10-14.38.45:505][ 46]LogRenderer: Reallocating scene render targets to support 1216x764 Format 10 NumSamples 1 (Frame:4039).
-[2020.03.10-14.38.45:532][ 47]LogRenderer: Reallocating scene render targets to support 1216x772 Format 10 NumSamples 1 (Frame:4041).
-[2020.03.10-14.38.45:561][ 48]LogRenderer: Reallocating scene render targets to support 1216x780 Format 10 NumSamples 1 (Frame:4043).
-[2020.03.10-14.38.45:589][ 49]LogRenderer: Reallocating scene render targets to support 1216x784 Format 10 NumSamples 1 (Frame:4045).
-[2020.03.10-14.39.07:856][624]LogTemp: Repeating last play command: Selected Viewport
-[2020.03.10-14.39.07:880][624]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/my/levl/III_modul_ann.III_modul_ann:PersistentLevel' has LevelScriptBlueprint '/Game/my/levl/III_modul_ann.III_modul_ann:PersistentLevel.III_modul_ann' with GeneratedClass '/Game/my/levl/III_modul_ann.III_modul_ann_C' with ClassGeneratedBy '/Game/my/levl/III_modul_ann.III_modul_ann:PersistentLevel.III_modul_ann'
-[2020.03.10-14.39.07:954][624]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2020.03.10-14.39.07:995][624]PIE: New page: PIE session: III_modul_ann (Mar 10, 2020, 8:39:07 PM)
-[2020.03.10-14.39.08:000][624]LogOnline: OSS: Creating online subsystem instance for: NULL
-[2020.03.10-14.39.08:008][624]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
-[2020.03.10-14.39.08:045][624]LogPlayLevel: Creating play world package: /Game/my/levl/UEDPIE_0_III_modul_ann
-[2020.03.10-14.39.08:204][624]LogPlayLevel: PIE: StaticDuplicateObject took: (0.159085s)
-[2020.03.10-14.39.08:222][624]LogAIModule: Creating AISystem for world III_modul_ann
-[2020.03.10-14.39.08:247][624]LogPlayLevel: PIE: World Init took: (0.042809s)
-[2020.03.10-14.39.08:248][624]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/my/levl/III_modul_ann.III_modul_ann to /Game/my/levl/UEDPIE_0_III_modul_ann.III_modul_ann (0.202816s)
-[2020.03.10-14.39.08:280][624]LogUObjectHash: Compacting FUObjectHashTables data took   1.94ms
-[2020.03.10-14.39.08:307][624]LogAudioMixer: Display: Audio Mixer Platform Settings:
-[2020.03.10-14.39.08:307][624]LogAudioMixer: Display: 	Sample Rate:						  48000
-[2020.03.10-14.39.08:307][624]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
-[2020.03.10-14.39.08:307][624]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
-[2020.03.10-14.39.08:307][624]LogAudioMixer: Display: 	Number of buffers to queue:			  2
-[2020.03.10-14.39.08:307][624]LogAudioMixer: Display: 	Max Channels (voices):				  32
-[2020.03.10-14.39.08:307][624]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
-[2020.03.10-14.39.08:307][624]LogAudio: Display: AudioDevice MaxSources: 32
-[2020.03.10-14.39.08:307][624]LogAudio: Display: Using built-in audio occlusion.
-[2020.03.10-14.39.08:307][624]LogAudioMixer: Display: Initializing audio mixer.
-[2020.03.10-14.39.08:328][624]LogAudioMixer: Display: Audio Device Output Speaker Info:
-[2020.03.10-14.39.08:328][624]LogAudioMixer: Display: Name: Speakers (2- Realtek(R) Audio)
-[2020.03.10-14.39.08:328][624]LogAudioMixer: Display: Is Default: Yes
-[2020.03.10-14.39.08:328][624]LogAudioMixer: Display: Sample Rate: 48000
-[2020.03.10-14.39.08:328][624]LogAudioMixer: Display: Channel Count Used: 2
-[2020.03.10-14.39.08:328][624]LogAudioMixer: Display: Device Channel Count: 2
-[2020.03.10-14.39.08:328][624]LogAudioMixer: Display: Channel Order:
-[2020.03.10-14.39.08:328][624]LogAudioMixer: Display: 0: FrontLeft
-[2020.03.10-14.39.08:328][624]LogAudioMixer: Display: 1: FrontRight
-[2020.03.10-14.39.08:345][624]LogAudioMixer: Display: Using Audio Device Speakers (2- Realtek(R) Audio)
-[2020.03.10-14.39.08:347][624]LogInit: FAudioDevice initialized.
-[2020.03.10-14.39.08:486][624]LogLoad: Game class is 'SideScrollerGameMode_C'
-[2020.03.10-14.39.08:585][624]LogPhysics: Warning: Scale for /Game/my/levl/UEDPIE_0_III_modul_ann.III_modul_ann:PersistentLevel.room_statick_camera14.bottom_free_cam has a component set to zero, which will result in a bad body instance. Scale:X=18.375 Y=108.750 Z=0.000
-[2020.03.10-14.39.08:591][624]LogBlueprintUserMessages: [ABP_CustomMovement_C_0] 2_4
-[2020.03.10-14.39.08:591][624]LogBlueprintUserMessages: [ABP_CustomMovement_C_0] 2_4
-[2020.03.10-14.39.08:592][624]LogWorld: Bringing World /Game/my/levl/UEDPIE_0_III_modul_ann.III_modul_ann up for play (max tick rate 0) at 2020.03.10-17.39.08
-[2020.03.10-14.39.08:749][624]LogWorld: Bringing up level for play took: 0.186467
-[2020.03.10-14.39.08:758][624]LogOnline: OSS: Creating online subsystem instance for: :Context_1
-[2020.03.10-14.39.08:962][624]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 20 classes and 0 folders.
-[2020.03.10-14.39.09:056][624]PIE: Play in editor start time for /Game/my/levl/UEDPIE_0_III_modul_ann 1.176
-[2020.03.10-14.39.09:057][624]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/my/levl/III_modul_ann.III_modul_ann:PersistentLevel' has LevelScriptBlueprint '/Game/my/levl/III_modul_ann.III_modul_ann:PersistentLevel.III_modul_ann' with GeneratedClass '/Game/my/levl/III_modul_ann.III_modul_ann_C' with ClassGeneratedBy '/Game/my/levl/III_modul_ann.III_modul_ann:PersistentLevel.III_modul_ann'
-[2020.03.10-14.39.09:104][624]LogBlueprintUserMessages: [ABP_CustomMovement_C_0] 2_4
-[2020.03.10-14.39.09:293][625]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.075821 > MaxSimulationTimeStep (0.050) for 'spider_body_SideScrollerCharacter1_2', movement 'Walking'
-[2020.03.10-14.39.37:316][956]LogAudioMixer: Display: No commands were queued while flushing the source manager.
-[2020.03.10-14.39.37:325][956]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
-[2020.03.10-14.39.37:345][956]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
-[2020.03.10-14.39.37:372][956]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/my/levl/III_modul_ann.III_modul_ann:PersistentLevel' has LevelScriptBlueprint '/Game/my/levl/III_modul_ann.III_modul_ann:PersistentLevel.III_modul_ann' with GeneratedClass '/Game/my/levl/III_modul_ann.III_modul_ann_C' with ClassGeneratedBy '/Game/my/levl/III_modul_ann.III_modul_ann:PersistentLevel.III_modul_ann'
-[2020.03.10-14.39.37:475][956]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.03.10-14.39.37:475][956]LogWorld: BeginTearingDown for /Game/my/levl/UEDPIE_0_III_modul_ann
-[2020.03.10-14.39.37:494][956]LogAudioMixer: Display: No commands were queued while flushing the source manager.
-[2020.03.10-14.39.37:503][956]LogWorld: UWorld::CleanupWorld for III_modul_ann, bSessionEnded=true, bCleanupResources=true
-[2020.03.10-14.39.37:517][956]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.03.10-14.39.37:546][956]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2020.03.10-14.39.37:547][956]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/my/levl/III_modul_ann.III_modul_ann:PersistentLevel' has LevelScriptBlueprint '/Game/my/levl/III_modul_ann.III_modul_ann:PersistentLevel.III_modul_ann' with GeneratedClass '/Game/my/levl/III_modul_ann.III_modul_ann_C' with ClassGeneratedBy '/Game/my/levl/III_modul_ann.III_modul_ann:PersistentLevel.III_modul_ann'
-[2020.03.10-14.39.37:570][956]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.03.10-14.39.37:610][956]LogAudioMixer: Display: No commands were queued while flushing the source manager.
-[2020.03.10-14.39.37:638][956]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.03.10-14.39.37:656][956]LogUObjectHash: Compacting FUObjectHashTables data took   2.31ms
-[2020.03.10-14.39.37:716][957]LogPlayLevel: Display: Destroying online subsystem :Context_1
-[2020.03.10-14.39.41:665][414]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2020.03.10-14.39.41:690][414]Can't find target actor or component.
-[2020.03.10-14.39.42:527][464]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2020.03.10-14.39.42:527][464]Can't find target actor or component.
-[2020.03.10-14.39.45:497][752]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2020.03.10-14.39.52:190][486]LogEditorViewport: Clicking on Actor (LMB): gear_ded_C (gear_ded5)
-[2020.03.10-14.39.54:402][737]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2020.03.10-14.40.05:606][ 43]LogSlate: Took 0.011259 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2020.03.10-14.40.12:828][879]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2020.03.10-14.40.12:828][879]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2020.03.10-14.40.54:567][513]LogSlate: Took 0.000220 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2020.03.10-14.40.54:580][513]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/LiquidHealth/WD_LiquidHealth.WD_LiquidHealth
-[2020.03.10-14.40.55:553][513]LogClass: Warning: Enum '/Game/Explosions/DemoRoom/BluePrints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' was upgraded to use FText to store its display name data. Please re-save this asset to avoid issues with localization and determinstic cooking.
-[2020.03.10-14.40.55:564][513]LogClass: Warning: Enum '/Game/Particles_Wind_Control_System/Blueprints/Enumerations/P_Leaves_Enum.P_Leaves_Enum' was upgraded to use FText to store its display name data. Please re-save this asset to avoid issues with localization and determinstic cooking.
-[2020.03.10-14.40.55:595][513]LogEnum: Warning: Enum name collision: 'BP_DemoDisplay_Enum::ROund' is in both '/Game/RoboBars/DemoRoom/BluePrint/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' and '/Game/Explosions/DemoRoom/BluePrints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum'
-[2020.03.10-14.40.55:595][513]LogEnum: Warning: Enum name collision: 'BP_DemoDisplay_Enum::SquareL' is in both '/Game/RoboBars/DemoRoom/BluePrint/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' and '/Game/Explosions/DemoRoom/BluePrints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum'
-[2020.03.10-14.40.55:595][513]LogEnum: Warning: Enum name collision: 'BP_DemoDisplay_Enum::RoomL' is in both '/Game/RoboBars/DemoRoom/BluePrint/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' and '/Game/Explosions/DemoRoom/BluePrints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum'
-[2020.03.10-14.40.55:595][513]LogEnum: Warning: Enum name collision: 'BP_DemoDisplay_Enum::DescriptionOnly' is in both '/Game/RoboBars/DemoRoom/BluePrint/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' and '/Game/Explosions/DemoRoom/BluePrints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum'
-[2020.03.10-14.40.55:595][513]LogEnum: Warning: Enum name collision: 'BP_DemoDisplay_Enum::NewEnumerator0' is in both '/Game/RoboBars/DemoRoom/BluePrint/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' and '/Game/Explosions/DemoRoom/BluePrints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum'
-[2020.03.10-14.40.55:595][513]LogEnum: Warning: Enum name collision: 'BP_DemoDisplay_Enum::BP_DemoDisplay_MAX' is in both '/Game/RoboBars/DemoRoom/BluePrint/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' and '/Game/Explosions/DemoRoom/BluePrints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum'
-[2020.03.10-14.40.55:595][513]LogEnum: Warning: Enum name collision: 'BP_DemoDisplay_Enum::ROund' is in both '/Game/RoboBars/DemoRoom/BluePrint/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' and '/Game/Explosions/DemoRoom/BluePrints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum'
-[2020.03.10-14.40.55:596][513]LogEnum: Warning: Enum name collision: 'BP_DemoDisplay_Enum::SquareL' is in both '/Game/RoboBars/DemoRoom/BluePrint/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' and '/Game/Explosions/DemoRoom/BluePrints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum'
-[2020.03.10-14.40.55:596][513]LogEnum: Warning: Enum name collision: 'BP_DemoDisplay_Enum::RoomL' is in both '/Game/RoboBars/DemoRoom/BluePrint/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' and '/Game/Explosions/DemoRoom/BluePrints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum'
-[2020.03.10-14.40.55:596][513]LogEnum: Warning: Enum name collision: 'BP_DemoDisplay_Enum::DescriptionOnly' is in both '/Game/RoboBars/DemoRoom/BluePrint/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' and '/Game/Explosions/DemoRoom/BluePrints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum'
-[2020.03.10-14.40.55:596][513]LogEnum: Warning: Enum name collision: 'BP_DemoDisplay_Enum::NewEnumerator0' is in both '/Game/RoboBars/DemoRoom/BluePrint/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' and '/Game/Explosions/DemoRoom/BluePrints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum'
-[2020.03.10-14.40.55:603][513]LogEnum: Warning: Enum name collision: 'BP_DemoRoom_Enum::Standard' is in both '/Game/RoboBars/DemoRoom/BluePrint/BP_DemoRoom_Enum.BP_DemoRoom_Enum' and '/Game/Explosions/DemoRoom/BluePrints/BP_DemoRoom_Enum.BP_DemoRoom_Enum'
-[2020.03.10-14.40.55:603][513]LogEnum: Warning: Enum name collision: 'BP_DemoRoom_Enum::RoofwithHole' is in both '/Game/RoboBars/DemoRoom/BluePrint/BP_DemoRoom_Enum.BP_DemoRoom_Enum' and '/Game/Explosions/DemoRoom/BluePrints/BP_DemoRoom_Enum.BP_DemoRoom_Enum'
-[2020.03.10-14.40.55:603][513]LogEnum: Warning: Enum name collision: 'BP_DemoRoom_Enum::RoofOpen' is in both '/Game/RoboBars/DemoRoom/BluePrint/BP_DemoRoom_Enum.BP_DemoRoom_Enum' and '/Game/Explosions/DemoRoom/BluePrints/BP_DemoRoom_Enum.BP_DemoRoom_Enum'
-[2020.03.10-14.40.55:603][513]LogEnum: Warning: Enum name collision: 'BP_DemoRoom_Enum::BP_DemoRoom_MAX' is in both '/Game/RoboBars/DemoRoom/BluePrint/BP_DemoRoom_Enum.BP_DemoRoom_Enum' and '/Game/Explosions/DemoRoom/BluePrints/BP_DemoRoom_Enum.BP_DemoRoom_Enum'
-[2020.03.10-14.40.55:603][513]LogEnum: Warning: Enum name collision: 'BP_DemoRoom_Enum::Standard' is in both '/Game/RoboBars/DemoRoom/BluePrint/BP_DemoRoom_Enum.BP_DemoRoom_Enum' and '/Game/Explosions/DemoRoom/BluePrints/BP_DemoRoom_Enum.BP_DemoRoom_Enum'
-[2020.03.10-14.40.55:603][513]LogEnum: Warning: Enum name collision: 'BP_DemoRoom_Enum::RoofwithHole' is in both '/Game/RoboBars/DemoRoom/BluePrint/BP_DemoRoom_Enum.BP_DemoRoom_Enum' and '/Game/Explosions/DemoRoom/BluePrints/BP_DemoRoom_Enum.BP_DemoRoom_Enum'
-[2020.03.10-14.40.55:603][513]LogEnum: Warning: Enum name collision: 'BP_DemoRoom_Enum::RoofOpen' is in both '/Game/RoboBars/DemoRoom/BluePrint/BP_DemoRoom_Enum.BP_DemoRoom_Enum' and '/Game/Explosions/DemoRoom/BluePrints/BP_DemoRoom_Enum.BP_DemoRoom_Enum'
-[2020.03.10-14.40.55:795][513]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 121 classes and 0 folders.
-[2020.03.10-14.40.58:384][513]LogSlate: Took 0.000204 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2020.03.10-14.41.21:975][184]LogSlate: Window 'WD_LiquidHealth' being destroyed
-[2020.03.10-14.41.58:827][133]LogMetaData: Removing '/Game/Widgets/WD_LiquidHealth.WD_LiquidHealth_C' ref from Metadata '/Game/LiquidHealth/WD_LiquidHealth.PackageMetaData'
-[2020.03.10-14.41.58:827][133]LogMetaData: Removing '/Game/Widgets/WD_LiquidHealth.WD_LiquidHealth:EventGraph.K2Node_Event_0' ref from Metadata '/Game/LiquidHealth/WD_LiquidHealth.PackageMetaData'
-[2020.03.10-14.41.58:827][133]LogMetaData: Removing '/Game/Widgets/WD_LiquidHealth.WD_LiquidHealth:EventGraph.K2Node_Event_1' ref from Metadata '/Game/LiquidHealth/WD_LiquidHealth.PackageMetaData'
-[2020.03.10-14.41.58:827][133]LogMetaData: Removing '/Game/Widgets/WD_LiquidHealth.WD_LiquidHealth:EventGraph.K2Node_Event_2' ref from Metadata '/Game/LiquidHealth/WD_LiquidHealth.PackageMetaData'
-[2020.03.10-14.41.58:827][133]LogMetaData: Removing '/Game/Widgets/WD_LiquidHealth.SKEL_WD_LiquidHealth_C:PreConstruct' ref from Metadata '/Game/LiquidHealth/WD_LiquidHealth.PackageMetaData'
-[2020.03.10-14.41.58:827][133]LogMetaData: Removing '/Game/Widgets/WD_LiquidHealth.SKEL_WD_LiquidHealth_C:Construct' ref from Metadata '/Game/LiquidHealth/WD_LiquidHealth.PackageMetaData'
-[2020.03.10-14.41.58:827][133]LogMetaData: Removing '/Game/Widgets/WD_LiquidHealth.SKEL_WD_LiquidHealth_C:Tick' ref from Metadata '/Game/LiquidHealth/WD_LiquidHealth.PackageMetaData'
-[2020.03.10-14.41.58:827][133]LogMetaData: Removing '/Game/Widgets/WD_LiquidHealth.SKEL_WD_LiquidHealth_C:NewVar_0' ref from Metadata '/Game/LiquidHealth/WD_LiquidHealth.PackageMetaData'
-[2020.03.10-14.41.58:827][133]LogMetaData: Removing '/Game/Widgets/WD_LiquidHealth.SKEL_WD_LiquidHealth_C:bulick_woter' ref from Metadata '/Game/LiquidHealth/WD_LiquidHealth.PackageMetaData'
-[2020.03.10-14.41.58:827][133]LogMetaData: Removing '/Game/Widgets/WD_LiquidHealth.SKEL_WD_LiquidHealth_C:Tic_tak' ref from Metadata '/Game/LiquidHealth/WD_LiquidHealth.PackageMetaData'
-[2020.03.10-14.41.58:827][133]LogMetaData: Removing '/Game/Widgets/WD_LiquidHealth.SKEL_WD_LiquidHealth_C:lists_obvodka' ref from Metadata '/Game/LiquidHealth/WD_LiquidHealth.PackageMetaData'
-[2020.03.10-14.41.58:827][133]LogMetaData: Removing '/Game/Widgets/WD_LiquidHealth.SKEL_WD_LiquidHealth_C:List_col_les' ref from Metadata '/Game/LiquidHealth/WD_LiquidHealth.PackageMetaData'
-[2020.03.10-14.41.58:827][133]LogMetaData: Removing '/Game/Widgets/WD_LiquidHealth.SKEL_WD_LiquidHealth_C:List' ref from Metadata '/Game/LiquidHealth/WD_LiquidHealth.PackageMetaData'
-[2020.03.10-14.41.58:827][133]LogMetaData: Removing '/Game/Widgets/WD_LiquidHealth.SKEL_WD_LiquidHealth_C:LiquitHealth' ref from Metadata '/Game/LiquidHealth/WD_LiquidHealth.PackageMetaData'
-[2020.03.10-14.41.58:827][133]LogMetaData: Removing '/Game/Widgets/WD_LiquidHealth.SKEL_WD_LiquidHealth_C' ref from Metadata '/Game/LiquidHealth/WD_LiquidHealth.PackageMetaData'
-[2020.03.10-14.41.58:827][133]LogMetaData: Removing '/Game/Widgets/WD_LiquidHealth.WD_LiquidHealth_C:NewVar_0' ref from Metadata '/Game/LiquidHealth/WD_LiquidHealth.PackageMetaData'
-[2020.03.10-14.41.58:827][133]LogMetaData: Removing '/Game/Widgets/WD_LiquidHealth.WD_LiquidHealth_C:bulick_woter' ref from Metadata '/Game/LiquidHealth/WD_LiquidHealth.PackageMetaData'
-[2020.03.10-14.41.58:827][133]LogMetaData: Removing '/Game/Widgets/WD_LiquidHealth.WD_LiquidHealth_C:Tic_tak' ref from Metadata '/Game/LiquidHealth/WD_LiquidHealth.PackageMetaData'
-[2020.03.10-14.41.58:827][133]LogMetaData: Removing '/Game/Widgets/WD_LiquidHealth.WD_LiquidHealth_C:lists_obvodka' ref from Metadata '/Game/LiquidHealth/WD_LiquidHealth.PackageMetaData'
-[2020.03.10-14.41.58:827][133]LogMetaData: Removing '/Game/Widgets/WD_LiquidHealth.WD_LiquidHealth_C:List_col_les' ref from Metadata '/Game/LiquidHealth/WD_LiquidHealth.PackageMetaData'
-[2020.03.10-14.41.58:827][133]LogMetaData: Removing '/Game/Widgets/WD_LiquidHealth.WD_LiquidHealth_C:List' ref from Metadata '/Game/LiquidHealth/WD_LiquidHealth.PackageMetaData'
-[2020.03.10-14.41.58:827][133]LogMetaData: Removing '/Game/Widgets/WD_LiquidHealth.WD_LiquidHealth_C:LiquitHealth' ref from Metadata '/Game/LiquidHealth/WD_LiquidHealth.PackageMetaData'
-[2020.03.10-14.41.58:827][133]LogMetaData: Removing '/Game/Widgets/WD_LiquidHealth.WD_LiquidHealth_C:Construct' ref from Metadata '/Game/LiquidHealth/WD_LiquidHealth.PackageMetaData'
-[2020.03.10-14.41.58:827][133]LogMetaData: Removing '/Game/Widgets/WD_LiquidHealth.WD_LiquidHealth_C:Tick' ref from Metadata '/Game/LiquidHealth/WD_LiquidHealth.PackageMetaData'
-[2020.03.10-14.41.58:969][133]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/T_CricleMask" FILE="D:/UnrealProjects/WillMarch1/Will_o_wisp2/Content/Widgets/T_CricleMask.uasset" SILENT=true
-[2020.03.10-14.41.59:141][133]LogSavePackage: Moving 'D:/UnrealProjects/WillMarch1/Will_o_wisp2/Saved/T_CricleMask024E90854F6C7BE7682A8FA285F640AC.tmp' to 'D:/UnrealProjects/WillMarch1/Will_o_wisp2/Content/Widgets/T_CricleMask.uasset'
-[2020.03.10-14.41.59:429][133]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LiquidHealth/T_CricleMask" FILE="D:/UnrealProjects/WillMarch1/Will_o_wisp2/Content/LiquidHealth/T_CricleMask.uasset" SILENT=true
-[2020.03.10-14.41.59:439][133]LogSavePackage: Moving 'D:/UnrealProjects/WillMarch1/Will_o_wisp2/Saved/T_CricleMask5BA13F3540752C4370C57B8B2A56ECF9.tmp' to 'D:/UnrealProjects/WillMarch1/Will_o_wisp2/Content/LiquidHealth/T_CricleMask.uasset'
-[2020.03.10-14.41.59:443][133]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/T_WaveBack" FILE="D:/UnrealProjects/WillMarch1/Will_o_wisp2/Content/Widgets/T_WaveBack.uasset" SILENT=true
-[2020.03.10-14.41.59:451][133]LogSavePackage: Moving 'D:/UnrealProjects/WillMarch1/Will_o_wisp2/Saved/T_WaveBack21D83082479A91808563AEBB5157AABB.tmp' to 'D:/UnrealProjects/WillMarch1/Will_o_wisp2/Content/Widgets/T_WaveBack.uasset'
-[2020.03.10-14.41.59:632][133]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LiquidHealth/T_WaveBack" FILE="D:/UnrealProjects/WillMarch1/Will_o_wisp2/Content/LiquidHealth/T_WaveBack.uasset" SILENT=true
-[2020.03.10-14.41.59:650][133]LogSavePackage: Moving 'D:/UnrealProjects/WillMarch1/Will_o_wisp2/Saved/T_WaveBack3E0177FB4CAB37D75869AD84FFE72CA7.tmp' to 'D:/UnrealProjects/WillMarch1/Will_o_wisp2/Content/LiquidHealth/T_WaveBack.uasset'
-[2020.03.10-14.41.59:653][133]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/T_WaveFront" FILE="D:/UnrealProjects/WillMarch1/Will_o_wisp2/Content/Widgets/T_WaveFront.uasset" SILENT=true
-[2020.03.10-14.41.59:661][133]LogSavePackage: Moving 'D:/UnrealProjects/WillMarch1/Will_o_wisp2/Saved/T_WaveFront99223AA7434C7648AF207884061CA846.tmp' to 'D:/UnrealProjects/WillMarch1/Will_o_wisp2/Content/Widgets/T_WaveFront.uasset'
-[2020.03.10-14.41.59:839][133]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LiquidHealth/T_WaveFront" FILE="D:/UnrealProjects/WillMarch1/Will_o_wisp2/Content/LiquidHealth/T_WaveFront.uasset" SILENT=true
-[2020.03.10-14.41.59:860][133]LogSavePackage: Moving 'D:/UnrealProjects/WillMarch1/Will_o_wisp2/Saved/T_WaveFront42ADA20A4AC886DBAC87F5A0FCEF9F1C.tmp' to 'D:/UnrealProjects/WillMarch1/Will_o_wisp2/Content/LiquidHealth/T_WaveFront.uasset'
-[2020.03.10-14.41.59:874][133]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/M_LiquidHealth" FILE="D:/UnrealProjects/WillMarch1/Will_o_wisp2/Content/Widgets/M_LiquidHealth.uasset" SILENT=true
-[2020.03.10-14.41.59:891][133]LogSavePackage: Moving 'D:/UnrealProjects/WillMarch1/Will_o_wisp2/Saved/M_LiquidHealth7478E2F44B4BE3153F03BEA9E67F6AC7.tmp' to 'D:/UnrealProjects/WillMarch1/Will_o_wisp2/Content/Widgets/M_LiquidHealth.uasset'
-[2020.03.10-14.42.00:086][133]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LiquidHealth/M_LiquidHealth" FILE="D:/UnrealProjects/WillMarch1/Will_o_wisp2/Content/LiquidHealth/M_LiquidHealth.uasset" SILENT=true
-[2020.03.10-14.42.00:121][133]LogSavePackage: Moving 'D:/UnrealProjects/WillMarch1/Will_o_wisp2/Saved/M_LiquidHealthC882E54841A534C17FB6BFAB3FB188F5.tmp' to 'D:/UnrealProjects/WillMarch1/Will_o_wisp2/Content/LiquidHealth/M_LiquidHealth.uasset'
-[2020.03.10-14.42.00:128][133]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/MI_LiquidHealth" FILE="D:/UnrealProjects/WillMarch1/Will_o_wisp2/Content/Widgets/MI_LiquidHealth.uasset" SILENT=true
-[2020.03.10-14.42.00:182][133]LogSavePackage: Moving 'D:/UnrealProjects/WillMarch1/Will_o_wisp2/Saved/MI_LiquidHealth36C5F91D45E658CE9C7CD29C6F1CBB7A.tmp' to 'D:/UnrealProjects/WillMarch1/Will_o_wisp2/Content/Widgets/MI_LiquidHealth.uasset'
-[2020.03.10-14.42.00:346][133]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LiquidHealth/MI_LiquidHealth" FILE="D:/UnrealProjects/WillMarch1/Will_o_wisp2/Content/LiquidHealth/MI_LiquidHealth.uasset" SILENT=true
-[2020.03.10-14.42.00:387][133]LogSavePackage: Moving 'D:/UnrealProjects/WillMarch1/Will_o_wisp2/Saved/MI_LiquidHealthDB3BEC5B4A44125271E06DABD304D3AB.tmp' to 'D:/UnrealProjects/WillMarch1/Will_o_wisp2/Content/LiquidHealth/MI_LiquidHealth.uasset'
-[2020.03.10-14.42.00:393][133]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/MI_LiquidHealth_Inst" FILE="D:/UnrealProjects/WillMarch1/Will_o_wisp2/Content/Widgets/MI_LiquidHealth_Inst.uasset" SILENT=true
-[2020.03.10-14.42.00:404][133]LogSavePackage: Moving 'D:/UnrealProjects/WillMarch1/Will_o_wisp2/Saved/MI_LiquidHealth_InstC1B3686946CD9195BAEE748000EE4D55.tmp' to 'D:/UnrealProjects/WillMarch1/Will_o_wisp2/Content/Widgets/MI_LiquidHealth_Inst.uasset'
-[2020.03.10-14.42.00:609][133]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LiquidHealth/MI_LiquidHealth_Inst" FILE="D:/UnrealProjects/WillMarch1/Will_o_wisp2/Content/LiquidHealth/MI_LiquidHealth_Inst.uasset" SILENT=true
-[2020.03.10-14.42.00:698][133]LogSavePackage: Moving 'D:/UnrealProjects/WillMarch1/Will_o_wisp2/Saved/MI_LiquidHealth_Inst10FAF4794BDA1839A29238ADE4C9813F.tmp' to 'D:/UnrealProjects/WillMarch1/Will_o_wisp2/Content/LiquidHealth/MI_LiquidHealth_Inst.uasset'
-[2020.03.10-14.42.00:709][133]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/water" FILE="D:/UnrealProjects/WillMarch1/Will_o_wisp2/Content/Widgets/water.uasset" SILENT=true
-[2020.03.10-14.42.00:720][133]LogSavePackage: Moving 'D:/UnrealProjects/WillMarch1/Will_o_wisp2/Saved/waterC7D75EB149C9F10E4F4EE08EFF790D11.tmp' to 'D:/UnrealProjects/WillMarch1/Will_o_wisp2/Content/Widgets/water.uasset'
-[2020.03.10-14.42.00:944][133]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LiquidHealth/water" FILE="D:/UnrealProjects/WillMarch1/Will_o_wisp2/Content/LiquidHealth/water.uasset" SILENT=true
-[2020.03.10-14.42.00:957][133]LogSavePackage: Moving 'D:/UnrealProjects/WillMarch1/Will_o_wisp2/Saved/waterBF172C3A4F720E462BB561A13CADE065.tmp' to 'D:/UnrealProjects/WillMarch1/Will_o_wisp2/Content/LiquidHealth/water.uasset'
-[2020.03.10-14.42.00:959][133]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/WD_LiquidHealth" FILE="D:/UnrealProjects/WillMarch1/Will_o_wisp2/Content/Widgets/WD_LiquidHealth.uasset" SILENT=true
-[2020.03.10-14.42.01:093][133]LogSavePackage: Moving 'D:/UnrealProjects/WillMarch1/Will_o_wisp2/Saved/WD_LiquidHealth48BD979B4B8F00E1C2124CBD9FB2805C.tmp' to 'D:/UnrealProjects/WillMarch1/Will_o_wisp2/Content/Widgets/WD_LiquidHealth.uasset'
-[2020.03.10-14.42.01:252][133]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LiquidHealth/WD_LiquidHealth" FILE="D:/UnrealProjects/WillMarch1/Will_o_wisp2/Content/LiquidHealth/WD_LiquidHealth.uasset" SILENT=true
-[2020.03.10-14.42.01:354][133]LogSavePackage: Moving 'D:/UnrealProjects/WillMarch1/Will_o_wisp2/Saved/WD_LiquidHealth8407D9D04576F9E9FE4F848C9A4BE8F5.tmp' to 'D:/UnrealProjects/WillMarch1/Will_o_wisp2/Content/LiquidHealth/WD_LiquidHealth.uasset'
-[2020.03.10-14.42.01:362][133]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/asdasd" FILE="D:/UnrealProjects/WillMarch1/Will_o_wisp2/Content/Widgets/asdasd.uasset" SILENT=true
-[2020.03.10-14.42.01:382][133]LogSavePackage: Moving 'D:/UnrealProjects/WillMarch1/Will_o_wisp2/Saved/asdasd535E1A3E4E1082B16C04D4B0A7BBC5C6.tmp' to 'D:/UnrealProjects/WillMarch1/Will_o_wisp2/Content/Widgets/asdasd.uasset'
-[2020.03.10-14.42.01:579][133]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LiquidHealth/asdasd" FILE="D:/UnrealProjects/WillMarch1/Will_o_wisp2/Content/LiquidHealth/asdasd.uasset" SILENT=true
-[2020.03.10-14.42.01:591][133]LogSavePackage: Moving 'D:/UnrealProjects/WillMarch1/Will_o_wisp2/Saved/asdasd57F9DD1745D3CD58D44D9EBE65AF49F1.tmp' to 'D:/UnrealProjects/WillMarch1/Will_o_wisp2/Content/LiquidHealth/asdasd.uasset'
-[2020.03.10-14.42.03:564][133]AssetCheck: New page: Asset Save: multiple assets
-[2020.03.10-14.42.03:564][133]LogContentValidation: Display: Validating Texture2D /Game/Widgets/T_CricleMask.T_CricleMask
-[2020.03.10-14.42.03:564][133]LogContentValidation: Display: Validating ObjectRedirector /Game/LiquidHealth/T_CricleMask.T_CricleMask
-[2020.03.10-14.42.03:565][133]LogContentValidation: Display: Validating Texture2D /Game/Widgets/T_WaveBack.T_WaveBack
-[2020.03.10-14.42.03:565][133]LogContentValidation: Display: Validating ObjectRedirector /Game/LiquidHealth/T_WaveBack.T_WaveBack
-[2020.03.10-14.42.03:565][133]LogContentValidation: Display: Validating Texture2D /Game/Widgets/T_WaveFront.T_WaveFront
-[2020.03.10-14.42.03:565][133]LogContentValidation: Display: Validating ObjectRedirector /Game/LiquidHealth/T_WaveFront.T_WaveFront
-[2020.03.10-14.42.03:565][133]LogContentValidation: Display: Validating Material /Game/Widgets/M_LiquidHealth.M_LiquidHealth
-[2020.03.10-14.42.03:565][133]LogContentValidation: Display: Validating ObjectRedirector /Game/LiquidHealth/M_LiquidHealth.M_LiquidHealth
-[2020.03.10-14.42.03:565][133]LogContentValidation: Display: Validating MaterialInstanceConstant /Game/Widgets/MI_LiquidHealth.MI_LiquidHealth
-[2020.03.10-14.42.03:565][133]LogContentValidation: Display: Validating ObjectRedirector /Game/LiquidHealth/MI_LiquidHealth.MI_LiquidHealth
-[2020.03.10-14.42.03:565][133]LogContentValidation: Display: Validating MaterialInstanceConstant /Game/Widgets/MI_LiquidHealth_Inst.MI_LiquidHealth_Inst
-[2020.03.10-14.42.03:565][133]LogContentValidation: Display: Validating ObjectRedirector /Game/LiquidHealth/MI_LiquidHealth_Inst.MI_LiquidHealth_Inst
-[2020.03.10-14.42.03:565][133]LogContentValidation: Display: Validating Texture2D /Game/Widgets/water.water
-[2020.03.10-14.42.03:565][133]LogContentValidation: Display: Validating ObjectRedirector /Game/LiquidHealth/water.water
-[2020.03.10-14.42.03:565][133]LogContentValidation: Display: Validating WidgetBlueprint /Game/Widgets/WD_LiquidHealth.WD_LiquidHealth
-[2020.03.10-14.42.03:565][133]LogContentValidation: Display: Validating ObjectRedirector /Game/LiquidHealth/WD_LiquidHealth.WD_LiquidHealth_C
-[2020.03.10-14.42.03:565][133]LogContentValidation: Display: Validating ObjectRedirector /Game/LiquidHealth/WD_LiquidHealth.Default__WD_LiquidHealth_C
-[2020.03.10-14.42.03:565][133]LogContentValidation: Display: Validating ObjectRedirector /Game/LiquidHealth/WD_LiquidHealth.WD_LiquidHealth
-[2020.03.10-14.42.03:565][133]LogContentValidation: Display: Validating Texture2D /Game/Widgets/asdasd.asdasd
-[2020.03.10-14.42.03:565][133]LogContentValidation: Display: Validating ObjectRedirector /Game/LiquidHealth/asdasd.asdasd
-[2020.03.10-14.42.40:756][ 40]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/WaterW/asdasd" FILE="D:/UnrealProjects/WillMarch1/Will_o_wisp2/Content/Widgets/WaterW/asdasd.uasset" SILENT=true
-[2020.03.10-14.42.40:847][ 40]LogSavePackage: Moving 'D:/UnrealProjects/WillMarch1/Will_o_wisp2/Saved/asdasdB10380DA4E084A40FF24BAAEC3A30E6D.tmp' to 'D:/UnrealProjects/WillMarch1/Will_o_wisp2/Content/Widgets/WaterW/asdasd.uasset'
-[2020.03.10-14.42.41:071][ 40]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/WaterW/MI_LiquidHealth" FILE="D:/UnrealProjects/WillMarch1/Will_o_wisp2/Content/Widgets/WaterW/MI_LiquidHealth.uasset" SILENT=true
-[2020.03.10-14.42.41:082][ 40]LogSavePackage: Moving 'D:/UnrealProjects/WillMarch1/Will_o_wisp2/Saved/MI_LiquidHealth03B63B274602A03D4E3CFCBB0C5AB04F.tmp' to 'D:/UnrealProjects/WillMarch1/Will_o_wisp2/Content/Widgets/WaterW/MI_LiquidHealth.uasset'
-[2020.03.10-14.42.41:262][ 40]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/WaterW/MI_LiquidHealth_Inst" FILE="D:/UnrealProjects/WillMarch1/Will_o_wisp2/Content/Widgets/WaterW/MI_LiquidHealth_Inst.uasset" SILENT=true
-[2020.03.10-14.42.41:349][ 40]LogSavePackage: Moving 'D:/UnrealProjects/WillMarch1/Will_o_wisp2/Saved/MI_LiquidHealth_InstCEE7D1194F9D4FE01152E691763B6ACF.tmp' to 'D:/UnrealProjects/WillMarch1/Will_o_wisp2/Content/Widgets/WaterW/MI_LiquidHealth_Inst.uasset'
-[2020.03.10-14.42.41:530][ 40]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/WaterW/M_LiquidHealth" FILE="D:/UnrealProjects/WillMarch1/Will_o_wisp2/Content/Widgets/WaterW/M_LiquidHealth.uasset" SILENT=true
-[2020.03.10-14.42.41:547][ 40]LogSavePackage: Moving 'D:/UnrealProjects/WillMarch1/Will_o_wisp2/Saved/M_LiquidHealth13F37EDB4C05E6E8879664A4DCDDAE55.tmp' to 'D:/UnrealProjects/WillMarch1/Will_o_wisp2/Content/Widgets/WaterW/M_LiquidHealth.uasset'
-[2020.03.10-14.42.41:787][ 40]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/WaterW/T_CricleMask" FILE="D:/UnrealProjects/WillMarch1/Will_o_wisp2/Content/Widgets/WaterW/T_CricleMask.uasset" SILENT=true
-[2020.03.10-14.42.41:826][ 40]LogSavePackage: Moving 'D:/UnrealProjects/WillMarch1/Will_o_wisp2/Saved/T_CricleMask52C8AA9B4FFBA2C5905B9DBD8F06A713.tmp' to 'D:/UnrealProjects/WillMarch1/Will_o_wisp2/Content/Widgets/WaterW/T_CricleMask.uasset'
-[2020.03.10-14.42.41:998][ 40]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/WaterW/T_WaveBack" FILE="D:/UnrealProjects/WillMarch1/Will_o_wisp2/Content/Widgets/WaterW/T_WaveBack.uasset" SILENT=true
-[2020.03.10-14.42.42:007][ 40]LogSavePackage: Moving 'D:/UnrealProjects/WillMarch1/Will_o_wisp2/Saved/T_WaveBack3D7842BE43839B8B01244280531FAEDD.tmp' to 'D:/UnrealProjects/WillMarch1/Will_o_wisp2/Content/Widgets/WaterW/T_WaveBack.uasset'
-[2020.03.10-14.42.42:215][ 40]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/WaterW/T_WaveFront" FILE="D:/UnrealProjects/WillMarch1/Will_o_wisp2/Content/Widgets/WaterW/T_WaveFront.uasset" SILENT=true
-[2020.03.10-14.42.42:223][ 40]LogSavePackage: Moving 'D:/UnrealProjects/WillMarch1/Will_o_wisp2/Saved/T_WaveFrontE62FDC044B8821176556CEA926020325.tmp' to 'D:/UnrealProjects/WillMarch1/Will_o_wisp2/Content/Widgets/WaterW/T_WaveFront.uasset'
-[2020.03.10-14.42.42:466][ 40]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/WaterW/water" FILE="D:/UnrealProjects/WillMarch1/Will_o_wisp2/Content/Widgets/WaterW/water.uasset" SILENT=true
-[2020.03.10-14.42.42:499][ 40]LogSavePackage: Moving 'D:/UnrealProjects/WillMarch1/Will_o_wisp2/Saved/water3E4C35F2406F8E83156A40911796A7BE.tmp' to 'D:/UnrealProjects/WillMarch1/Will_o_wisp2/Content/Widgets/WaterW/water.uasset'
-[2020.03.10-14.42.45:471][ 40]LogUObjectHash: Compacting FUObjectHashTables data took   7.53ms
-[2020.03.10-14.42.45:518][ 40]LogUObjectHash: Compacting FUObjectHashTables data took   3.52ms
-[2020.03.10-14.42.45:554][ 40]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
-[2020.03.10-14.42.45:591][ 40]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
-[2020.03.10-14.42.45:626][ 40]LogUObjectHash: Compacting FUObjectHashTables data took   1.37ms
-[2020.03.10-14.42.45:666][ 40]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
-[2020.03.10-14.42.45:703][ 40]LogUObjectHash: Compacting FUObjectHashTables data took   1.21ms
-[2020.03.10-14.42.45:740][ 40]LogUObjectHash: Compacting FUObjectHashTables data took   1.21ms
-[2020.03.10-14.42.45:783][ 40]LogUObjectHash: Compacting FUObjectHashTables data took   4.25ms
-[2020.03.10-14.42.45:821][ 40]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
-[2020.03.10-14.42.45:954][ 40]SourceControl: rm 'Will_o_wisp2/Content/Widgets/MI_LiquidHealth.uasset'
-[2020.03.10-14.42.45:954][ 40]SourceControl: rm 'Will_o_wisp2/Content/Widgets/MI_LiquidHealth_Inst.uasset'
-[2020.03.10-14.42.45:954][ 40]SourceControl: rm 'Will_o_wisp2/Content/Widgets/M_LiquidHealth.uasset'
-[2020.03.10-14.42.45:954][ 40]SourceControl: rm 'Will_o_wisp2/Content/Widgets/T_CricleMask.uasset'
-[2020.03.10-14.42.45:954][ 40]SourceControl: rm 'Will_o_wisp2/Content/Widgets/T_WaveBack.uasset'
-[2020.03.10-14.42.45:954][ 40]SourceControl: rm 'Will_o_wisp2/Content/Widgets/T_WaveFront.uasset'
-[2020.03.10-14.42.45:954][ 40]SourceControl: rm 'Will_o_wisp2/Content/Widgets/asdasd.uasset'
-[2020.03.10-14.42.45:954][ 40]SourceControl: rm 'Will_o_wisp2/Content/Widgets/water.uasset'
-[2020.03.10-14.42.46:083][ 40]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LiquidHealth/asdasd" FILE="D:/UnrealProjects/WillMarch1/Will_o_wisp2/Content/LiquidHealth/asdasd.uasset" SILENT=true
-[2020.03.10-14.42.46:090][ 40]LogSavePackage: Moving 'D:/UnrealProjects/WillMarch1/Will_o_wisp2/Saved/asdasd77A86A1541EC97F795A301AA47E16973.tmp' to 'D:/UnrealProjects/WillMarch1/Will_o_wisp2/Content/LiquidHealth/asdasd.uasset'
-[2020.03.10-14.42.46:091][ 40]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LiquidHealth/MI_LiquidHealth" FILE="D:/UnrealProjects/WillMarch1/Will_o_wisp2/Content/LiquidHealth/MI_LiquidHealth.uasset" SILENT=true
-[2020.03.10-14.42.46:097][ 40]LogSavePackage: Moving 'D:/UnrealProjects/WillMarch1/Will_o_wisp2/Saved/MI_LiquidHealthA98508294D107F4E396DBBB900060E99.tmp' to 'D:/UnrealProjects/WillMarch1/Will_o_wisp2/Content/LiquidHealth/MI_LiquidHealth.uasset'
-[2020.03.10-14.42.46:097][ 40]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LiquidHealth/MI_LiquidHealth_Inst" FILE="D:/UnrealProjects/WillMarch1/Will_o_wisp2/Content/LiquidHealth/MI_LiquidHealth_Inst.uasset" SILENT=true
-[2020.03.10-14.42.46:103][ 40]LogSavePackage: Moving 'D:/UnrealProjects/WillMarch1/Will_o_wisp2/Saved/MI_LiquidHealth_InstF78B15304C538686E51BF29F06768DF1.tmp' to 'D:/UnrealProjects/WillMarch1/Will_o_wisp2/Content/LiquidHealth/MI_LiquidHealth_Inst.uasset'
-[2020.03.10-14.42.46:104][ 40]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/WD_LiquidHealth" FILE="D:/UnrealProjects/WillMarch1/Will_o_wisp2/Content/Widgets/WD_LiquidHealth.uasset" SILENT=true
-[2020.03.10-14.42.46:122][ 40]LogSavePackage: Moving 'D:/UnrealProjects/WillMarch1/Will_o_wisp2/Saved/WD_LiquidHealth18800D02462812F1570C5498BF20AE43.tmp' to 'D:/UnrealProjects/WillMarch1/Will_o_wisp2/Content/Widgets/WD_LiquidHealth.uasset'
-[2020.03.10-14.42.46:124][ 40]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LiquidHealth/M_LiquidHealth" FILE="D:/UnrealProjects/WillMarch1/Will_o_wisp2/Content/LiquidHealth/M_LiquidHealth.uasset" SILENT=true
-[2020.03.10-14.42.46:130][ 40]LogSavePackage: Moving 'D:/UnrealProjects/WillMarch1/Will_o_wisp2/Saved/M_LiquidHealth2AF000C94807A6E57D118C9E4FC3D3AF.tmp' to 'D:/UnrealProjects/WillMarch1/Will_o_wisp2/Content/LiquidHealth/M_LiquidHealth.uasset'
-[2020.03.10-14.42.46:131][ 40]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LiquidHealth/T_CricleMask" FILE="D:/UnrealProjects/WillMarch1/Will_o_wisp2/Content/LiquidHealth/T_CricleMask.uasset" SILENT=true
-[2020.03.10-14.42.46:136][ 40]LogSavePackage: Moving 'D:/UnrealProjects/WillMarch1/Will_o_wisp2/Saved/T_CricleMaskDBD682834530416D6DAE66845AC1BEDC.tmp' to 'D:/UnrealProjects/WillMarch1/Will_o_wisp2/Content/LiquidHealth/T_CricleMask.uasset'
-[2020.03.10-14.42.46:137][ 40]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LiquidHealth/T_WaveBack" FILE="D:/UnrealProjects/WillMarch1/Will_o_wisp2/Content/LiquidHealth/T_WaveBack.uasset" SILENT=true
-[2020.03.10-14.42.46:142][ 40]LogSavePackage: Moving 'D:/UnrealProjects/WillMarch1/Will_o_wisp2/Saved/T_WaveBackA88CE7534DCFC2FEC295579ACF340A40.tmp' to 'D:/UnrealProjects/WillMarch1/Will_o_wisp2/Content/LiquidHealth/T_WaveBack.uasset'
-[2020.03.10-14.42.46:143][ 40]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LiquidHealth/T_WaveFront" FILE="D:/UnrealProjects/WillMarch1/Will_o_wisp2/Content/LiquidHealth/T_WaveFront.uasset" SILENT=true
-[2020.03.10-14.42.46:148][ 40]LogSavePackage: Moving 'D:/UnrealProjects/WillMarch1/Will_o_wisp2/Saved/T_WaveFront26947C8E48BEA725E262578A50E588D5.tmp' to 'D:/UnrealProjects/WillMarch1/Will_o_wisp2/Content/LiquidHealth/T_WaveFront.uasset'
-[2020.03.10-14.42.46:149][ 40]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LiquidHealth/water" FILE="D:/UnrealProjects/WillMarch1/Will_o_wisp2/Content/LiquidHealth/water.uasset" SILENT=true
-[2020.03.10-14.42.46:154][ 40]LogSavePackage: Moving 'D:/UnrealProjects/WillMarch1/Will_o_wisp2/Saved/water214813B741D458F256B8AA9CF52BD4A3.tmp' to 'D:/UnrealProjects/WillMarch1/Will_o_wisp2/Content/LiquidHealth/water.uasset'
-[2020.03.10-14.42.46:408][ 40]AssetCheck: New page: Asset Save: multiple assets
-[2020.03.10-14.42.46:408][ 40]LogContentValidation: Display: Validating Texture2D /Game/Widgets/WaterW/asdasd.asdasd
-[2020.03.10-14.42.46:408][ 40]LogContentValidation: Display: Validating MaterialInstanceConstant /Game/Widgets/WaterW/MI_LiquidHealth.MI_LiquidHealth
-[2020.03.10-14.42.46:408][ 40]LogContentValidation: Display: Validating MaterialInstanceConstant /Game/Widgets/WaterW/MI_LiquidHealth_Inst.MI_LiquidHealth_Inst
-[2020.03.10-14.42.46:408][ 40]LogContentValidation: Display: Validating Material /Game/Widgets/WaterW/M_LiquidHealth.M_LiquidHealth
-[2020.03.10-14.42.46:408][ 40]LogContentValidation: Display: Validating Texture2D /Game/Widgets/WaterW/T_CricleMask.T_CricleMask
-[2020.03.10-14.42.46:408][ 40]LogContentValidation: Display: Validating Texture2D /Game/Widgets/WaterW/T_WaveBack.T_WaveBack
-[2020.03.10-14.42.46:408][ 40]LogContentValidation: Display: Validating Texture2D /Game/Widgets/WaterW/T_WaveFront.T_WaveFront
-[2020.03.10-14.42.46:408][ 40]LogContentValidation: Display: Validating Texture2D /Game/Widgets/WaterW/water.water
-[2020.03.10-14.42.46:408][ 40]LogContentValidation: Display: Validating ObjectRedirector /Game/LiquidHealth/asdasd.asdasd
-[2020.03.10-14.42.46:408][ 40]LogContentValidation: Display: Validating ObjectRedirector /Game/LiquidHealth/MI_LiquidHealth.MI_LiquidHealth
-[2020.03.10-14.42.46:408][ 40]LogContentValidation: Display: Validating ObjectRedirector /Game/LiquidHealth/MI_LiquidHealth_Inst.MI_LiquidHealth_Inst
-[2020.03.10-14.42.46:408][ 40]LogContentValidation: Display: Validating WidgetBlueprint /Game/Widgets/WD_LiquidHealth.WD_LiquidHealth
-[2020.03.10-14.42.46:408][ 40]LogContentValidation: Display: Validating ObjectRedirector /Game/LiquidHealth/M_LiquidHealth.M_LiquidHealth
-[2020.03.10-14.42.46:408][ 40]LogContentValidation: Display: Validating ObjectRedirector /Game/LiquidHealth/T_CricleMask.T_CricleMask
-[2020.03.10-14.42.46:408][ 40]LogContentValidation: Display: Validating ObjectRedirector /Game/LiquidHealth/T_WaveBack.T_WaveBack
-[2020.03.10-14.42.46:408][ 40]LogContentValidation: Display: Validating ObjectRedirector /Game/LiquidHealth/T_WaveFront.T_WaveFront
-[2020.03.10-14.42.46:408][ 40]LogContentValidation: Display: Validating ObjectRedirector /Game/LiquidHealth/water.water
-[2020.03.10-14.43.24:058][ 26]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:/Linh/2019-2020/3 module/widgets/timer.png)
-[2020.03.10-14.43.24:075][ 26]LogTexture: Display: Building textures: timer (BGRA8, 250X300)
-[2020.03.10-14.43.45:618][392]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:/Linh/2019-2020/3 module/widgets/hpFront.png)
-[2020.03.10-14.43.45:629][392]LogTexture: Display: Building textures: hpFront (AutoDXT, 512X512)
-[2020.03.10-14.43.45:736][392]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:/Linh/2019-2020/3 module/widgets/hpMask.png)
-[2020.03.10-14.43.45:740][392]LogTexture: Display: Building textures: hpMask (AutoDXT, 512X512)
-[2020.03.10-14.43.45:871][392]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:/Linh/2019-2020/3 module/widgets/leafFront.png)
-[2020.03.10-14.43.45:944][392]LogTexture: Display: Building textures: leafFront (AutoDXT, 512X512)
-[2020.03.10-14.43.46:051][392]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:/Linh/2019-2020/3 module/widgets/leafMask.png)
-[2020.03.10-14.43.46:056][392]LogTexture: Display: Building textures: leafMask (AutoDXT, 512X512)
-[2020.03.10-14.43.48:872][675]LogAssetEditorSubsystem: Opening Asset editor for Texture2D /Game/Widgets/leafFront.leafFront
-[2020.03.10-14.43.48:943][675]LogContentBrowser: Native class hierarchy updated for 'TextureEditor' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2020.03.10-14.51.41:722][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2020.03.10-14.51.41:722][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2020.03.10-14.51.41:722][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [D:/UnrealProjects/WillMarch1/Will_o_wisp2/Saved/Config/Windows/Engine.ini]
+[2020.03.10-14.51.41:722][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2020.03.10-14.51.41:722][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure:0]]
+[2020.03.10-14.51.41:722][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [D:/UnrealProjects/WillMarch1/Will_o_wisp2/Saved/Config/Windows/Engine.ini]
+[2020.03.10-14.51.41:722][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/UnrealProjects/WillMarch1/Will_o_wisp2/Saved/Config/Windows/Engine.ini]
+[2020.03.10-14.51.41:722][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2020.03.10-14.51.41:722][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2020.03.10-14.51.41:722][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2020.03.10-14.51.41:722][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2020.03.10-14.51.41:722][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2020.03.10-14.51.41:722][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2020.03.10-14.51.41:722][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2020.03.10-14.51.41:722][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2020.03.10-14.51.41:722][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2020.03.10-14.51.41:722][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2020.03.10-14.51.41:722][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2020.03.10-14.51.41:722][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2020.03.10-14.51.41:722][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2020.03.10-14.51.41:723][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2020.03.10-14.51.41:723][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [D:/UnrealProjects/WillMarch1/Will_o_wisp2/Saved/Config/Windows/Engine.ini]
+[2020.03.10-14.51.41:723][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2020.03.10-14.51.41:723][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2020.03.10-14.51.41:723][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2020.03.10-14.51.41:723][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2020.03.10-14.51.41:723][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2020.03.10-14.51.41:723][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2020.03.10-14.51.41:723][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2020.03.10-14.51.41:723][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2020.03.10-14.51.41:723][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2020.03.10-14.51.41:723][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2020.03.10-14.51.41:723][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2020.03.10-14.51.41:723][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2020.03.10-14.51.41:723][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2020.03.10-14.51.41:723][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [D:/UnrealProjects/WillMarch1/Will_o_wisp2/Saved/Config/Windows/Engine.ini]
+[2020.03.10-14.51.41:723][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [D:/UnrealProjects/WillMarch1/Will_o_wisp2/Saved/Config/Windows/Engine.ini]
+[2020.03.10-14.51.41:725][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/UnrealProjects/WillMarch1/Will_o_wisp2/Saved/Config/Windows/Scalability.ini]
+[2020.03.10-14.51.41:725][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.03.10-14.51.41:725][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.03.10-14.51.41:725][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/UnrealProjects/WillMarch1/Will_o_wisp2/Saved/Config/Windows/Scalability.ini]
+[2020.03.10-14.51.41:725][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.03.10-14.51.41:725][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/UnrealProjects/WillMarch1/Will_o_wisp2/Saved/Config/Windows/Scalability.ini]
+[2020.03.10-14.51.41:725][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.03.10-14.51.41:725][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.03.10-14.51.41:725][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.03.10-14.51.41:725][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.03.10-14.51.41:725][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.03.10-14.51.41:725][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.03.10-14.51.41:725][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.03.10-14.51.41:725][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.03.10-14.51.41:725][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.03.10-14.51.41:725][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.03.10-14.51.41:725][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.03.10-14.51.41:725][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.03.10-14.51.41:725][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.03.10-14.51.41:725][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.03.10-14.51.41:725][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.03.10-14.51.41:725][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.03.10-14.51.41:725][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.03.10-14.51.41:725][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.03.10-14.51.41:725][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/UnrealProjects/WillMarch1/Will_o_wisp2/Saved/Config/Windows/Scalability.ini]
+[2020.03.10-14.51.41:725][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.03.10-14.51.41:725][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.03.10-14.51.41:725][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.03.10-14.51.41:725][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.03.10-14.51.41:725][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.03.10-14.51.41:725][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.03.10-14.51.41:725][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.03.10-14.51.41:725][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.03.10-14.51.41:725][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.03.10-14.51.41:725][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.03.10-14.51.41:725][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.03.10-14.51.41:725][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.03.10-14.51.41:726][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.03.10-14.51.41:726][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.03.10-14.51.41:726][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.03.10-14.51.41:726][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.03.10-14.51.41:726][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.03.10-14.51.41:726][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.03.10-14.51.41:726][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.03.10-14.51.41:726][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.03.10-14.51.41:726][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.03.10-14.51.41:726][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.03.10-14.51.41:726][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.03.10-14.51.41:726][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.03.10-14.51.41:726][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.03.10-14.51.41:726][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.03.10-14.51.41:726][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.03.10-14.51.41:726][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.03.10-14.51.41:726][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.03.10-14.51.41:726][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.03.10-14.51.41:726][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/UnrealProjects/WillMarch1/Will_o_wisp2/Saved/Config/Windows/Scalability.ini]
+[2020.03.10-14.51.41:726][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.03.10-14.51.41:726][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.03.10-14.51.41:726][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.03.10-14.51.41:726][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.03.10-14.51.41:726][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.03.10-14.51.41:726][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.03.10-14.51.41:726][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.03.10-14.51.41:726][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.03.10-14.51.41:726][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.03.10-14.51.41:726][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/UnrealProjects/WillMarch1/Will_o_wisp2/Saved/Config/Windows/Scalability.ini]
+[2020.03.10-14.51.41:726][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.03.10-14.51.41:726][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.03.10-14.51.41:726][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.03.10-14.51.41:726][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.03.10-14.51.41:726][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.03.10-14.51.41:726][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.03.10-14.51.41:726][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.03.10-14.51.41:726][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.03.10-14.51.41:726][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.03.10-14.51.41:726][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.03.10-14.51.41:726][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.03.10-14.51.41:726][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2020.03.10-14.51.41:726][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.03.10-14.51.41:726][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.03.10-14.51.41:726][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.03.10-14.51.41:726][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.03.10-14.51.41:726][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.03.10-14.51.41:726][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.03.10-14.51.41:726][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.03.10-14.51.41:726][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.03.10-14.51.41:726][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.03.10-14.51.41:726][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.03.10-14.51.41:726][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.03.10-14.51.41:726][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.03.10-14.51.41:726][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.03.10-14.51.41:726][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.03.10-14.51.41:726][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/UnrealProjects/WillMarch1/Will_o_wisp2/Saved/Config/Windows/Scalability.ini]
+[2020.03.10-14.51.41:726][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.03.10-14.51.41:726][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.03.10-14.51.41:726][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [D:/UnrealProjects/WillMarch1/Will_o_wisp2/Saved/Config/Windows/Scalability.ini]
+[2020.03.10-14.51.41:726][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.03.10-14.51.41:726][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.03.10-14.51.41:726][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.03.10-14.51.41:726][  0]LogInit: Selected Device Profile: [Windows]
+[2020.03.10-14.51.41:726][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.03.10-14.51.41:729][  0]LogHAL: Display: Platform has ~ 8 GB [8518291456 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2020.03.10-14.51.41:729][  0]LogInit: Going up to parent DeviceProfile []
+[2020.03.10-14.51.41:729][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/UnrealProjects/WillMarch1/Will_o_wisp2/Saved/Config/Windows/Scalability.ini]
+[2020.03.10-14.51.41:729][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.03.10-14.51.41:729][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.03.10-14.51.41:729][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/UnrealProjects/WillMarch1/Will_o_wisp2/Saved/Config/Windows/Scalability.ini]
+[2020.03.10-14.51.41:729][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.03.10-14.51.41:729][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/UnrealProjects/WillMarch1/Will_o_wisp2/Saved/Config/Windows/Scalability.ini]
+[2020.03.10-14.51.41:729][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.03.10-14.51.41:729][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.03.10-14.51.41:729][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.03.10-14.51.41:729][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.03.10-14.51.41:729][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.03.10-14.51.41:729][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.03.10-14.51.41:729][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.03.10-14.51.41:730][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.03.10-14.51.41:730][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.03.10-14.51.41:730][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.03.10-14.51.41:730][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.03.10-14.51.41:730][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.03.10-14.51.41:730][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.03.10-14.51.41:730][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.03.10-14.51.41:730][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.03.10-14.51.41:730][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.03.10-14.51.41:730][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.03.10-14.51.41:730][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.03.10-14.51.41:730][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/UnrealProjects/WillMarch1/Will_o_wisp2/Saved/Config/Windows/Scalability.ini]
+[2020.03.10-14.51.41:730][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.03.10-14.51.41:730][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.03.10-14.51.41:730][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.03.10-14.51.41:730][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.03.10-14.51.41:730][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.03.10-14.51.41:730][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.03.10-14.51.41:730][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.03.10-14.51.41:730][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.03.10-14.51.41:730][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.03.10-14.51.41:730][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.03.10-14.51.41:730][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.03.10-14.51.41:730][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.03.10-14.51.41:730][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.03.10-14.51.41:730][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.03.10-14.51.41:730][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.03.10-14.51.41:730][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.03.10-14.51.41:730][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.03.10-14.51.41:730][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.03.10-14.51.41:730][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.03.10-14.51.41:730][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.03.10-14.51.41:730][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.03.10-14.51.41:730][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.03.10-14.51.41:730][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.03.10-14.51.41:730][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.03.10-14.51.41:730][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.03.10-14.51.41:730][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.03.10-14.51.41:730][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.03.10-14.51.41:730][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.03.10-14.51.41:730][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.03.10-14.51.41:730][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.03.10-14.51.41:730][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/UnrealProjects/WillMarch1/Will_o_wisp2/Saved/Config/Windows/Scalability.ini]
+[2020.03.10-14.51.41:730][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.03.10-14.51.41:730][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.03.10-14.51.41:730][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.03.10-14.51.41:730][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.03.10-14.51.41:730][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.03.10-14.51.41:730][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.03.10-14.51.41:730][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.03.10-14.51.41:730][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.03.10-14.51.41:730][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.03.10-14.51.41:730][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/UnrealProjects/WillMarch1/Will_o_wisp2/Saved/Config/Windows/Scalability.ini]
+[2020.03.10-14.51.41:730][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.03.10-14.51.41:730][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.03.10-14.51.41:730][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.03.10-14.51.41:730][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.03.10-14.51.41:730][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.03.10-14.51.41:730][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.03.10-14.51.41:730][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.03.10-14.51.41:730][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.03.10-14.51.41:730][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.03.10-14.51.41:730][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.03.10-14.51.41:730][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.03.10-14.51.41:730][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2020.03.10-14.51.41:730][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.03.10-14.51.41:730][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.03.10-14.51.41:730][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.03.10-14.51.41:730][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.03.10-14.51.41:730][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.03.10-14.51.41:731][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.03.10-14.51.41:731][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.03.10-14.51.41:731][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.03.10-14.51.41:731][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.03.10-14.51.41:731][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.03.10-14.51.41:731][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.03.10-14.51.41:731][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.03.10-14.51.41:731][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.03.10-14.51.41:731][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.03.10-14.51.41:731][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/UnrealProjects/WillMarch1/Will_o_wisp2/Saved/Config/Windows/Scalability.ini]
+[2020.03.10-14.51.41:731][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.03.10-14.51.41:731][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.03.10-14.51.41:731][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [D:/UnrealProjects/WillMarch1/Will_o_wisp2/Saved/Config/Windows/Scalability.ini]
+[2020.03.10-14.51.41:731][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.03.10-14.51.41:731][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.03.10-14.51.41:731][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.03.10-14.51.41:731][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2020.03.10-14.51.41:731][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2020.03.10-14.51.41:731][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2020.03.10-14.51.41:731][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [D:/UnrealProjects/WillMarch1/Will_o_wisp2/Saved/Config/Windows/Engine.ini]
+[2020.03.10-14.51.41:731][  0]LogInit: Computer: LINHCHI
+[2020.03.10-14.51.41:731][  0]LogInit: User: user
+[2020.03.10-14.51.41:731][  0]LogInit: CPU Page size=4096, Cores=6
+[2020.03.10-14.51.41:731][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.03.10-14.51.41:731][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2020.03.10-14.51.41:731][  0]LogMemory: Platform Memory Stats for Windows
+[2020.03.10-14.51.41:731][  0]LogMemory: Process Physical Memory: 105.16 MB used, 105.16 MB peak
+[2020.03.10-14.51.41:731][  0]LogMemory: Process Virtual Memory: 101.59 MB used, 101.59 MB peak
+[2020.03.10-14.51.41:731][  0]LogMemory: Physical Memory: 5059.07 MB used,  3064.61 MB free, 8123.68 MB total
+[2020.03.10-14.51.41:731][  0]LogMemory: Virtual Memory: 5159.24 MB used,  134212568.00 MB free, 134217728.00 MB total
+[2020.03.10-14.51.41:735][  0]LogWindows: WindowsPlatformFeatures enabled
+[2020.03.10-14.51.41:749][  0]LogInit: Using OS detected language (en-US).
+[2020.03.10-14.51.41:749][  0]LogInit: Using OS detected locale (en-US).
+[2020.03.10-14.51.41:750][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2020.03.10-14.51.41:911][  0]LogInit: Setting process to per monitor DPI aware
+[2020.03.10-14.51.41:948][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2020.03.10-14.51.41:948][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2020.03.10-14.51.42:099][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.03.10-14.51.42:099][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2020.03.10-14.51.42:099][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2020.03.10-14.51.42:099][  0]LogD3D11RHI: D3D11 adapters:
+[2020.03.10-14.51.42:186][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1050 Ti' (Feature Level 11_0)
+[2020.03.10-14.51.42:186][  0]LogD3D11RHI:       4018/0/4061 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2020.03.10-14.51.42:188][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.03.10-14.51.42:188][  0]LogD3D11RHI:       0/0/4061 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.03.10-14.51.42:188][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.03.10-14.51.42:196][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.03.10-14.51.42:197][  0]LogD3D11RHI:     GPU DeviceId: 0x1c82 (for the marketing name, search the web for "GPU Device Id")
+[2020.03.10-14.51.42:197][  0]LogWindows: EnumDisplayDevices:
+[2020.03.10-14.51.42:197][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1050 Ti' (P:1 D:1)
+[2020.03.10-14.51.42:197][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1050 Ti' (P:0 D:0)
+[2020.03.10-14.51.42:197][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1050 Ti' (P:0 D:0)
+[2020.03.10-14.51.42:197][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1050 Ti' (P:0 D:0)
+[2020.03.10-14.51.42:198][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2020.03.10-14.51.42:198][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1050 Ti
+[2020.03.10-14.51.42:198][  0]LogD3D11RHI:   Driver Version: 432.00 (internal:26.21.14.3200, unified:432.00)
+[2020.03.10-14.51.42:198][  0]LogD3D11RHI:      Driver Date: 7-24-2019
+[2020.03.10-14.51.42:198][  0]LogRHI: Texture pool is 2812 MB (70% of 4018 MB)
+[2020.03.10-14.51.42:245][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2020.03.10-14.51.42:245][  0]LogD3D11RHI: Async texture creation enabled
+[2020.03.10-14.51.42:272][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2020.03.10-14.51.42:526][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2020.03.10-14.51.42:558][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2020.03.10-14.51.42:558][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2020.03.10-14.51.42:558][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ATC'
+[2020.03.10-14.51.42:558][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2020.03.10-14.51.42:558][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1'
+[2020.03.10-14.51.42:558][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1a'
+[2020.03.10-14.51.42:558][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2020.03.10-14.51.42:558][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_PVRTC'
+[2020.03.10-14.51.42:558][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2020.03.10-14.51.42:558][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2020.03.10-14.51.42:558][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ATCClient'
+[2020.03.10-14.51.42:558][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2020.03.10-14.51.42:559][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1Client'
+[2020.03.10-14.51.42:559][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1aClient'
+[2020.03.10-14.51.42:559][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2020.03.10-14.51.42:559][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_PVRTCClient'
+[2020.03.10-14.51.42:559][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2020.03.10-14.51.42:559][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2020.03.10-14.51.42:579][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2020.03.10-14.51.42:579][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2020.03.10-14.51.42:587][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2020.03.10-14.51.42:594][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2020.03.10-14.51.42:602][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2020.03.10-14.51.42:610][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2020.03.10-14.51.42:617][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2020.03.10-14.51.42:625][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2020.03.10-14.51.42:652][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2020.03.10-14.51.42:652][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2020.03.10-14.51.42:666][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2020.03.10-14.51.42:667][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2020.03.10-14.51.42:674][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2020.03.10-14.51.42:682][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2020.03.10-14.51.42:689][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2020.03.10-14.51.42:697][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2020.03.10-14.51.42:697][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.03.10-14.51.42:700][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2020.03.10-14.51.42:724][  0]LogShaderCompilers: Guid format shader working directory is 4 characters bigger than the processId version (D:/UnrealProjects/WillMarch1/Will_o_wisp2/Intermediate/Shaders/WorkingDirectory/7064/).
+[2020.03.10-14.51.42:724][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/user/AppData/Local/Temp/UnrealShaderWorkingDir/B3084CD54179FC1D6E4D16BF92E746D4/'.
+[2020.03.10-14.51.42:724][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2020.03.10-14.51.42:725][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2020.03.10-14.51.42:725][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.03.10-14.51.43:424][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.03.10-14.51.43:475][  0]LogDerivedDataCache: Loaded boot cache 0.05s 78MB C:/Users/user/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc.
+[2020.03.10-14.51.43:475][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/user/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc
+[2020.03.10-14.51.43:475][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/UnrealProjects/WillMarch1/Will_o_wisp2/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.03.10-14.51.43:475][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.03.10-14.51.43:475][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/UnrealProjects/WillMarch1/Will_o_wisp2/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.03.10-14.51.43:475][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.03.10-14.51.43:485][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.03.10-14.51.43:485][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.03.10-14.51.43:485][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2020.03.10-14.51.43:487][  0]LogDerivedDataCache: Using Local data cache path C:/Users/user/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.03.10-14.51.43:487][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2020.03.10-14.51.43:487][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2020.03.10-14.51.43:513][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2020.03.10-14.51.43:516][  0]LogSlate: Using FreeType 2.10.0
+[2020.03.10-14.51.43:517][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.03.10-14.51.43:568][  0]LogAssetRegistry: FAssetRegistry took 0.0023 seconds to start up
+[2020.03.10-14.51.43:857][  0]LogInit: Selected Device Profile: [Windows]
+[2020.03.10-14.51.44:029][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.03.10-14.51.44:029][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2020.03.10-14.51.44:029][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2020.03.10-14.51.44:029][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2020.03.10-14.51.44:030][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2020.03.10-14.51.44:075][  0]LogNetVersion: akvarel 1.0.0, NetCL: 10570792, EngineNetVer: 13, GameNetVer: 0 (Checksum: 1821014928)
+[2020.03.10-14.51.45:197][  0]LogPackageLocalizationCache: Processed 10 localized package path(s) for 1 prioritized culture(s) in 0.052338 seconds
+[2020.03.10-14.51.45:205][  0]LogUObjectArray: 46750 objects as part of root set at end of initial load.
+[2020.03.10-14.51.45:205][  0]LogUObjectAllocator: 8137160 out of 0 bytes used by permanent object pool.
+[2020.03.10-14.51.45:205][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.03.10-14.51.45:614][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.03.10-14.51.45:617][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.03.10-14.51.45:670][  0]SourceControl: Source control is disabled
+[2020.03.10-14.51.46:114][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.03.10-14.51.46:125][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.03.10-14.51.46:125][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.03.10-14.51.46:215][  0]LogOcInput: OculusInput pre-init called
+[2020.03.10-14.51.46:222][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2020.03.10-14.51.46:222][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2020.03.10-14.51.46:293][  0]LogEngine: Initializing Engine...
+[2020.03.10-14.51.46:294][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.03.10-14.51.46:295][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2020.03.10-14.51.46:645][  0]LogInit: Initializing FReadOnlyCVARCache
+[2020.03.10-14.51.46:652][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.03.10-14.51.46:724][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.03.10-14.51.46:724][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.03.10-14.51.46:724][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.03.10-14.51.46:724][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.03.10-14.51.46:724][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.03.10-14.51.46:725][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.03.10-14.51.46:725][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.03.10-14.51.46:725][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.03.10-14.51.46:725][  0]LogAudio: Display: Using built-in audio occlusion.
+[2020.03.10-14.51.46:725][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2020.03.10-14.51.46:751][  0]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.03.10-14.51.46:751][  0]LogAudioMixer: Display: Name: Speakers (2- Realtek(R) Audio)
+[2020.03.10-14.51.46:751][  0]LogAudioMixer: Display: Is Default: Yes
+[2020.03.10-14.51.46:751][  0]LogAudioMixer: Display: Sample Rate: 48000
+[2020.03.10-14.51.46:751][  0]LogAudioMixer: Display: Channel Count Used: 2
+[2020.03.10-14.51.46:751][  0]LogAudioMixer: Display: Device Channel Count: 2
+[2020.03.10-14.51.46:751][  0]LogAudioMixer: Display: Channel Order:
+[2020.03.10-14.51.46:751][  0]LogAudioMixer: Display: 0: FrontLeft
+[2020.03.10-14.51.46:751][  0]LogAudioMixer: Display: 1: FrontRight
+[2020.03.10-14.51.46:794][  0]LogAudioMixer: Display: Using Audio Device Speakers (2- Realtek(R) Audio)
+[2020.03.10-14.51.46:800][  0]LogInit: FAudioDevice initialized.
+[2020.03.10-14.51.46:801][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2020.03.10-14.51.46:994][  0]LogDerivedDataCache: Saved boot cache 0.19s 78MB C:/Users/user/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc.
+[2020.03.10-14.51.47:002][  0]LogInit: Texture streaming: Enabled
+[2020.03.10-14.51.47:012][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.03.10-14.51.47:012][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2020.03.10-14.51.47:047][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2020.03.10-14.51.47:101][  0]LogInit: Transaction tracking system initialized
+[2020.03.10-14.51.47:110][  0]BlueprintLog: New page: Editor Load
+[2020.03.10-14.51.47:138][  0]LocalizationService: Localization service is disabled
+[2020.03.10-14.51.47:212][  0]LogLinker: Warning: Failed to load '/Game/ThirdPersonBP/ThirdPersonOverview': Can't find file.
+[2020.03.10-14.51.47:212][  0]LogLinker: Warning: Failed to load '/Game/ThirdPersonBP/ThirdPersonOverview': Can't find file.
+[2020.03.10-14.51.47:212][  0]LogUObjectGlobals: Warning: Failed to find object 'Class /Game/ThirdPersonBP/ThirdPersonOverview.ThirdPersonOverview_C'
+[2020.03.10-14.51.47:497][  0]LogFileCache: Scanning file cache for directory 'D:/UnrealProjects/WillMarch1/Will_o_wisp2/Content/' took 0.02s
+[2020.03.10-14.51.47:497][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.03.10-14.51.47:497][  0]LogCook: Display: Mobile HDR setting 1
+[2020.03.10-14.51.48:326][  0]Cmd: MAP LOAD FILE="D:/UnrealProjects/WillMarch1/Will_o_wisp2/Content/my/levl/III_modul_ann.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.03.10-14.51.48:327][  0]LightingResults: New page: Lighting Build
+[2020.03.10-14.51.48:327][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2020.03.10-14.51.48:327][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.03.10-14.51.48:328][  0]MapCheck: New page: Map Check
+[2020.03.10-14.51.48:328][  0]LightingResults: New page: Lighting Build
+[2020.03.10-14.51.48:364][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.15ms
+[2020.03.10-14.51.51:363][  0]LogAIModule: Creating AISystem for world III_modul_ann
+[2020.03.10-14.51.51:398][  0]LogPhysics: Warning: Scale for /Game/my/levl/III_modul_ann.III_modul_ann:PersistentLevel.room_statick_camera14.bottom_free_cam has a component set to zero, which will result in a bad body instance. Scale:X=18.375 Y=108.750 Z=0.000
+[2020.03.10-14.51.51:407][  0]LogBlueprintUserMessages: [ABP_CustomMovement_C_0] 2_4
+[2020.03.10-14.51.51:408][  0]LogBlueprintUserMessages: [ABP_CustomMovement_C_0] 2_4
+[2020.03.10-14.51.51:477][  0]LogPhysics: Warning: Scale for /Game/my/levl/III_modul_ann.III_modul_ann:PersistentLevel.room_statick_camera14.bottom_free_cam has a component set to zero, which will result in a bad body instance. Scale:X=18.375 Y=108.750 Z=0.000
+[2020.03.10-14.51.51:516][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.03.10-14.51.51:516][  0]LogNavigation: Warning: Recreating dtNavMesh instance due to saved navmesh origin (X=512.500 Y=32275.000 Z=1272.500, usually the RecastNavMesh location) not being aligned with tile size (988 uu) 
+[2020.03.10-14.51.51:575][  0]LogUObjectHash: Compacting FUObjectHashTables data took   3.72ms
+[2020.03.10-14.51.51:581][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.03.10-14.51.51:582][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.165ms to complete.
+[2020.03.10-14.51.51:582][  0]LogFileHelpers: Loading map 'III_modul_ann' took 3.255
+[2020.03.10-14.51.51:728][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.10-14.51.51:736][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.10-14.51.51:743][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.10-14.51.51:751][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.10-14.51.51:756][  0]LogCollectionManager: Loaded 0 collections in 0.002144 seconds
+[2020.03.10-14.51.51:770][  0]LogFileCache: Scanning file cache for directory 'D:/UnrealProjects/WillMarch1/Will_o_wisp2/Saved/Collections/' took 0.00s
+[2020.03.10-14.51.51:770][  0]LogFileCache: Scanning file cache for directory 'D:/UnrealProjects/WillMarch1/Will_o_wisp2/Content/Developers/user/Collections/' took 0.00s
+[2020.03.10-14.51.51:770][  0]LogFileCache: Scanning file cache for directory 'D:/UnrealProjects/WillMarch1/Will_o_wisp2/Content/Collections/' took 0.00s
+[2020.03.10-14.51.51:770][  0]LogContentBrowser: Native class hierarchy populated in 0.0093 seconds. Added 3015 classes and 717 folders.
+[2020.03.10-14.51.51:774][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2020.03.10-14.51.51:835][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2020.03.10-14.51.51:839][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 2 classes and 3 folders.
+[2020.03.10-14.51.51:874][  0]LogSlate: Took 0.000246 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.03.10-14.51.51:876][  0]LogSlate: Took 0.000170 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.03.10-14.51.51:881][  0]LogSlate: Took 0.000369 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.03.10-14.51.51:982][  0]LogRenderer: Reallocating scene render targets to support 1216x652 Format 10 NumSamples 1 (Frame:1).
+[2020.03.10-14.51.52:080][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2020.03.10-14.51.52:080][  0]LogLoad: (Engine Initialization) Total time: 12.08 seconds
+[2020.03.10-14.51.52:080][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.03.10-14.51.52:149][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2020.03.10-14.51.52:157][  0]LogSlate: Took 0.000191 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.03.10-14.51.52:170][  1]LogFileCache: Retrieving MD5 hashes for directory 'D:/UnrealProjects/WillMarch1/Will_o_wisp2/Content/' took 0.08s
+[2020.03.10-14.51.52:203][  1]LogAssetRegistry: Asset discovery search completed in 8.6358 seconds
+[2020.03.10-14.51.52:207][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000012 seconds (updated 0 objects)
+[2020.03.10-14.51.53:108][ 57]LogSlate: Took 0.000249 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.03.10-14.53.02:837][235]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/Widgets/WD_LiquidHealth.WD_LiquidHealth
+[2020.03.10-14.53.03:127][235]LogClass: Warning: Enum '/Game/Explosions/DemoRoom/BluePrints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' was upgraded to use FText to store its display name data. Please re-save this asset to avoid issues with localization and determinstic cooking.
+[2020.03.10-14.53.03:128][235]LogClass: Warning: Enum '/Game/Particles_Wind_Control_System/Blueprints/Enumerations/P_Leaves_Enum.P_Leaves_Enum' was upgraded to use FText to store its display name data. Please re-save this asset to avoid issues with localization and determinstic cooking.
+[2020.03.10-14.53.03:128][235]LogEnum: Warning: Enum name collision: 'BP_DemoDisplay_Enum::ROund' is in both '/Game/RoboBars/DemoRoom/BluePrint/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' and '/Game/Explosions/DemoRoom/BluePrints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum'
+[2020.03.10-14.53.03:128][235]LogEnum: Warning: Enum name collision: 'BP_DemoDisplay_Enum::SquareL' is in both '/Game/RoboBars/DemoRoom/BluePrint/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' and '/Game/Explosions/DemoRoom/BluePrints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum'
+[2020.03.10-14.53.03:128][235]LogEnum: Warning: Enum name collision: 'BP_DemoDisplay_Enum::RoomL' is in both '/Game/RoboBars/DemoRoom/BluePrint/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' and '/Game/Explosions/DemoRoom/BluePrints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum'
+[2020.03.10-14.53.03:128][235]LogEnum: Warning: Enum name collision: 'BP_DemoDisplay_Enum::DescriptionOnly' is in both '/Game/RoboBars/DemoRoom/BluePrint/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' and '/Game/Explosions/DemoRoom/BluePrints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum'
+[2020.03.10-14.53.03:128][235]LogEnum: Warning: Enum name collision: 'BP_DemoDisplay_Enum::NewEnumerator0' is in both '/Game/RoboBars/DemoRoom/BluePrint/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' and '/Game/Explosions/DemoRoom/BluePrints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum'
+[2020.03.10-14.53.03:128][235]LogEnum: Warning: Enum name collision: 'BP_DemoDisplay_Enum::BP_DemoDisplay_MAX' is in both '/Game/RoboBars/DemoRoom/BluePrint/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' and '/Game/Explosions/DemoRoom/BluePrints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum'
+[2020.03.10-14.53.03:128][235]LogEnum: Warning: Enum name collision: 'BP_DemoDisplay_Enum::ROund' is in both '/Game/RoboBars/DemoRoom/BluePrint/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' and '/Game/Explosions/DemoRoom/BluePrints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum'
+[2020.03.10-14.53.03:128][235]LogEnum: Warning: Enum name collision: 'BP_DemoDisplay_Enum::SquareL' is in both '/Game/RoboBars/DemoRoom/BluePrint/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' and '/Game/Explosions/DemoRoom/BluePrints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum'
+[2020.03.10-14.53.03:128][235]LogEnum: Warning: Enum name collision: 'BP_DemoDisplay_Enum::RoomL' is in both '/Game/RoboBars/DemoRoom/BluePrint/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' and '/Game/Explosions/DemoRoom/BluePrints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum'
+[2020.03.10-14.53.03:128][235]LogEnum: Warning: Enum name collision: 'BP_DemoDisplay_Enum::DescriptionOnly' is in both '/Game/RoboBars/DemoRoom/BluePrint/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' and '/Game/Explosions/DemoRoom/BluePrints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum'
+[2020.03.10-14.53.03:128][235]LogEnum: Warning: Enum name collision: 'BP_DemoDisplay_Enum::NewEnumerator0' is in both '/Game/RoboBars/DemoRoom/BluePrint/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' and '/Game/Explosions/DemoRoom/BluePrints/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum'
+[2020.03.10-14.53.03:129][235]LogEnum: Warning: Enum name collision: 'BP_DemoRoom_Enum::Standard' is in both '/Game/RoboBars/DemoRoom/BluePrint/BP_DemoRoom_Enum.BP_DemoRoom_Enum' and '/Game/Explosions/DemoRoom/BluePrints/BP_DemoRoom_Enum.BP_DemoRoom_Enum'
+[2020.03.10-14.53.03:129][235]LogEnum: Warning: Enum name collision: 'BP_DemoRoom_Enum::RoofwithHole' is in both '/Game/RoboBars/DemoRoom/BluePrint/BP_DemoRoom_Enum.BP_DemoRoom_Enum' and '/Game/Explosions/DemoRoom/BluePrints/BP_DemoRoom_Enum.BP_DemoRoom_Enum'
+[2020.03.10-14.53.03:129][235]LogEnum: Warning: Enum name collision: 'BP_DemoRoom_Enum::RoofOpen' is in both '/Game/RoboBars/DemoRoom/BluePrint/BP_DemoRoom_Enum.BP_DemoRoom_Enum' and '/Game/Explosions/DemoRoom/BluePrints/BP_DemoRoom_Enum.BP_DemoRoom_Enum'
+[2020.03.10-14.53.03:129][235]LogEnum: Warning: Enum name collision: 'BP_DemoRoom_Enum::BP_DemoRoom_MAX' is in both '/Game/RoboBars/DemoRoom/BluePrint/BP_DemoRoom_Enum.BP_DemoRoom_Enum' and '/Game/Explosions/DemoRoom/BluePrints/BP_DemoRoom_Enum.BP_DemoRoom_Enum'
+[2020.03.10-14.53.03:129][235]LogEnum: Warning: Enum name collision: 'BP_DemoRoom_Enum::Standard' is in both '/Game/RoboBars/DemoRoom/BluePrint/BP_DemoRoom_Enum.BP_DemoRoom_Enum' and '/Game/Explosions/DemoRoom/BluePrints/BP_DemoRoom_Enum.BP_DemoRoom_Enum'
+[2020.03.10-14.53.03:129][235]LogEnum: Warning: Enum name collision: 'BP_DemoRoom_Enum::RoofwithHole' is in both '/Game/RoboBars/DemoRoom/BluePrint/BP_DemoRoom_Enum.BP_DemoRoom_Enum' and '/Game/Explosions/DemoRoom/BluePrints/BP_DemoRoom_Enum.BP_DemoRoom_Enum'
+[2020.03.10-14.53.03:129][235]LogEnum: Warning: Enum name collision: 'BP_DemoRoom_Enum::RoofOpen' is in both '/Game/RoboBars/DemoRoom/BluePrint/BP_DemoRoom_Enum.BP_DemoRoom_Enum' and '/Game/Explosions/DemoRoom/BluePrints/BP_DemoRoom_Enum.BP_DemoRoom_Enum'
+[2020.03.10-14.53.03:133][235]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 121 classes and 0 folders.
+[2020.03.10-14.53.04:349][235]LogSlate: Took 0.000229 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2020.03.10-14.53.47:853][872]LogSlate: Window 'WD_LiquidHealth' being destroyed
+[2020.03.10-14.53.53:162][427]LogMaterial: Display: Missing cached shader map for material Material_0, compiling. 
+[2020.03.10-14.53.53:193][428]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 4
+[2020.03.10-14.53.53:193][428]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 3
+[2020.03.10-14.53.53:193][428]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 2
+[2020.03.10-14.53.53:193][428]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 1
+[2020.03.10-14.53.53:239][428]LogMaterial: Display: Missing cached shader map for material Material_1, compiling. 
+[2020.03.10-14.53.53:250][428]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 4
+[2020.03.10-14.53.53:250][428]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 3
+[2020.03.10-14.53.53:250][428]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 2
+[2020.03.10-14.53.53:250][428]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 1
+[2020.03.10-14.53.53:346][429]LogMaterial: Display: Missing cached shader map for material Material_2, compiling. 
+[2020.03.10-14.53.53:425][431]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2020.03.10-14.53.53:592][439]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 4
+[2020.03.10-14.53.53:638][441]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 3
+[2020.03.10-14.53.53:763][447]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 2
+[2020.03.10-14.53.53:825][450]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 1
+[2020.03.10-14.54.19:781][448]LogMaterial: Display: Missing cached shader map for material M_SurfaceCircleBar, compiling. 
+[2020.03.10-14.54.19:808][448]LogMaterial: Display: Missing cached shader map for material M_SurfaceCircleBar, compiling. 
+[2020.03.10-14.54.19:840][448]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 12
+[2020.03.10-14.54.19:840][448]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 10
+[2020.03.10-14.54.19:840][448]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 8
+[2020.03.10-14.54.19:840][448]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 6
+[2020.03.10-14.54.19:840][448]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 4
+[2020.03.10-14.54.19:840][448]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 2
+[2020.03.10-14.54.19:840][448]LogMaterial: Display: Missing cached shader map for material M_SurfaceCircleBar, compiling. 
+[2020.03.10-14.54.19:870][448]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 24
+[2020.03.10-14.54.19:870][448]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 20
+[2020.03.10-14.54.19:882][448]LogAssetEditorSubsystem: Opening Asset editor for MaterialInstanceConstant /Game/RoboBars/Materials/ExamplesSurfaceCircle/MI_OutlineRadius.MI_OutlineRadius
+[2020.03.10-14.54.20:412][448]LogStaticMesh: Building static mesh SM_PreviewCircleModel...
+[2020.03.10-14.54.20:422][448]LogStaticMesh: Built static mesh [0.01s] /Game/RoboBars/Materials/ExamplesSurface/SM_PreviewCircleModel.SM_PreviewCircleModel
+[2020.03.10-14.54.20:581][448]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 16
+[2020.03.10-14.54.21:318][448]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 13
+[2020.03.10-14.54.21:318][448]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 11
+[2020.03.10-14.54.21:318][448]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 9
+[2020.03.10-14.54.21:318][448]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 7
+[2020.03.10-14.54.21:318][448]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 6
+[2020.03.10-14.54.21:318][448]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 5
+[2020.03.10-14.54.21:318][448]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 4
+[2020.03.10-14.54.21:345][448]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 3
+[2020.03.10-14.54.21:361][448]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 2
+[2020.03.10-14.54.21:361][448]LogRenderer: Reallocating scene render targets to support 1336x920 Format 10 NumSamples 1 (Frame:1).
+[2020.03.10-14.54.21:378][448]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 1
+[2020.03.10-14.54.27:977][191]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2020.03.10-14.54.27:977][191]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.03.10-14.54.48:442][570]LogAssetEditorSubsystem: Opening Asset editor for MaterialInstanceConstant /Game/RoboBars/Materials/ExamplesUmgCircle/MI_SoftNeon.MI_SoftNeon
+[2020.03.10-14.55.07:645][820]LogSlate: Window 'Color Picker' being destroyed
+[2020.03.10-14.55.23:261][682]LogAssetEditorSubsystem: Opening Asset editor for Texture2D /Game/RoboBars/Textures/Gloss/T_GLossShadowVertical.T_GLossShadowVertical
+[2020.03.10-14.55.23:266][682]LogContentBrowser: Native class hierarchy updated for 'TextureEditor' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2020.03.10-14.55.40:922][716]LogSlate: Window 'Color Picker' being destroyed
+[2020.03.10-14.56.22:665][664]LogUObjectHash: Compacting FUObjectHashTables data took   7.97ms
+[2020.03.10-14.56.22:669][664]TextureStreamingBuild: Display: Compiling optional shaders took 0.000 seconds.
+[2020.03.10-14.56.22:749][664]LogUObjectHash: Compacting FUObjectHashTables data took   5.87ms
+[2020.03.10-14.56.22:772][664]LogSavePackage: Moving 'D:/UnrealProjects/WillMarch1/Will_o_wisp2/Saved/MI_SoftNeon08B38180422ED9CDDDBBBD8639B703C6.tmp' to 'D:/UnrealProjects/WillMarch1/Will_o_wisp2/Content/RoboBars/Materials/ExamplesUmgCircle/MI_SoftNeon.uasset'
+[2020.03.10-14.56.22:787][664]AssetCheck: New page: Asset Save: MI_SoftNeon
+[2020.03.10-14.56.22:787][664]LogContentValidation: Display: Validating MaterialInstanceConstant /Game/RoboBars/Materials/ExamplesUmgCircle/MI_SoftNeon.MI_SoftNeon
+[2020.03.10-14.57.51:191][871]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\Linh\2019-2020\3 module\widgets\timer.png)
+[2020.03.10-14.57.51:219][871]LogTexture: Display: Building textures: timer (BGRA8, 250X300)
+[2020.03.10-14.57.53:417][980]LogAssetEditorSubsystem: Opening Asset editor for Texture2D /Game/Widgets/TimerW/timer.timer
+[2020.03.10-14.58.08:072][589]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/TimerW/T_timer" FILE="D:/UnrealProjects/WillMarch1/Will_o_wisp2/Content/Widgets/TimerW/T_timer.uasset" SILENT=true
+[2020.03.10-14.58.08:099][589]LogSavePackage: Moving 'D:/UnrealProjects/WillMarch1/Will_o_wisp2/Saved/T_timerCE05A0F04424E6F86C6612B6B689E6BC.tmp' to 'D:/UnrealProjects/WillMarch1/Will_o_wisp2/Content/Widgets/TimerW/T_timer.uasset'
+[2020.03.10-14.58.08:671][589]LogUObjectHash: Compacting FUObjectHashTables data took   3.46ms
+[2020.03.10-14.58.08:716][589]LogUObjectHash: Compacting FUObjectHashTables data took   3.14ms
+[2020.03.10-14.58.08:752][589]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
+[2020.03.10-14.58.08:903][589]AssetCheck: New page: Asset Save: T_timer
+[2020.03.10-14.58.08:903][589]LogContentValidation: Display: Validating Texture2D /Game/Widgets/TimerW/T_timer.T_timer
+[2020.03.10-14.58.27:241][200]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\Linh\2019-2020\3 module\widgets\leafMask.png)
+[2020.03.10-14.58.27:255][200]LogTexture: Display: Building textures: leafMask (AutoDXT, 512X512)
+[2020.03.10-14.58.27:331][200]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\Linh\2019-2020\3 module\widgets\hpFront.png)
+[2020.03.10-14.58.27:335][200]LogTexture: Display: Building textures: hpFront (AutoDXT, 512X512)
+[2020.03.10-14.58.27:413][200]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\Linh\2019-2020\3 module\widgets\hpMask.png)
+[2020.03.10-14.58.27:418][200]LogTexture: Display: Building textures: hpMask (AutoDXT, 512X512)
+[2020.03.10-14.58.27:496][200]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\Linh\2019-2020\3 module\widgets\leafFront.png)
+[2020.03.10-14.58.27:523][200]LogTexture: Display: Building textures: leafFront (AutoDXT, 512X512)
+[2020.03.10-14.58.35:019][453]LogAssetEditorSubsystem: Opening Asset editor for Texture2D /Game/Widgets/leafMask.leafMask
+[2020.03.10-14.58.44:824][537]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/T_leafMask" FILE="D:/UnrealProjects/WillMarch1/Will_o_wisp2/Content/Widgets/T_leafMask.uasset" SILENT=true
+[2020.03.10-14.58.44:847][537]LogSavePackage: Moving 'D:/UnrealProjects/WillMarch1/Will_o_wisp2/Saved/T_leafMask2915AD1D4E91DB2FA3F3E0B6778EB952.tmp' to 'D:/UnrealProjects/WillMarch1/Will_o_wisp2/Content/Widgets/T_leafMask.uasset'
+[2020.03.10-14.58.45:422][537]LogUObjectHash: Compacting FUObjectHashTables data took   3.42ms
+[2020.03.10-14.58.45:469][537]LogUObjectHash: Compacting FUObjectHashTables data took   3.20ms
+[2020.03.10-14.58.45:503][537]LogUObjectHash: Compacting FUObjectHashTables data took   1.19ms
+[2020.03.10-14.58.45:659][537]AssetCheck: New page: Asset Save: T_leafMask
+[2020.03.10-14.58.45:659][537]LogContentValidation: Display: Validating Texture2D /Game/Widgets/T_leafMask.T_leafMask
+[2020.03.10-14.58.50:990][ 75]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/T_leafFront" FILE="D:/UnrealProjects/WillMarch1/Will_o_wisp2/Content/Widgets/T_leafFront.uasset" SILENT=true
+[2020.03.10-14.58.51:008][ 75]LogSavePackage: Moving 'D:/UnrealProjects/WillMarch1/Will_o_wisp2/Saved/T_leafFrontC02DFD5045F14429426AA989F8848881.tmp' to 'D:/UnrealProjects/WillMarch1/Will_o_wisp2/Content/Widgets/T_leafFront.uasset'
+[2020.03.10-14.58.51:557][ 75]LogUObjectHash: Compacting FUObjectHashTables data took   3.31ms
+[2020.03.10-14.58.51:603][ 75]LogUObjectHash: Compacting FUObjectHashTables data took   3.16ms
+[2020.03.10-14.58.51:639][ 75]LogUObjectHash: Compacting FUObjectHashTables data took   1.40ms
+[2020.03.10-14.58.51:796][ 75]AssetCheck: New page: Asset Save: T_leafFront
+[2020.03.10-14.58.51:796][ 75]LogContentValidation: Display: Validating Texture2D /Game/Widgets/T_leafFront.T_leafFront
+[2020.03.10-14.58.56:509][553]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/T_hpMask" FILE="D:/UnrealProjects/WillMarch1/Will_o_wisp2/Content/Widgets/T_hpMask.uasset" SILENT=true
+[2020.03.10-14.58.56:547][553]LogSavePackage: Moving 'D:/UnrealProjects/WillMarch1/Will_o_wisp2/Saved/T_hpMask6BC7E93A428A03CD8ED320AF1DFCB970.tmp' to 'D:/UnrealProjects/WillMarch1/Will_o_wisp2/Content/Widgets/T_hpMask.uasset'
+[2020.03.10-14.58.57:141][553]LogUObjectHash: Compacting FUObjectHashTables data took   3.34ms
+[2020.03.10-14.58.57:185][553]LogUObjectHash: Compacting FUObjectHashTables data took   3.17ms
+[2020.03.10-14.58.57:222][553]LogUObjectHash: Compacting FUObjectHashTables data took   1.39ms
+[2020.03.10-14.58.57:381][553]AssetCheck: New page: Asset Save: T_hpMask
+[2020.03.10-14.58.57:381][553]LogContentValidation: Display: Validating Texture2D /Game/Widgets/T_hpMask.T_hpMask
+[2020.03.10-14.59.03:657][199]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/T_hpFront" FILE="D:/UnrealProjects/WillMarch1/Will_o_wisp2/Content/Widgets/T_hpFront.uasset" SILENT=true
+[2020.03.10-14.59.03:675][199]LogSavePackage: Moving 'D:/UnrealProjects/WillMarch1/Will_o_wisp2/Saved/T_hpFrontA916FC344F9C7706A31FF5B2374EC97F.tmp' to 'D:/UnrealProjects/WillMarch1/Will_o_wisp2/Content/Widgets/T_hpFront.uasset'
+[2020.03.10-14.59.04:190][199]LogUObjectHash: Compacting FUObjectHashTables data took   3.15ms
+[2020.03.10-14.59.04:236][199]LogUObjectHash: Compacting FUObjectHashTables data took   3.17ms
+[2020.03.10-14.59.04:271][199]LogUObjectHash: Compacting FUObjectHashTables data took   1.19ms
+[2020.03.10-14.59.04:421][199]AssetCheck: New page: Asset Save: T_hpFront
+[2020.03.10-14.59.04:421][199]LogContentValidation: Display: Validating Texture2D /Game/Widgets/T_hpFront.T_hpFront
