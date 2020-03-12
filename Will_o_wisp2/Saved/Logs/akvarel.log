@@ -4979,3 +4979,11 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.03.12-09.06.51:832][687]LogSavePackage: Moving 'D:/UnrealProjects/WillMarch1/Will_o_wisp2/Saved/tutorial_lvl_Auto35BE2DE7A47F220D91673A294C2DD375A.tmp' to 'D:/UnrealProjects/WillMarch1/Will_o_wisp2/Saved/Autosaves/Game/my/levl/tutorial_lvl_Auto3.umap'
 [2020.03.12-09.06.51:834][687]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/my/levl/tutorial_lvl' took 0.433
 [2020.03.12-09.06.51:834][687]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.433
+[2020.03.12-09.08.19:018][949]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2020.03.12-09.08.19:018][949]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2020.03.12-09.08.24:693][539]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.24/Engine/Content: 'C:/Program Files/Epic Games/UE_4.24/Engine/Content' is outside repository
+[2020.03.12-09.08.24:884][539]EditorErrors: Warning: No assets to check in!
+[2020.03.12-09.08.52:321][543]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane6)
+[2020.03.12-09.09.34:309][552]LogEditorViewport: Clicking Background
+[2020.03.12-09.13.12:340][918]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2020.03.12-09.13.12:340][918]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
