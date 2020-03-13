@@ -19706,3 +19706,11 @@ Script Stack (0 frames):
 [2020.03.13-08.05.50:081][260]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
 [2020.03.13-08.05.50:086][260]LogUObjectHash: Compacting FUObjectHashTables data took   3.21ms
 [2020.03.13-08.05.50:130][262]LogPlayLevel: Display: Destroying online subsystem :Context_58
+[2020.03.13-08.06.29:590][863]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/my/levl/tutorial_lvl" FILE="D:/UnrealProjects/WillMarch1/Will_o_wisp2/Content/my/levl/tutorial_lvl.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.03.13-08.06.29:619][863]LogUObjectHash: Compacting FUObjectHashTables data took   1.10ms
+[2020.03.13-08.06.29:995][863]LogSavePackage: Moving 'D:/UnrealProjects/WillMarch1/Will_o_wisp2/Saved/tutorial_lvl741EACDD40AC63E627BBC28E3DC76E29.tmp' to 'D:/UnrealProjects/WillMarch1/Will_o_wisp2/Content/my/levl/tutorial_lvl.umap'
+[2020.03.13-08.06.30:277][863]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/my/levl/tutorial_lvl_BuiltData" FILE="D:/UnrealProjects/WillMarch1/Will_o_wisp2/Content/my/levl/tutorial_lvl_BuiltData.uasset" SILENT=true
+[2020.03.13-08.06.30:326][863]LogSavePackage: Moving 'D:/UnrealProjects/WillMarch1/Will_o_wisp2/Saved/tutorial_lvl_BuiltDataAB9ABAF8417E8132CA60F1A87C32BABB.tmp' to 'D:/UnrealProjects/WillMarch1/Will_o_wisp2/Content/my/levl/tutorial_lvl_BuiltData.uasset'
+[2020.03.13-08.06.30:343][863]AssetCheck: New page: Asset Save: multiple assets
+[2020.03.13-08.06.30:343][863]LogContentValidation: Display: Validating World /Game/my/levl/tutorial_lvl.tutorial_lvl
+[2020.03.13-08.06.30:343][863]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/my/levl/tutorial_lvl_BuiltData.tutorial_lvl_BuiltData
