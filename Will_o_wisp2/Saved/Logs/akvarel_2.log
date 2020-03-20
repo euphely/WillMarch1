@@ -10381,3 +10381,13 @@ Make sure 'colba_bluprint2_Blueprint_C' has been compiled for  Get cage_ind1
 [2020.03.17-21.56.38:188][430]AssetCheck: New page: Asset Save: multiple assets
 [2020.03.17-21.56.38:188][430]LogContentValidation: Display: Validating World /Game/my/levl/doors_lvl.doors_lvl
 [2020.03.17-21.56.38:188][430]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/my/levl/doors_lvl_BuiltData.doors_lvl_BuiltData
+[2020.03.17-22.06.37:895][ 58]LogUObjectHash: Compacting FUObjectHashTables data took   5.85ms
+[2020.03.17-22.06.37:897][ 58]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/my/levl/doors_lvl' took 0.042
+[2020.03.17-22.06.37:897][ 58]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/my/asset/3_mod_assets/M_background/M_BackTree] ([1] browsable assets)...
+[2020.03.17-22.06.37:966][ 58]OBJ SavePackage:     Rendered thumbnail for [Material /Game/my/asset/3_mod_assets/M_background/M_BackTree.M_BackTree]
+[2020.03.17-22.06.37:966][ 58]OBJ SavePackage: Finished generating thumbnails for package [/Game/my/asset/3_mod_assets/M_background/M_BackTree]
+[2020.03.17-22.06.37:993][ 58]LogSavePackage: Moving 'D:/UnrealProjects/WillMarch1/Will_o_wisp2/Saved/M_BackTree_Auto471748105454AAE198F1397859162433C.tmp' to 'D:/UnrealProjects/WillMarch1/Will_o_wisp2/Saved/Autosaves/Game/my/asset/3_mod_assets/M_background/M_BackTree_Auto4.uasset'
+[2020.03.17-22.06.37:995][ 58]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/my/asset/3_mod_assets/M_interactive/M_door] ([1] browsable assets)...
+[2020.03.17-22.06.37:995][ 58]OBJ SavePackage: Finished generating thumbnails for package [/Game/my/asset/3_mod_assets/M_interactive/M_door]
+[2020.03.17-22.06.38:026][ 58]LogSavePackage: Moving 'D:/UnrealProjects/WillMarch1/Will_o_wisp2/Saved/M_door_Auto4F98BBC734FDD3FA8DE5D57B6E599E868.tmp' to 'D:/UnrealProjects/WillMarch1/Will_o_wisp2/Saved/Autosaves/Game/my/asset/3_mod_assets/M_interactive/M_door_Auto4.uasset'
+[2020.03.17-22.06.38:027][ 58]LogFileHelpers: Auto-saving content packages took 0.130
