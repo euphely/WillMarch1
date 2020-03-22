@@ -12584,3 +12584,65 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.03.22-12.12.46:704][570]LogSavePackage: Moving 'D:/UnrealProjects/WillMarch1/Will_o_wisp2/Saved/III_modul_annC5E7A46B4AFA945CBE4E2CBB15BC85FE.tmp' to 'D:/UnrealProjects/WillMarch1/Will_o_wisp2/Content/my/levels/III_modul_ann.umap'
 [2020.03.22-12.12.46:822][570]AssetCheck: New page: Asset Save: III_modul_ann
 [2020.03.22-12.12.46:822][570]LogContentValidation: Display: Validating World /Game/my/levels/III_modul_ann.III_modul_ann
+[2020.03.22-12.13.07:980][634]LogUObjectHash: Compacting FUObjectHashTables data took   4.20ms
+[2020.03.22-12.13.09:295][634]LogSlate: Window 'Save Content' being destroyed
+[2020.03.22-12.13.09:480][634]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/my/duh_mini/mini_duh" FILE="D:/UnrealProjects/WillMarch1/Will_o_wisp2/Content/my/duh_mini/mini_duh.uasset" SILENT=true
+[2020.03.22-12.13.09:500][634]LogSavePackage: Moving 'D:/UnrealProjects/WillMarch1/Will_o_wisp2/Saved/mini_duhF715C9F74A0A27E9083952A05D7601B5.tmp' to 'D:/UnrealProjects/WillMarch1/Will_o_wisp2/Content/my/duh_mini/mini_duh.uasset'
+[2020.03.22-12.13.09:620][634]LogSlate: Window 'akvarel - Unreal Editor' being destroyed
+[2020.03.22-12.13.10:547][634]AssetCheck: New page: Asset Save: mini_duh
+[2020.03.22-12.13.10:547][634]LogContentValidation: Display: Validating Blueprint /Game/my/duh_mini/mini_duh.mini_duh
+[2020.03.22-12.13.10:555][635]Cmd: QUIT_EDITOR
+[2020.03.22-12.13.10:555][635]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2020.03.22-12.13.10:684][635]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2020.03.22-12.13.10:684][635]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.22-12.13.11:889][635]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2020.03.22-12.13.11:903][635]LogExit: Preparing to exit.
+[2020.03.22-12.13.12:373][635]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.03.22-12.13.12:373][635]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.03.22-12.13.12:373][635]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.03.22-12.13.12:373][635]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.03.22-12.13.12:373][635]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.03.22-12.13.12:373][635]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.03.22-12.13.12:373][635]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.03.22-12.13.12:373][635]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2020.03.22-12.13.12:376][635]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2020.03.22-12.13.12:378][635]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2020.03.22-12.13.12:380][635]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2020.03.22-12.13.12:382][635]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2020.03.22-12.13.12:383][635]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2020.03.22-12.13.12:385][635]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2020.03.22-12.13.12:388][635]LogWorld: UWorld::CleanupWorld for World_13, bSessionEnded=true, bCleanupResources=true
+[2020.03.22-12.13.12:391][635]LogWorld: UWorld::CleanupWorld for World_15, bSessionEnded=true, bCleanupResources=true
+[2020.03.22-12.13.12:394][635]LogWorld: UWorld::CleanupWorld for World_17, bSessionEnded=true, bCleanupResources=true
+[2020.03.22-12.13.12:397][635]LogWorld: UWorld::CleanupWorld for World_18, bSessionEnded=true, bCleanupResources=true
+[2020.03.22-12.13.12:399][635]LogWorld: UWorld::CleanupWorld for World_19, bSessionEnded=true, bCleanupResources=true
+[2020.03.22-12.13.12:401][635]LogWorld: UWorld::CleanupWorld for World_25, bSessionEnded=true, bCleanupResources=true
+[2020.03.22-12.13.12:403][635]LogWorld: UWorld::CleanupWorld for World_26, bSessionEnded=true, bCleanupResources=true
+[2020.03.22-12.13.12:406][635]LogWorld: UWorld::CleanupWorld for World_40, bSessionEnded=true, bCleanupResources=true
+[2020.03.22-12.13.12:409][635]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.03.22-12.13.12:409][635]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.03.22-12.13.12:409][635]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.03.22-12.13.12:409][635]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.03.22-12.13.12:409][635]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.03.22-12.13.12:409][635]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.03.22-12.13.12:409][635]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2020.03.22-12.13.12:409][635]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2020.03.22-12.13.12:412][635]LogWorld: UWorld::CleanupWorld for World_47, bSessionEnded=true, bCleanupResources=true
+[2020.03.22-12.13.12:414][635]LogWorld: UWorld::CleanupWorld for World_48, bSessionEnded=true, bCleanupResources=true
+[2020.03.22-12.13.12:416][635]LogWorld: UWorld::CleanupWorld for World_53, bSessionEnded=true, bCleanupResources=true
+[2020.03.22-12.13.12:417][635]LogWorld: UWorld::CleanupWorld for World_56, bSessionEnded=true, bCleanupResources=true
+[2020.03.22-12.13.12:419][635]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2020.03.22-12.13.12:421][635]LogWorld: UWorld::CleanupWorld for World_57, bSessionEnded=true, bCleanupResources=true
+[2020.03.22-12.13.12:422][635]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2020.03.22-12.13.12:425][635]LogWorld: UWorld::CleanupWorld for World_14, bSessionEnded=true, bCleanupResources=true
+[2020.03.22-12.13.12:427][635]LogWorld: UWorld::CleanupWorld for World_27, bSessionEnded=true, bCleanupResources=true
+[2020.03.22-12.13.12:429][635]LogWorld: UWorld::CleanupWorld for World_55, bSessionEnded=true, bCleanupResources=true
+[2020.03.22-12.13.12:431][635]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2020.03.22-12.13.12:432][635]LogWorld: UWorld::CleanupWorld for World_10, bSessionEnded=true, bCleanupResources=true
+[2020.03.22-12.13.12:434][635]LogWorld: UWorld::CleanupWorld for World_11, bSessionEnded=true, bCleanupResources=true
+[2020.03.22-12.13.12:436][635]LogWorld: UWorld::CleanupWorld for World_12, bSessionEnded=true, bCleanupResources=true
+[2020.03.22-12.13.12:438][635]LogWorld: UWorld::CleanupWorld for World_16, bSessionEnded=true, bCleanupResources=true
+[2020.03.22-12.13.12:947][635]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2020.03.22-12.13.12:948][635]LogExit: Editor shut down
+[2020.03.22-12.13.12:950][635]LogExit: Transaction tracking system shut down
+[2020.03.22-12.13.12:957][635]LogDemo: Cleaned up 0 splitscreen connections with owner deletion
