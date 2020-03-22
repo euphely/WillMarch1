@@ -6102,3 +6102,1002 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.03.22-09.32.16:364][908]LogEditorActor: Deleted 1 Actors (0.150 secs)
 [2020.03.22-09.32.17:784][ 74]LogEditorViewport: Clicking on Actor (LMB): Fazer_Zon_spavn_C (Zon_spavn)
 [2020.03.22-09.32.33:783][936]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Tutorial_dialog/NewFolder/You_Zon_spavn_Child.You_Zon_spavn_Child
+[2020.03.22-09.33.49:441][ 66]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.24/Engine/Content: 'C:/Program Files/Epic Games/UE_4.24/Engine/Content' is outside repository
+[2020.03.22-09.33.49:633][ 66]EditorErrors: Warning: No assets to check in!
+[2020.03.22-09.34.00:195][942]LogEditorViewport: Clicking on Actor (LMB): Fazer_Zon_spavn_C (Zon_spavn)
+[2020.03.22-09.34.26:586][913]BlueprintLog: New page: Compile You_Zon_spavn_Child
+[2020.03.22-09.34.27:066][913]LogUObjectHash: Compacting FUObjectHashTables data took   6.86ms
+[2020.03.22-09.35.33:697][244]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2020.03.22-09.35.33:697][244]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2020.03.22-09.37.43:287][  1]BlueprintLog: New page: Compile You_Zon_spavn_Child
+[2020.03.22-09.37.43:726][  1]LogUObjectHash: Compacting FUObjectHashTables data took   6.75ms
+[2020.03.22-09.38.49:382][123]BlueprintLog: New page: Compile You_Zon_spavn_Child
+[2020.03.22-09.38.49:814][123]LogUObjectHash: Compacting FUObjectHashTables data took   5.99ms
+[2020.03.22-09.38.56:215][872]LogEditorViewport: Clicking on Actor (LMB): Fazer_Zon_spavn_C (Zon_spavn)
+[2020.03.22-09.38.59:190][214]LogEditorViewport: Clicking on Actor (LMB): You_Zon_spavn_Child_C (You_Zon_spavn_Child)
+[2020.03.22-09.39.10:114][466]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2020.03.22-09.39.29:784][661]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (Hidden_in_bild)
+[2020.03.22-09.39.32:568][972]Cmd: TRANSACTION UNDO
+[2020.03.22-09.39.32:568][972]LogEditorTransaction: Undo Scale Components
+[2020.03.22-09.39.32:588][972]LogMaterial: Display: Missing cached shader map for material ornament_Mat, compiling. 
+[2020.03.22-09.39.32:608][972]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 24
+[2020.03.22-09.39.32:608][972]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 23
+[2020.03.22-09.39.32:608][972]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 22
+[2020.03.22-09.39.32:608][972]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 21
+[2020.03.22-09.39.32:608][972]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 20
+[2020.03.22-09.39.32:608][972]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 19
+[2020.03.22-09.39.32:608][972]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 18
+[2020.03.22-09.39.32:608][972]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 17
+[2020.03.22-09.39.33:897][ 49]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 16
+[2020.03.22-09.39.33:916][ 50]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 15
+[2020.03.22-09.39.34:037][ 55]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 14
+[2020.03.22-09.39.34:149][ 56]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 13
+[2020.03.22-09.39.34:541][ 71]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 12
+[2020.03.22-09.39.34:617][ 76]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 11
+[2020.03.22-09.39.34:643][ 78]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 10
+[2020.03.22-09.39.34:643][ 78]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 9
+[2020.03.22-09.39.34:696][ 82]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 8
+[2020.03.22-09.39.34:775][ 86]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 7
+[2020.03.22-09.39.34:851][ 89]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 6
+[2020.03.22-09.39.35:096][100]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 5
+[2020.03.22-09.39.35:267][110]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 4
+[2020.03.22-09.39.35:344][116]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 3
+[2020.03.22-09.39.35:367][117]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 2
+[2020.03.22-09.39.35:410][120]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 1
+[2020.03.22-09.39.36:160][176]MaterialEditorStats: Base pass shader: 82 instructions
+[2020.03.22-09.39.36:160][176]MaterialEditorStats: Base pass shader with Surface Lightmap: 125 instructions
+[2020.03.22-09.39.36:160][176]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 109 instructions
+[2020.03.22-09.39.36:160][176]MaterialEditorStats: Base pass vertex shader: 169 instructions
+[2020.03.22-09.39.36:160][176]MaterialEditorStats: Texture samplers: 4/16
+[2020.03.22-09.39.36:160][176]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2020.03.22-09.39.36:160][176]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2020.03.22-09.40.14:137][510]LogEditorViewport: Clicking Background
+[2020.03.22-09.40.55:578][411]LogUObjectHash: Compacting FUObjectHashTables data took   6.18ms
+[2020.03.22-09.40.56:178][411]LogSavePackage: Moving 'D:/UnrealProjects/WillMarch1/Will_o_wisp2/Saved/tutorial_lvl_Auto51727D8E3452458CE025AAAA90A212C5D.tmp' to 'D:/UnrealProjects/WillMarch1/Will_o_wisp2/Saved/Autosaves/Game/my/levels/tutorial_lvl_Auto5.umap'
+[2020.03.22-09.40.56:181][411]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/my/levels/tutorial_lvl' took 0.650
+[2020.03.22-09.40.56:182][411]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.650
+[2020.03.22-09.40.56:182][411]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Tutorial_dialog/NewFolder/Fazer_Zon_spavn] ([1] browsable assets)...
+[2020.03.22-09.40.56:208][411]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Tutorial_dialog/NewFolder/Fazer_Zon_spavn.Fazer_Zon_spavn]
+[2020.03.22-09.40.56:208][411]OBJ SavePackage: Finished generating thumbnails for package [/Game/Tutorial_dialog/NewFolder/Fazer_Zon_spavn]
+[2020.03.22-09.40.56:351][411]LogSavePackage: Moving 'D:/UnrealProjects/WillMarch1/Will_o_wisp2/Saved/Fazer_Zon_spavn_Auto560423F3240A4DA2623C640A66CA6CE18.tmp' to 'D:/UnrealProjects/WillMarch1/Will_o_wisp2/Saved/Autosaves/Game/Tutorial_dialog/NewFolder/Fazer_Zon_spavn_Auto5.uasset'
+[2020.03.22-09.40.56:352][411]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Tutorial_dialog/NewFolder/You_Zon_spavn_Child] ([1] browsable assets)...
+[2020.03.22-09.40.56:378][411]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Tutorial_dialog/NewFolder/You_Zon_spavn_Child.You_Zon_spavn_Child]
+[2020.03.22-09.40.56:378][411]OBJ SavePackage: Finished generating thumbnails for package [/Game/Tutorial_dialog/NewFolder/You_Zon_spavn_Child]
+[2020.03.22-09.40.56:439][411]LogSavePackage: Moving 'D:/UnrealProjects/WillMarch1/Will_o_wisp2/Saved/You_Zon_spavn_Child_Auto520B003974D2F80E883A0F6AED4DD1797.tmp' to 'D:/UnrealProjects/WillMarch1/Will_o_wisp2/Saved/Autosaves/Game/Tutorial_dialog/NewFolder/You_Zon_spavn_Child_Auto5.uasset'
+[2020.03.22-09.40.56:440][411]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/my/asset/texture/fon/ornament_Mat] ([1] browsable assets)...
+[2020.03.22-09.40.56:466][411]OBJ SavePackage:     Rendered thumbnail for [Material /Game/my/asset/texture/fon/ornament_Mat.ornament_Mat]
+[2020.03.22-09.40.56:466][411]OBJ SavePackage: Finished generating thumbnails for package [/Game/my/asset/texture/fon/ornament_Mat]
+[2020.03.22-09.40.56:567][411]LogSavePackage: Moving 'D:/UnrealProjects/WillMarch1/Will_o_wisp2/Saved/ornament_Mat_Auto5EC12AAB049ECDAB2AC5B42BA3F481072.tmp' to 'D:/UnrealProjects/WillMarch1/Will_o_wisp2/Saved/Autosaves/Game/my/asset/texture/fon/ornament_Mat_Auto5.uasset'
+[2020.03.22-09.40.56:567][411]LogFileHelpers: Auto-saving content packages took 0.386
+[2020.03.22-09.43.16:220][595]LogEditorTransaction: Undo Create Pin Link
+[2020.03.22-09.43.16:242][595]LogMaterial: Display: Missing cached shader map for material ornament_Mat, compiling. 
+[2020.03.22-09.43.16:263][595]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 24
+[2020.03.22-09.43.16:263][595]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 23
+[2020.03.22-09.43.16:263][595]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 22
+[2020.03.22-09.43.16:263][595]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 21
+[2020.03.22-09.43.16:263][595]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 20
+[2020.03.22-09.43.16:263][595]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 19
+[2020.03.22-09.43.16:263][595]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 18
+[2020.03.22-09.43.16:263][595]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 17
+[2020.03.22-09.43.16:685][603]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 16
+[2020.03.22-09.43.16:685][603]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 15
+[2020.03.22-09.43.16:769][605]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 14
+[2020.03.22-09.43.16:791][607]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 13
+[2020.03.22-09.43.17:374][633]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 12
+[2020.03.22-09.43.17:468][640]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 11
+[2020.03.22-09.43.17:481][641]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 10
+[2020.03.22-09.43.17:507][643]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 9
+[2020.03.22-09.43.17:547][646]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 8
+[2020.03.22-09.43.17:561][647]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 7
+[2020.03.22-09.43.17:575][648]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 6
+[2020.03.22-09.43.17:852][662]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 5
+[2020.03.22-09.43.18:122][674]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 4
+[2020.03.22-09.43.18:189][678]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 3
+[2020.03.22-09.43.18:224][680]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 2
+[2020.03.22-09.43.18:253][682]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 1
+[2020.03.22-09.43.18:983][743]MaterialEditorStats: Base pass shader: 82 instructions
+[2020.03.22-09.43.18:983][743]MaterialEditorStats: Base pass shader with Surface Lightmap: 125 instructions
+[2020.03.22-09.43.18:983][743]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 109 instructions
+[2020.03.22-09.43.18:984][743]MaterialEditorStats: Base pass vertex shader: 169 instructions
+[2020.03.22-09.43.18:984][743]MaterialEditorStats: Texture samplers: 4/16
+[2020.03.22-09.43.18:984][743]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2020.03.22-09.43.18:984][743]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2020.03.22-09.50.57:028][  8]LogUObjectHash: Compacting FUObjectHashTables data took   6.04ms
+[2020.03.22-09.50.57:584][  8]LogSavePackage: Moving 'D:/UnrealProjects/WillMarch1/Will_o_wisp2/Saved/tutorial_lvl_Auto61B4A1265496FD4B9DCE0098536C43D9D.tmp' to 'D:/UnrealProjects/WillMarch1/Will_o_wisp2/Saved/Autosaves/Game/my/levels/tutorial_lvl_Auto6.umap'
+[2020.03.22-09.50.57:585][  8]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/my/levels/tutorial_lvl' took 0.605
+[2020.03.22-09.50.57:585][  8]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.605
+[2020.03.22-09.50.57:586][  8]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Tutorial_dialog/NewFolder/You_Zon_spavn_Child] ([1] browsable assets)...
+[2020.03.22-09.50.57:612][  8]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Tutorial_dialog/NewFolder/You_Zon_spavn_Child.You_Zon_spavn_Child]
+[2020.03.22-09.50.57:612][  8]OBJ SavePackage: Finished generating thumbnails for package [/Game/Tutorial_dialog/NewFolder/You_Zon_spavn_Child]
+[2020.03.22-09.50.57:670][  8]LogSavePackage: Moving 'D:/UnrealProjects/WillMarch1/Will_o_wisp2/Saved/You_Zon_spavn_Child_Auto676F0378243995ED93AB412BC65E391EA.tmp' to 'D:/UnrealProjects/WillMarch1/Will_o_wisp2/Saved/Autosaves/Game/Tutorial_dialog/NewFolder/You_Zon_spavn_Child_Auto6.uasset'
+[2020.03.22-09.50.57:670][  8]LogFileHelpers: Auto-saving content packages took 0.085
+[2020.03.22-09.57.25:674][807]BlueprintLog: New page: Compile You_Zon_spavn_Child
+[2020.03.22-09.57.26:117][807]LogUObjectHash: Compacting FUObjectHashTables data took   5.60ms
+[2020.03.22-09.57.27:592][973]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2020.03.22-09.57.27:623][973]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/my/levels/tutorial_lvl.tutorial_lvl:PersistentLevel' has LevelScriptBlueprint '/Game/my/levels/tutorial_lvl.tutorial_lvl:PersistentLevel.tutorial_lvl' with GeneratedClass '/Game/my/levels/tutorial_lvl.tutorial_lvl_C' with ClassGeneratedBy '/Game/my/levels/tutorial_lvl.tutorial_lvl:PersistentLevel.tutorial_lvl'
+[2020.03.22-09.57.27:624][973]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.03.22-09.57.27:624][973]PIE: New page: PIE session: tutorial_lvl (Mar 22, 2020, 3:57:27 PM)
+[2020.03.22-09.57.27:624][973]LogPlayLevel: Creating play world package: /Game/my/levels/UEDPIE_0_tutorial_lvl
+[2020.03.22-09.57.27:672][973]LogPlayLevel: PIE: StaticDuplicateObject took: (0.048121s)
+[2020.03.22-09.57.27:673][973]LogAIModule: Creating AISystem for world tutorial_lvl
+[2020.03.22-09.57.27:673][973]LogPlayLevel: PIE: World Init took: (0.000940s)
+[2020.03.22-09.57.27:673][973]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/my/levels/tutorial_lvl.tutorial_lvl to /Game/my/levels/UEDPIE_0_tutorial_lvl.tutorial_lvl (0.049222s)
+[2020.03.22-09.57.27:723][973]LogUObjectHash: Compacting FUObjectHashTables data took   4.71ms
+[2020.03.22-09.57.27:724][973]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.03.22-09.57.27:724][973]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.03.22-09.57.27:724][973]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.03.22-09.57.27:724][973]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.03.22-09.57.27:724][973]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.03.22-09.57.27:724][973]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.03.22-09.57.27:724][973]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.03.22-09.57.27:724][973]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.03.22-09.57.27:724][973]LogAudio: Display: Using built-in audio occlusion.
+[2020.03.22-09.57.27:724][973]LogAudioMixer: Display: Initializing audio mixer.
+[2020.03.22-09.57.27:746][973]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.03.22-09.57.27:746][973]LogAudioMixer: Display: Name: Speakers (2- Realtek(R) Audio)
+[2020.03.22-09.57.27:746][973]LogAudioMixer: Display: Is Default: Yes
+[2020.03.22-09.57.27:746][973]LogAudioMixer: Display: Sample Rate: 48000
+[2020.03.22-09.57.27:746][973]LogAudioMixer: Display: Channel Count Used: 2
+[2020.03.22-09.57.27:746][973]LogAudioMixer: Display: Device Channel Count: 2
+[2020.03.22-09.57.27:746][973]LogAudioMixer: Display: Channel Order:
+[2020.03.22-09.57.27:746][973]LogAudioMixer: Display: 0: FrontLeft
+[2020.03.22-09.57.27:746][973]LogAudioMixer: Display: 1: FrontRight
+[2020.03.22-09.57.27:763][973]LogAudioMixer: Display: Using Audio Device Speakers (2- Realtek(R) Audio)
+[2020.03.22-09.57.27:765][973]LogInit: FAudioDevice initialized.
+[2020.03.22-09.57.27:810][973]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.22-09.57.27:810][973]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2020.03.22-09.57.27:820][973]LogWorld: Bringing World /Game/my/levels/UEDPIE_0_tutorial_lvl.tutorial_lvl up for play (max tick rate 0) at 2020.03.22-12.57.27
+[2020.03.22-09.57.27:821][973]LogWorld: Bringing up level for play took: 0.010159
+[2020.03.22-09.57.27:821][973]LogOnline: OSS: Creating online subsystem instance for: :Context_107
+[2020.03.22-09.57.27:829][973]LogBlueprintUserMessages: [BP_ExampleCharacter_C_0] 1.0
+[2020.03.22-09.57.27:830][973]PIE: Play in editor start time for /Game/my/levels/UEDPIE_0_tutorial_lvl 0.641
+[2020.03.22-09.57.27:830][973]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/my/levels/tutorial_lvl.tutorial_lvl:PersistentLevel' has LevelScriptBlueprint '/Game/my/levels/tutorial_lvl.tutorial_lvl:PersistentLevel.tutorial_lvl' with GeneratedClass '/Game/my/levels/tutorial_lvl.tutorial_lvl_C' with ClassGeneratedBy '/Game/my/levels/tutorial_lvl.tutorial_lvl:PersistentLevel.tutorial_lvl'
+[2020.03.22-09.57.27:831][973]LogBlueprintUserMessages: [ABP_CustomMovement_C_0] 2_4
+[2020.03.22-09.57.30:825][297]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.22-09.57.30:825][297]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.22-09.57.30:825][297]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/my/levels/tutorial_lvl.tutorial_lvl:PersistentLevel' has LevelScriptBlueprint '/Game/my/levels/tutorial_lvl.tutorial_lvl:PersistentLevel.tutorial_lvl' with GeneratedClass '/Game/my/levels/tutorial_lvl.tutorial_lvl_C' with ClassGeneratedBy '/Game/my/levels/tutorial_lvl.tutorial_lvl:PersistentLevel.tutorial_lvl'
+[2020.03.22-09.57.30:825][297]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.22-09.57.30:825][297]LogWorld: BeginTearingDown for /Game/my/levels/UEDPIE_0_tutorial_lvl
+[2020.03.22-09.57.30:842][297]LogSlate: Window 'akvarel Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2020.03.22-09.57.30:847][297]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.22-09.57.30:848][297]LogWorld: UWorld::CleanupWorld for tutorial_lvl, bSessionEnded=true, bCleanupResources=true
+[2020.03.22-09.57.30:850][297]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.03.22-09.57.30:871][297]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.03.22-09.57.30:871][297]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/my/levels/tutorial_lvl.tutorial_lvl:PersistentLevel' has LevelScriptBlueprint '/Game/my/levels/tutorial_lvl.tutorial_lvl:PersistentLevel.tutorial_lvl' with GeneratedClass '/Game/my/levels/tutorial_lvl.tutorial_lvl_C' with ClassGeneratedBy '/Game/my/levels/tutorial_lvl.tutorial_lvl:PersistentLevel.tutorial_lvl'
+[2020.03.22-09.57.30:878][297]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.03.22-09.57.30:921][297]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.22-09.57.30:932][297]LogUObjectHash: Compacting FUObjectHashTables data took   4.78ms
+[2020.03.22-09.57.30:996][298]LogPlayLevel: Display: Destroying online subsystem :Context_107
+[2020.03.22-09.57.37:060][  1]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2020.03.22-09.57.37:060][  1]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2020.03.22-09.57.43:691][747]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2020.03.22-09.57.48:678][337]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2020.03.22-09.57.50:265][506]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2020.03.22-09.57.51:499][637]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2020.03.22-09.57.52:101][697]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2020.03.22-09.57.52:118][697]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/my/levels/tutorial_lvl.tutorial_lvl:PersistentLevel' has LevelScriptBlueprint '/Game/my/levels/tutorial_lvl.tutorial_lvl:PersistentLevel.tutorial_lvl' with GeneratedClass '/Game/my/levels/tutorial_lvl.tutorial_lvl_C' with ClassGeneratedBy '/Game/my/levels/tutorial_lvl.tutorial_lvl:PersistentLevel.tutorial_lvl'
+[2020.03.22-09.57.52:118][697]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.03.22-09.57.52:118][697]PIE: New page: PIE session: tutorial_lvl (Mar 22, 2020, 3:57:52 PM)
+[2020.03.22-09.57.52:118][697]LogPlayLevel: Creating play world package: /Game/my/levels/UEDPIE_0_tutorial_lvl
+[2020.03.22-09.57.52:145][697]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026934s)
+[2020.03.22-09.57.52:146][697]LogAIModule: Creating AISystem for world tutorial_lvl
+[2020.03.22-09.57.52:146][697]LogPlayLevel: PIE: World Init took: (0.000878s)
+[2020.03.22-09.57.52:146][697]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/my/levels/tutorial_lvl.tutorial_lvl to /Game/my/levels/UEDPIE_0_tutorial_lvl.tutorial_lvl (0.027973s)
+[2020.03.22-09.57.52:194][697]LogUObjectHash: Compacting FUObjectHashTables data took   4.35ms
+[2020.03.22-09.57.52:197][697]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.03.22-09.57.52:197][697]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.03.22-09.57.52:197][697]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.03.22-09.57.52:197][697]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.03.22-09.57.52:197][697]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.03.22-09.57.52:197][697]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.03.22-09.57.52:197][697]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.03.22-09.57.52:197][697]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.03.22-09.57.52:197][697]LogAudio: Display: Using built-in audio occlusion.
+[2020.03.22-09.57.52:197][697]LogAudioMixer: Display: Initializing audio mixer.
+[2020.03.22-09.57.52:217][697]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.03.22-09.57.52:217][697]LogAudioMixer: Display: Name: Speakers (2- Realtek(R) Audio)
+[2020.03.22-09.57.52:217][697]LogAudioMixer: Display: Is Default: Yes
+[2020.03.22-09.57.52:217][697]LogAudioMixer: Display: Sample Rate: 48000
+[2020.03.22-09.57.52:217][697]LogAudioMixer: Display: Channel Count Used: 2
+[2020.03.22-09.57.52:217][697]LogAudioMixer: Display: Device Channel Count: 2
+[2020.03.22-09.57.52:217][697]LogAudioMixer: Display: Channel Order:
+[2020.03.22-09.57.52:217][697]LogAudioMixer: Display: 0: FrontLeft
+[2020.03.22-09.57.52:217][697]LogAudioMixer: Display: 1: FrontRight
+[2020.03.22-09.57.52:233][697]LogAudioMixer: Display: Using Audio Device Speakers (2- Realtek(R) Audio)
+[2020.03.22-09.57.52:235][697]LogInit: FAudioDevice initialized.
+[2020.03.22-09.57.52:277][697]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.22-09.57.52:277][697]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2020.03.22-09.57.52:286][697]LogWorld: Bringing World /Game/my/levels/UEDPIE_0_tutorial_lvl.tutorial_lvl up for play (max tick rate 0) at 2020.03.22-12.57.52
+[2020.03.22-09.57.52:287][697]LogWorld: Bringing up level for play took: 0.009294
+[2020.03.22-09.57.52:287][697]LogOnline: OSS: Creating online subsystem instance for: :Context_108
+[2020.03.22-09.57.52:295][697]LogBlueprintUserMessages: [BP_ExampleCharacter_C_0] 1.0
+[2020.03.22-09.57.52:297][697]PIE: Play in editor start time for /Game/my/levels/UEDPIE_0_tutorial_lvl 1.109
+[2020.03.22-09.57.52:298][697]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/my/levels/tutorial_lvl.tutorial_lvl:PersistentLevel' has LevelScriptBlueprint '/Game/my/levels/tutorial_lvl.tutorial_lvl:PersistentLevel.tutorial_lvl' with GeneratedClass '/Game/my/levels/tutorial_lvl.tutorial_lvl_C' with ClassGeneratedBy '/Game/my/levels/tutorial_lvl.tutorial_lvl:PersistentLevel.tutorial_lvl'
+[2020.03.22-09.57.52:298][697]LogBlueprintUserMessages: [ABP_CustomMovement_C_0] 2_4
+[2020.03.22-09.57.57:972][374]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.22-09.57.57:972][374]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.22-09.57.57:972][374]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/my/levels/tutorial_lvl.tutorial_lvl:PersistentLevel' has LevelScriptBlueprint '/Game/my/levels/tutorial_lvl.tutorial_lvl:PersistentLevel.tutorial_lvl' with GeneratedClass '/Game/my/levels/tutorial_lvl.tutorial_lvl_C' with ClassGeneratedBy '/Game/my/levels/tutorial_lvl.tutorial_lvl:PersistentLevel.tutorial_lvl'
+[2020.03.22-09.57.57:973][374]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.22-09.57.57:973][374]LogWorld: BeginTearingDown for /Game/my/levels/UEDPIE_0_tutorial_lvl
+[2020.03.22-09.57.57:989][374]LogSlate: Window 'akvarel Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2020.03.22-09.57.57:994][374]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.22-09.57.57:995][374]LogWorld: UWorld::CleanupWorld for tutorial_lvl, bSessionEnded=true, bCleanupResources=true
+[2020.03.22-09.57.57:997][374]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.03.22-09.57.58:013][374]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.03.22-09.57.58:013][374]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/my/levels/tutorial_lvl.tutorial_lvl:PersistentLevel' has LevelScriptBlueprint '/Game/my/levels/tutorial_lvl.tutorial_lvl:PersistentLevel.tutorial_lvl' with GeneratedClass '/Game/my/levels/tutorial_lvl.tutorial_lvl_C' with ClassGeneratedBy '/Game/my/levels/tutorial_lvl.tutorial_lvl:PersistentLevel.tutorial_lvl'
+[2020.03.22-09.57.58:021][374]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.03.22-09.57.58:063][374]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.22-09.57.58:073][374]LogUObjectHash: Compacting FUObjectHashTables data took   4.07ms
+[2020.03.22-09.57.58:088][375]LogPlayLevel: Display: Destroying online subsystem :Context_108
+[2020.03.22-09.58.06:128][298]BlueprintLog: New page: Compile You_Zon_spavn_Child
+[2020.03.22-09.58.06:577][298]LogUObjectHash: Compacting FUObjectHashTables data took   5.48ms
+[2020.03.22-09.58.07:528][392]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2020.03.22-09.58.07:545][392]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/my/levels/tutorial_lvl.tutorial_lvl:PersistentLevel' has LevelScriptBlueprint '/Game/my/levels/tutorial_lvl.tutorial_lvl:PersistentLevel.tutorial_lvl' with GeneratedClass '/Game/my/levels/tutorial_lvl.tutorial_lvl_C' with ClassGeneratedBy '/Game/my/levels/tutorial_lvl.tutorial_lvl:PersistentLevel.tutorial_lvl'
+[2020.03.22-09.58.07:545][392]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.03.22-09.58.07:545][392]PIE: New page: PIE session: tutorial_lvl (Mar 22, 2020, 3:58:07 PM)
+[2020.03.22-09.58.07:545][392]LogPlayLevel: Creating play world package: /Game/my/levels/UEDPIE_0_tutorial_lvl
+[2020.03.22-09.58.07:572][392]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026705s)
+[2020.03.22-09.58.07:573][392]LogAIModule: Creating AISystem for world tutorial_lvl
+[2020.03.22-09.58.07:573][392]LogPlayLevel: PIE: World Init took: (0.000926s)
+[2020.03.22-09.58.07:573][392]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/my/levels/tutorial_lvl.tutorial_lvl to /Game/my/levels/UEDPIE_0_tutorial_lvl.tutorial_lvl (0.027793s)
+[2020.03.22-09.58.07:624][392]LogUObjectHash: Compacting FUObjectHashTables data took   5.40ms
+[2020.03.22-09.58.07:625][392]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.03.22-09.58.07:625][392]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.03.22-09.58.07:625][392]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.03.22-09.58.07:625][392]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.03.22-09.58.07:625][392]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.03.22-09.58.07:625][392]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.03.22-09.58.07:625][392]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.03.22-09.58.07:625][392]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.03.22-09.58.07:626][392]LogAudio: Display: Using built-in audio occlusion.
+[2020.03.22-09.58.07:626][392]LogAudioMixer: Display: Initializing audio mixer.
+[2020.03.22-09.58.07:644][392]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.03.22-09.58.07:644][392]LogAudioMixer: Display: Name: Speakers (2- Realtek(R) Audio)
+[2020.03.22-09.58.07:644][392]LogAudioMixer: Display: Is Default: Yes
+[2020.03.22-09.58.07:644][392]LogAudioMixer: Display: Sample Rate: 48000
+[2020.03.22-09.58.07:644][392]LogAudioMixer: Display: Channel Count Used: 2
+[2020.03.22-09.58.07:644][392]LogAudioMixer: Display: Device Channel Count: 2
+[2020.03.22-09.58.07:644][392]LogAudioMixer: Display: Channel Order:
+[2020.03.22-09.58.07:644][392]LogAudioMixer: Display: 0: FrontLeft
+[2020.03.22-09.58.07:644][392]LogAudioMixer: Display: 1: FrontRight
+[2020.03.22-09.58.07:660][392]LogAudioMixer: Display: Using Audio Device Speakers (2- Realtek(R) Audio)
+[2020.03.22-09.58.07:662][392]LogInit: FAudioDevice initialized.
+[2020.03.22-09.58.07:711][392]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.22-09.58.07:711][392]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2020.03.22-09.58.07:720][392]LogWorld: Bringing World /Game/my/levels/UEDPIE_0_tutorial_lvl.tutorial_lvl up for play (max tick rate 0) at 2020.03.22-12.58.07
+[2020.03.22-09.58.07:721][392]LogWorld: Bringing up level for play took: 0.009430
+[2020.03.22-09.58.07:721][392]LogOnline: OSS: Creating online subsystem instance for: :Context_109
+[2020.03.22-09.58.07:729][392]LogBlueprintUserMessages: [BP_ExampleCharacter_C_0] 1.0
+[2020.03.22-09.58.07:730][392]PIE: Play in editor start time for /Game/my/levels/UEDPIE_0_tutorial_lvl 0.542
+[2020.03.22-09.58.07:731][392]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/my/levels/tutorial_lvl.tutorial_lvl:PersistentLevel' has LevelScriptBlueprint '/Game/my/levels/tutorial_lvl.tutorial_lvl:PersistentLevel.tutorial_lvl' with GeneratedClass '/Game/my/levels/tutorial_lvl.tutorial_lvl_C' with ClassGeneratedBy '/Game/my/levels/tutorial_lvl.tutorial_lvl:PersistentLevel.tutorial_lvl'
+[2020.03.22-09.58.07:731][392]LogBlueprintUserMessages: [ABP_CustomMovement_C_0] 2_4
+[2020.03.22-09.58.14:269][ 73]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.22-09.58.14:269][ 73]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.22-09.58.14:269][ 73]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/my/levels/tutorial_lvl.tutorial_lvl:PersistentLevel' has LevelScriptBlueprint '/Game/my/levels/tutorial_lvl.tutorial_lvl:PersistentLevel.tutorial_lvl' with GeneratedClass '/Game/my/levels/tutorial_lvl.tutorial_lvl_C' with ClassGeneratedBy '/Game/my/levels/tutorial_lvl.tutorial_lvl:PersistentLevel.tutorial_lvl'
+[2020.03.22-09.58.14:269][ 73]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.22-09.58.14:269][ 73]LogWorld: BeginTearingDown for /Game/my/levels/UEDPIE_0_tutorial_lvl
+[2020.03.22-09.58.14:287][ 73]LogSlate: Window 'akvarel Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2020.03.22-09.58.14:293][ 73]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.22-09.58.14:294][ 73]LogWorld: UWorld::CleanupWorld for tutorial_lvl, bSessionEnded=true, bCleanupResources=true
+[2020.03.22-09.58.14:296][ 73]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.03.22-09.58.14:315][ 73]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.03.22-09.58.14:315][ 73]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/my/levels/tutorial_lvl.tutorial_lvl:PersistentLevel' has LevelScriptBlueprint '/Game/my/levels/tutorial_lvl.tutorial_lvl:PersistentLevel.tutorial_lvl' with GeneratedClass '/Game/my/levels/tutorial_lvl.tutorial_lvl_C' with ClassGeneratedBy '/Game/my/levels/tutorial_lvl.tutorial_lvl:PersistentLevel.tutorial_lvl'
+[2020.03.22-09.58.14:323][ 73]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.03.22-09.58.14:374][ 73]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.22-09.58.14:386][ 73]LogUObjectHash: Compacting FUObjectHashTables data took   4.96ms
+[2020.03.22-09.58.14:458][ 74]LogPlayLevel: Display: Destroying online subsystem :Context_109
+[2020.03.22-09.59.27:133][549]BlueprintLog: New page: Compile You_Zon_spavn_Child
+[2020.03.22-09.59.27:146][549]LogBlueprint: Warning: [Compiler You_Zon_spavn_Child] Cast To BP_ExampleCharacter  was pruned because its Exec pin is not connected, the connected value is not available and will instead be read as default
+[2020.03.22-09.59.27:147][549]LogBlueprint: Error: [Compiler You_Zon_spavn_Child] This blueprint (self) is not a SceneComponent, therefore ' Target ' must have a connection.
+[2020.03.22-09.59.27:148][549]LogBlueprint: Error: [Compiler You_Zon_spavn_Child] This blueprint (self) is not a BP_ExampleCharacter_C, therefore ' Target ' must have a connection.
+[2020.03.22-09.59.27:148][549]LogBlueprint: Error: [Compiler You_Zon_spavn_Child] Variable node  Get Mesto_L_for_bubl  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2020.03.22-09.59.27:616][549]LogUObjectHash: Compacting FUObjectHashTables data took   5.24ms
+[2020.03.22-09.59.28:114][599]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2020.03.22-09.59.28:132][599]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/my/levels/tutorial_lvl.tutorial_lvl:PersistentLevel' has LevelScriptBlueprint '/Game/my/levels/tutorial_lvl.tutorial_lvl:PersistentLevel.tutorial_lvl' with GeneratedClass '/Game/my/levels/tutorial_lvl.tutorial_lvl_C' with ClassGeneratedBy '/Game/my/levels/tutorial_lvl.tutorial_lvl:PersistentLevel.tutorial_lvl'
+[2020.03.22-09.59.28:132][599]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.03.22-09.59.28:132][599]BlueprintLog: Warning: Blueprint failed to compile:  You_Zon_spavn_Child
+[2020.03.22-09.59.28:150][599]LogCustomDialog: Dialog displayed:
+[2020.03.22-09.59.30:286][599]LogSlate: Window 'Blueprint Compilation Errors' being destroyed
+[2020.03.22-09.59.31:763][772]LogSlate: Window 'Message Log' being destroyed
+[2020.03.22-09.59.31:766][772]LogSlate: Window 'Message Log' being destroyed
+[2020.03.22-10.00.00:324][106]BlueprintLog: New page: Compile You_Zon_spavn_Child
+[2020.03.22-10.00.00:328][106]LogBlueprint: Warning: [Compiler You_Zon_spavn_Child] Cast To BP_ExampleCharacter  was pruned because its Exec pin is not connected, the connected value is not available and will instead be read as default
+[2020.03.22-10.00.00:329][106]LogBlueprint: Error: [Compiler You_Zon_spavn_Child] This blueprint (self) is not a BP_ExampleCharacter_C, therefore ' Target ' must have a connection.
+[2020.03.22-10.00.00:329][106]LogBlueprint: Error: [Compiler You_Zon_spavn_Child] Variable node  Get Mesto_L_for_bubl  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2020.03.22-10.00.00:767][106]LogUObjectHash: Compacting FUObjectHashTables data took   5.58ms
+[2020.03.22-10.00.01:698][208]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2020.03.22-10.00.01:714][208]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/my/levels/tutorial_lvl.tutorial_lvl:PersistentLevel' has LevelScriptBlueprint '/Game/my/levels/tutorial_lvl.tutorial_lvl:PersistentLevel.tutorial_lvl' with GeneratedClass '/Game/my/levels/tutorial_lvl.tutorial_lvl_C' with ClassGeneratedBy '/Game/my/levels/tutorial_lvl.tutorial_lvl:PersistentLevel.tutorial_lvl'
+[2020.03.22-10.00.01:714][208]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.03.22-10.00.01:714][208]BlueprintLog: Warning: Blueprint failed to compile:  You_Zon_spavn_Child
+[2020.03.22-10.00.01:715][208]LogCustomDialog: Dialog displayed:
+[2020.03.22-10.00.04:699][208]LogSlate: Window 'Blueprint Compilation Errors' being destroyed
+[2020.03.22-10.00.09:738][789]LogSlate: Window 'Message Log' being destroyed
+[2020.03.22-10.00.09:741][789]LogSlate: Window 'Message Log' being destroyed
+[2020.03.22-10.00.46:092][ 40]BlueprintLog: New page: Compile You_Zon_spavn_Child
+[2020.03.22-10.00.46:096][ 40]LogBlueprint: Warning: [Compiler You_Zon_spavn_Child] Cast To BP_ExampleCharacter  was pruned because its Exec pin is not connected, the connected value is not available and will instead be read as default
+[2020.03.22-10.00.46:097][ 40]LogBlueprint: Error: [Compiler You_Zon_spavn_Child] This blueprint (self) is not a BP_ExampleCharacter_C, therefore ' Target ' must have a connection.
+[2020.03.22-10.00.46:097][ 40]LogBlueprint: Error: [Compiler You_Zon_spavn_Child] Variable node  Get Mesto_L_for_bubl  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2020.03.22-10.00.46:537][ 40]LogUObjectHash: Compacting FUObjectHashTables data took   6.64ms
+[2020.03.22-10.00.50:309][473]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2020.03.22-10.00.50:327][473]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/my/levels/tutorial_lvl.tutorial_lvl:PersistentLevel' has LevelScriptBlueprint '/Game/my/levels/tutorial_lvl.tutorial_lvl:PersistentLevel.tutorial_lvl' with GeneratedClass '/Game/my/levels/tutorial_lvl.tutorial_lvl_C' with ClassGeneratedBy '/Game/my/levels/tutorial_lvl.tutorial_lvl:PersistentLevel.tutorial_lvl'
+[2020.03.22-10.00.50:327][473]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.03.22-10.00.50:327][473]BlueprintLog: Warning: Blueprint failed to compile:  You_Zon_spavn_Child
+[2020.03.22-10.00.50:328][473]LogCustomDialog: Dialog displayed:
+[2020.03.22-10.00.51:742][473]LogSlate: Window 'Blueprint Compilation Errors' being destroyed
+[2020.03.22-10.00.53:456][671]LogSlate: Window 'Message Log' being destroyed
+[2020.03.22-10.00.53:459][671]LogSlate: Window 'Message Log' being destroyed
+[2020.03.22-10.01.35:654][614]BlueprintLog: New page: Compile You_Zon_spavn_Child
+[2020.03.22-10.01.36:097][614]LogUObjectHash: Compacting FUObjectHashTables data took   6.87ms
+[2020.03.22-10.01.49:722][195]BlueprintLog: New page: Compile You_Zon_spavn_Child
+[2020.03.22-10.01.50:165][195]LogUObjectHash: Compacting FUObjectHashTables data took   5.50ms
+[2020.03.22-10.01.50:507][226]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2020.03.22-10.01.50:526][226]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/my/levels/tutorial_lvl.tutorial_lvl:PersistentLevel' has LevelScriptBlueprint '/Game/my/levels/tutorial_lvl.tutorial_lvl:PersistentLevel.tutorial_lvl' with GeneratedClass '/Game/my/levels/tutorial_lvl.tutorial_lvl_C' with ClassGeneratedBy '/Game/my/levels/tutorial_lvl.tutorial_lvl:PersistentLevel.tutorial_lvl'
+[2020.03.22-10.01.50:526][226]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.03.22-10.01.50:526][226]PIE: New page: PIE session: tutorial_lvl (Mar 22, 2020, 4:01:50 PM)
+[2020.03.22-10.01.50:526][226]LogPlayLevel: Creating play world package: /Game/my/levels/UEDPIE_0_tutorial_lvl
+[2020.03.22-10.01.50:553][226]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026720s)
+[2020.03.22-10.01.50:554][226]LogAIModule: Creating AISystem for world tutorial_lvl
+[2020.03.22-10.01.50:554][226]LogPlayLevel: PIE: World Init took: (0.000916s)
+[2020.03.22-10.01.50:554][226]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/my/levels/tutorial_lvl.tutorial_lvl to /Game/my/levels/UEDPIE_0_tutorial_lvl.tutorial_lvl (0.027792s)
+[2020.03.22-10.01.50:602][226]LogUObjectHash: Compacting FUObjectHashTables data took   5.26ms
+[2020.03.22-10.01.50:603][226]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.03.22-10.01.50:603][226]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.03.22-10.01.50:603][226]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.03.22-10.01.50:603][226]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.03.22-10.01.50:603][226]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.03.22-10.01.50:603][226]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.03.22-10.01.50:603][226]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.03.22-10.01.50:603][226]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.03.22-10.01.50:603][226]LogAudio: Display: Using built-in audio occlusion.
+[2020.03.22-10.01.50:603][226]LogAudioMixer: Display: Initializing audio mixer.
+[2020.03.22-10.01.50:623][226]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.03.22-10.01.50:623][226]LogAudioMixer: Display: Name: Speakers (2- Realtek(R) Audio)
+[2020.03.22-10.01.50:623][226]LogAudioMixer: Display: Is Default: Yes
+[2020.03.22-10.01.50:623][226]LogAudioMixer: Display: Sample Rate: 48000
+[2020.03.22-10.01.50:623][226]LogAudioMixer: Display: Channel Count Used: 2
+[2020.03.22-10.01.50:623][226]LogAudioMixer: Display: Device Channel Count: 2
+[2020.03.22-10.01.50:623][226]LogAudioMixer: Display: Channel Order:
+[2020.03.22-10.01.50:623][226]LogAudioMixer: Display: 0: FrontLeft
+[2020.03.22-10.01.50:623][226]LogAudioMixer: Display: 1: FrontRight
+[2020.03.22-10.01.50:640][226]LogAudioMixer: Display: Using Audio Device Speakers (2- Realtek(R) Audio)
+[2020.03.22-10.01.50:642][226]LogInit: FAudioDevice initialized.
+[2020.03.22-10.01.50:673][226]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.22-10.01.50:673][226]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2020.03.22-10.01.50:682][226]LogWorld: Bringing World /Game/my/levels/UEDPIE_0_tutorial_lvl.tutorial_lvl up for play (max tick rate 0) at 2020.03.22-13.01.50
+[2020.03.22-10.01.50:684][226]LogWorld: Bringing up level for play took: 0.009730
+[2020.03.22-10.01.50:684][226]LogOnline: OSS: Creating online subsystem instance for: :Context_110
+[2020.03.22-10.01.50:691][226]LogBlueprintUserMessages: [BP_ExampleCharacter_C_0] 1.0
+[2020.03.22-10.01.50:693][226]PIE: Play in editor start time for /Game/my/levels/UEDPIE_0_tutorial_lvl -0.495
+[2020.03.22-10.01.50:693][226]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/my/levels/tutorial_lvl.tutorial_lvl:PersistentLevel' has LevelScriptBlueprint '/Game/my/levels/tutorial_lvl.tutorial_lvl:PersistentLevel.tutorial_lvl' with GeneratedClass '/Game/my/levels/tutorial_lvl.tutorial_lvl_C' with ClassGeneratedBy '/Game/my/levels/tutorial_lvl.tutorial_lvl:PersistentLevel.tutorial_lvl'
+[2020.03.22-10.01.50:694][226]LogBlueprintUserMessages: [ABP_CustomMovement_C_0] 2_4
+[2020.03.22-10.02.13:151][768]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.22-10.02.13:151][768]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.22-10.02.13:151][768]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/my/levels/tutorial_lvl.tutorial_lvl:PersistentLevel' has LevelScriptBlueprint '/Game/my/levels/tutorial_lvl.tutorial_lvl:PersistentLevel.tutorial_lvl' with GeneratedClass '/Game/my/levels/tutorial_lvl.tutorial_lvl_C' with ClassGeneratedBy '/Game/my/levels/tutorial_lvl.tutorial_lvl:PersistentLevel.tutorial_lvl'
+[2020.03.22-10.02.13:151][768]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.22-10.02.13:151][768]LogWorld: BeginTearingDown for /Game/my/levels/UEDPIE_0_tutorial_lvl
+[2020.03.22-10.02.13:169][768]LogSlate: Window 'akvarel Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2020.03.22-10.02.13:174][768]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.22-10.02.13:175][768]LogWorld: UWorld::CleanupWorld for tutorial_lvl, bSessionEnded=true, bCleanupResources=true
+[2020.03.22-10.02.13:177][768]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.03.22-10.02.13:201][768]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.03.22-10.02.13:201][768]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/my/levels/tutorial_lvl.tutorial_lvl:PersistentLevel' has LevelScriptBlueprint '/Game/my/levels/tutorial_lvl.tutorial_lvl:PersistentLevel.tutorial_lvl' with GeneratedClass '/Game/my/levels/tutorial_lvl.tutorial_lvl_C' with ClassGeneratedBy '/Game/my/levels/tutorial_lvl.tutorial_lvl:PersistentLevel.tutorial_lvl'
+[2020.03.22-10.02.13:209][768]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.03.22-10.02.13:252][768]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.22-10.02.13:264][768]LogUObjectHash: Compacting FUObjectHashTables data took   4.67ms
+[2020.03.22-10.02.13:329][769]LogPlayLevel: Display: Destroying online subsystem :Context_110
+[2020.03.22-10.02.43:322][523]LogUObjectHash: Compacting FUObjectHashTables data took   1.27ms
+[2020.03.22-10.02.43:888][523]LogSavePackage: Moving 'D:/UnrealProjects/WillMarch1/Will_o_wisp2/Saved/tutorial_lvl_Auto774DC1DD24D7C97C13FADD2BB33B20515.tmp' to 'D:/UnrealProjects/WillMarch1/Will_o_wisp2/Saved/Autosaves/Game/my/levels/tutorial_lvl_Auto7.umap'
+[2020.03.22-10.02.43:890][523]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/my/levels/tutorial_lvl' took 0.608
+[2020.03.22-10.02.43:890][523]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.608
+[2020.03.22-10.02.43:890][523]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Tutorial_dialog/NewFolder/You_Zon_spavn_Child] ([1] browsable assets)...
+[2020.03.22-10.02.43:936][523]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Tutorial_dialog/NewFolder/You_Zon_spavn_Child.You_Zon_spavn_Child]
+[2020.03.22-10.02.43:936][523]OBJ SavePackage: Finished generating thumbnails for package [/Game/Tutorial_dialog/NewFolder/You_Zon_spavn_Child]
+[2020.03.22-10.02.43:997][523]LogSavePackage: Moving 'D:/UnrealProjects/WillMarch1/Will_o_wisp2/Saved/You_Zon_spavn_Child_Auto7464202614B3827D7014D409EA948945E.tmp' to 'D:/UnrealProjects/WillMarch1/Will_o_wisp2/Saved/Autosaves/Game/Tutorial_dialog/NewFolder/You_Zon_spavn_Child_Auto7.uasset'
+[2020.03.22-10.02.43:998][523]LogFileHelpers: Auto-saving content packages took 0.108
+[2020.03.22-10.04.55:983][918]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2020.03.22-10.04.55:983][918]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2020.03.22-10.06.21:236][955]BlueprintLog: New page: Compile You_Zon_spavn_Child
+[2020.03.22-10.06.21:240][955]LogBlueprint: Warning: [Compiler You_Zon_spavn_Child] Cast To BP_ExampleCharacter  was pruned because its Exec pin is not connected, the connected value is not available and will instead be read as default
+[2020.03.22-10.06.21:241][955]LogBlueprint: Error: [Compiler You_Zon_spavn_Child] This blueprint (self) is not a BP_ExampleCharacter_C, therefore ' Target ' must have a connection.
+[2020.03.22-10.06.21:242][955]LogBlueprint: Error: [Compiler You_Zon_spavn_Child] Variable node  Get Mesto_L_for_bubl  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2020.03.22-10.06.21:686][955]LogUObjectHash: Compacting FUObjectHashTables data took   6.35ms
+[2020.03.22-10.07.49:173][316]BlueprintLog: New page: Compile You_Zon_spavn_Child
+[2020.03.22-10.07.49:620][316]LogUObjectHash: Compacting FUObjectHashTables data took   6.66ms
+[2020.03.22-10.07.57:473][233]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2020.03.22-10.07.57:491][233]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/my/levels/tutorial_lvl.tutorial_lvl:PersistentLevel' has LevelScriptBlueprint '/Game/my/levels/tutorial_lvl.tutorial_lvl:PersistentLevel.tutorial_lvl' with GeneratedClass '/Game/my/levels/tutorial_lvl.tutorial_lvl_C' with ClassGeneratedBy '/Game/my/levels/tutorial_lvl.tutorial_lvl:PersistentLevel.tutorial_lvl'
+[2020.03.22-10.07.57:491][233]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.03.22-10.07.57:491][233]PIE: New page: PIE session: tutorial_lvl (Mar 22, 2020, 4:07:57 PM)
+[2020.03.22-10.07.57:492][233]LogPlayLevel: Creating play world package: /Game/my/levels/UEDPIE_0_tutorial_lvl
+[2020.03.22-10.07.57:518][233]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026837s)
+[2020.03.22-10.07.57:519][233]LogAIModule: Creating AISystem for world tutorial_lvl
+[2020.03.22-10.07.57:519][233]LogPlayLevel: PIE: World Init took: (0.000923s)
+[2020.03.22-10.07.57:519][233]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/my/levels/tutorial_lvl.tutorial_lvl to /Game/my/levels/UEDPIE_0_tutorial_lvl.tutorial_lvl (0.027910s)
+[2020.03.22-10.07.57:571][233]LogUObjectHash: Compacting FUObjectHashTables data took   6.58ms
+[2020.03.22-10.07.57:572][233]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.03.22-10.07.57:572][233]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.03.22-10.07.57:572][233]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.03.22-10.07.57:572][233]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.03.22-10.07.57:572][233]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.03.22-10.07.57:572][233]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.03.22-10.07.57:572][233]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.03.22-10.07.57:572][233]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.03.22-10.07.57:572][233]LogAudio: Display: Using built-in audio occlusion.
+[2020.03.22-10.07.57:572][233]LogAudioMixer: Display: Initializing audio mixer.
+[2020.03.22-10.07.57:591][233]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.03.22-10.07.57:591][233]LogAudioMixer: Display: Name: Speakers (2- Realtek(R) Audio)
+[2020.03.22-10.07.57:591][233]LogAudioMixer: Display: Is Default: Yes
+[2020.03.22-10.07.57:591][233]LogAudioMixer: Display: Sample Rate: 48000
+[2020.03.22-10.07.57:592][233]LogAudioMixer: Display: Channel Count Used: 2
+[2020.03.22-10.07.57:592][233]LogAudioMixer: Display: Device Channel Count: 2
+[2020.03.22-10.07.57:592][233]LogAudioMixer: Display: Channel Order:
+[2020.03.22-10.07.57:592][233]LogAudioMixer: Display: 0: FrontLeft
+[2020.03.22-10.07.57:592][233]LogAudioMixer: Display: 1: FrontRight
+[2020.03.22-10.07.57:608][233]LogAudioMixer: Display: Using Audio Device Speakers (2- Realtek(R) Audio)
+[2020.03.22-10.07.57:611][233]LogInit: FAudioDevice initialized.
+[2020.03.22-10.07.57:658][233]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.22-10.07.57:658][233]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2020.03.22-10.07.57:668][233]LogWorld: Bringing World /Game/my/levels/UEDPIE_0_tutorial_lvl.tutorial_lvl up for play (max tick rate 0) at 2020.03.22-13.07.57
+[2020.03.22-10.07.57:669][233]LogWorld: Bringing up level for play took: 0.009658
+[2020.03.22-10.07.57:669][233]LogOnline: OSS: Creating online subsystem instance for: :Context_111
+[2020.03.22-10.07.57:677][233]LogBlueprintUserMessages: [BP_ExampleCharacter_C_0] 1.0
+[2020.03.22-10.07.57:678][233]PIE: Play in editor start time for /Game/my/levels/UEDPIE_0_tutorial_lvl 0.491
+[2020.03.22-10.07.57:679][233]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/my/levels/tutorial_lvl.tutorial_lvl:PersistentLevel' has LevelScriptBlueprint '/Game/my/levels/tutorial_lvl.tutorial_lvl:PersistentLevel.tutorial_lvl' with GeneratedClass '/Game/my/levels/tutorial_lvl.tutorial_lvl_C' with ClassGeneratedBy '/Game/my/levels/tutorial_lvl.tutorial_lvl:PersistentLevel.tutorial_lvl'
+[2020.03.22-10.07.57:680][233]LogBlueprintUserMessages: [ABP_CustomMovement_C_0] 2_4
+[2020.03.22-10.08.09:438][590]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.22-10.08.09:438][590]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.22-10.08.09:438][590]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/my/levels/tutorial_lvl.tutorial_lvl:PersistentLevel' has LevelScriptBlueprint '/Game/my/levels/tutorial_lvl.tutorial_lvl:PersistentLevel.tutorial_lvl' with GeneratedClass '/Game/my/levels/tutorial_lvl.tutorial_lvl_C' with ClassGeneratedBy '/Game/my/levels/tutorial_lvl.tutorial_lvl:PersistentLevel.tutorial_lvl'
+[2020.03.22-10.08.09:438][590]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.22-10.08.09:438][590]LogWorld: BeginTearingDown for /Game/my/levels/UEDPIE_0_tutorial_lvl
+[2020.03.22-10.08.09:455][590]LogSlate: Window 'akvarel Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2020.03.22-10.08.09:461][590]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.22-10.08.09:461][590]LogWorld: UWorld::CleanupWorld for tutorial_lvl, bSessionEnded=true, bCleanupResources=true
+[2020.03.22-10.08.09:463][590]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.03.22-10.08.09:480][590]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.03.22-10.08.09:480][590]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/my/levels/tutorial_lvl.tutorial_lvl:PersistentLevel' has LevelScriptBlueprint '/Game/my/levels/tutorial_lvl.tutorial_lvl:PersistentLevel.tutorial_lvl' with GeneratedClass '/Game/my/levels/tutorial_lvl.tutorial_lvl_C' with ClassGeneratedBy '/Game/my/levels/tutorial_lvl.tutorial_lvl:PersistentLevel.tutorial_lvl'
+[2020.03.22-10.08.09:488][590]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.03.22-10.08.09:536][590]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.22-10.08.09:546][590]LogUObjectHash: Compacting FUObjectHashTables data took   4.25ms
+[2020.03.22-10.08.09:607][591]LogPlayLevel: Display: Destroying online subsystem :Context_111
+[2020.03.22-10.08.30:676][  5]BlueprintLog: New page: Compile You_Zon_spavn_Child
+[2020.03.22-10.08.31:123][  5]LogUObjectHash: Compacting FUObjectHashTables data took   5.11ms
+[2020.03.22-10.08.36:154][583]BlueprintLog: New page: Compile You_Zon_spavn_Child
+[2020.03.22-10.08.36:604][583]LogUObjectHash: Compacting FUObjectHashTables data took   6.65ms
+[2020.03.22-10.08.37:967][734]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2020.03.22-10.08.37:984][734]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/my/levels/tutorial_lvl.tutorial_lvl:PersistentLevel' has LevelScriptBlueprint '/Game/my/levels/tutorial_lvl.tutorial_lvl:PersistentLevel.tutorial_lvl' with GeneratedClass '/Game/my/levels/tutorial_lvl.tutorial_lvl_C' with ClassGeneratedBy '/Game/my/levels/tutorial_lvl.tutorial_lvl:PersistentLevel.tutorial_lvl'
+[2020.03.22-10.08.37:984][734]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.03.22-10.08.37:984][734]PIE: New page: PIE session: tutorial_lvl (Mar 22, 2020, 4:08:37 PM)
+[2020.03.22-10.08.37:984][734]LogPlayLevel: Creating play world package: /Game/my/levels/UEDPIE_0_tutorial_lvl
+[2020.03.22-10.08.38:011][734]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026689s)
+[2020.03.22-10.08.38:012][734]LogAIModule: Creating AISystem for world tutorial_lvl
+[2020.03.22-10.08.38:012][734]LogPlayLevel: PIE: World Init took: (0.000878s)
+[2020.03.22-10.08.38:012][734]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/my/levels/tutorial_lvl.tutorial_lvl to /Game/my/levels/UEDPIE_0_tutorial_lvl.tutorial_lvl (0.027721s)
+[2020.03.22-10.08.38:066][734]LogUObjectHash: Compacting FUObjectHashTables data took   6.39ms
+[2020.03.22-10.08.38:067][734]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.03.22-10.08.38:067][734]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.03.22-10.08.38:067][734]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.03.22-10.08.38:067][734]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.03.22-10.08.38:067][734]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.03.22-10.08.38:067][734]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.03.22-10.08.38:067][734]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.03.22-10.08.38:067][734]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.03.22-10.08.38:068][734]LogAudio: Display: Using built-in audio occlusion.
+[2020.03.22-10.08.38:068][734]LogAudioMixer: Display: Initializing audio mixer.
+[2020.03.22-10.08.38:086][734]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.03.22-10.08.38:086][734]LogAudioMixer: Display: Name: Speakers (2- Realtek(R) Audio)
+[2020.03.22-10.08.38:086][734]LogAudioMixer: Display: Is Default: Yes
+[2020.03.22-10.08.38:086][734]LogAudioMixer: Display: Sample Rate: 48000
+[2020.03.22-10.08.38:086][734]LogAudioMixer: Display: Channel Count Used: 2
+[2020.03.22-10.08.38:086][734]LogAudioMixer: Display: Device Channel Count: 2
+[2020.03.22-10.08.38:086][734]LogAudioMixer: Display: Channel Order:
+[2020.03.22-10.08.38:086][734]LogAudioMixer: Display: 0: FrontLeft
+[2020.03.22-10.08.38:086][734]LogAudioMixer: Display: 1: FrontRight
+[2020.03.22-10.08.38:103][734]LogAudioMixer: Display: Using Audio Device Speakers (2- Realtek(R) Audio)
+[2020.03.22-10.08.38:104][734]LogInit: FAudioDevice initialized.
+[2020.03.22-10.08.38:165][734]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.22-10.08.38:166][734]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2020.03.22-10.08.38:175][734]LogWorld: Bringing World /Game/my/levels/UEDPIE_0_tutorial_lvl.tutorial_lvl up for play (max tick rate 0) at 2020.03.22-13.08.38
+[2020.03.22-10.08.38:177][734]LogWorld: Bringing up level for play took: 0.010201
+[2020.03.22-10.08.38:177][734]LogOnline: OSS: Creating online subsystem instance for: :Context_112
+[2020.03.22-10.08.38:184][734]LogBlueprintUserMessages: [BP_ExampleCharacter_C_0] 1.0
+[2020.03.22-10.08.38:186][734]PIE: Play in editor start time for /Game/my/levels/UEDPIE_0_tutorial_lvl 0.998
+[2020.03.22-10.08.38:186][734]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/my/levels/tutorial_lvl.tutorial_lvl:PersistentLevel' has LevelScriptBlueprint '/Game/my/levels/tutorial_lvl.tutorial_lvl:PersistentLevel.tutorial_lvl' with GeneratedClass '/Game/my/levels/tutorial_lvl.tutorial_lvl_C' with ClassGeneratedBy '/Game/my/levels/tutorial_lvl.tutorial_lvl:PersistentLevel.tutorial_lvl'
+[2020.03.22-10.08.38:187][734]LogBlueprintUserMessages: [ABP_CustomMovement_C_0] 2_4
+[2020.03.22-10.08.50:326][159]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.22-10.08.50:326][159]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.22-10.08.50:326][159]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/my/levels/tutorial_lvl.tutorial_lvl:PersistentLevel' has LevelScriptBlueprint '/Game/my/levels/tutorial_lvl.tutorial_lvl:PersistentLevel.tutorial_lvl' with GeneratedClass '/Game/my/levels/tutorial_lvl.tutorial_lvl_C' with ClassGeneratedBy '/Game/my/levels/tutorial_lvl.tutorial_lvl:PersistentLevel.tutorial_lvl'
+[2020.03.22-10.08.50:326][159]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.22-10.08.50:326][159]LogWorld: BeginTearingDown for /Game/my/levels/UEDPIE_0_tutorial_lvl
+[2020.03.22-10.08.50:343][159]LogSlate: Window 'akvarel Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2020.03.22-10.08.50:348][159]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.22-10.08.50:349][159]LogWorld: UWorld::CleanupWorld for tutorial_lvl, bSessionEnded=true, bCleanupResources=true
+[2020.03.22-10.08.50:351][159]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.03.22-10.08.50:372][159]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.03.22-10.08.50:372][159]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/my/levels/tutorial_lvl.tutorial_lvl:PersistentLevel' has LevelScriptBlueprint '/Game/my/levels/tutorial_lvl.tutorial_lvl:PersistentLevel.tutorial_lvl' with GeneratedClass '/Game/my/levels/tutorial_lvl.tutorial_lvl_C' with ClassGeneratedBy '/Game/my/levels/tutorial_lvl.tutorial_lvl:PersistentLevel.tutorial_lvl'
+[2020.03.22-10.08.50:380][159]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.03.22-10.08.50:429][159]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.22-10.08.50:440][159]LogUObjectHash: Compacting FUObjectHashTables data took   4.77ms
+[2020.03.22-10.08.50:502][160]LogPlayLevel: Display: Destroying online subsystem :Context_112
+[2020.03.22-10.10.33:283][222]BlueprintLog: New page: Compile You_Zon_spavn_Child
+[2020.03.22-10.10.33:738][222]LogUObjectHash: Compacting FUObjectHashTables data took   5.29ms
+[2020.03.22-10.10.34:366][287]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2020.03.22-10.10.34:383][287]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/my/levels/tutorial_lvl.tutorial_lvl:PersistentLevel' has LevelScriptBlueprint '/Game/my/levels/tutorial_lvl.tutorial_lvl:PersistentLevel.tutorial_lvl' with GeneratedClass '/Game/my/levels/tutorial_lvl.tutorial_lvl_C' with ClassGeneratedBy '/Game/my/levels/tutorial_lvl.tutorial_lvl:PersistentLevel.tutorial_lvl'
+[2020.03.22-10.10.34:383][287]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.03.22-10.10.34:384][287]PIE: New page: PIE session: tutorial_lvl (Mar 22, 2020, 4:10:34 PM)
+[2020.03.22-10.10.34:384][287]LogPlayLevel: Creating play world package: /Game/my/levels/UEDPIE_0_tutorial_lvl
+[2020.03.22-10.10.34:410][287]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026577s)
+[2020.03.22-10.10.34:411][287]LogAIModule: Creating AISystem for world tutorial_lvl
+[2020.03.22-10.10.34:411][287]LogPlayLevel: PIE: World Init took: (0.000972s)
+[2020.03.22-10.10.34:411][287]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/my/levels/tutorial_lvl.tutorial_lvl to /Game/my/levels/UEDPIE_0_tutorial_lvl.tutorial_lvl (0.027715s)
+[2020.03.22-10.10.34:462][287]LogUObjectHash: Compacting FUObjectHashTables data took   6.03ms
+[2020.03.22-10.10.34:463][287]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.03.22-10.10.34:463][287]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.03.22-10.10.34:463][287]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.03.22-10.10.34:463][287]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.03.22-10.10.34:463][287]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.03.22-10.10.34:463][287]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.03.22-10.10.34:463][287]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.03.22-10.10.34:463][287]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.03.22-10.10.34:464][287]LogAudio: Display: Using built-in audio occlusion.
+[2020.03.22-10.10.34:464][287]LogAudioMixer: Display: Initializing audio mixer.
+[2020.03.22-10.10.34:484][287]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.03.22-10.10.34:485][287]LogAudioMixer: Display: Name: Speakers (2- Realtek(R) Audio)
+[2020.03.22-10.10.34:485][287]LogAudioMixer: Display: Is Default: Yes
+[2020.03.22-10.10.34:485][287]LogAudioMixer: Display: Sample Rate: 48000
+[2020.03.22-10.10.34:485][287]LogAudioMixer: Display: Channel Count Used: 2
+[2020.03.22-10.10.34:485][287]LogAudioMixer: Display: Device Channel Count: 2
+[2020.03.22-10.10.34:485][287]LogAudioMixer: Display: Channel Order:
+[2020.03.22-10.10.34:485][287]LogAudioMixer: Display: 0: FrontLeft
+[2020.03.22-10.10.34:485][287]LogAudioMixer: Display: 1: FrontRight
+[2020.03.22-10.10.34:501][287]LogAudioMixer: Display: Using Audio Device Speakers (2- Realtek(R) Audio)
+[2020.03.22-10.10.34:503][287]LogInit: FAudioDevice initialized.
+[2020.03.22-10.10.34:551][287]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.22-10.10.34:551][287]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2020.03.22-10.10.34:561][287]LogWorld: Bringing World /Game/my/levels/UEDPIE_0_tutorial_lvl.tutorial_lvl up for play (max tick rate 0) at 2020.03.22-13.10.34
+[2020.03.22-10.10.34:562][287]LogWorld: Bringing up level for play took: 0.009919
+[2020.03.22-10.10.34:562][287]LogOnline: OSS: Creating online subsystem instance for: :Context_113
+[2020.03.22-10.10.34:570][287]LogBlueprintUserMessages: [BP_ExampleCharacter_C_0] 1.0
+[2020.03.22-10.10.34:572][287]PIE: Play in editor start time for /Game/my/levels/UEDPIE_0_tutorial_lvl -0.616
+[2020.03.22-10.10.34:572][287]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/my/levels/tutorial_lvl.tutorial_lvl:PersistentLevel' has LevelScriptBlueprint '/Game/my/levels/tutorial_lvl.tutorial_lvl:PersistentLevel.tutorial_lvl' with GeneratedClass '/Game/my/levels/tutorial_lvl.tutorial_lvl_C' with ClassGeneratedBy '/Game/my/levels/tutorial_lvl.tutorial_lvl:PersistentLevel.tutorial_lvl'
+[2020.03.22-10.10.34:573][287]LogBlueprintUserMessages: [ABP_CustomMovement_C_0] 2_4
+[2020.03.22-10.10.53:223][416]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.22-10.10.53:223][416]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.22-10.10.53:223][416]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/my/levels/tutorial_lvl.tutorial_lvl:PersistentLevel' has LevelScriptBlueprint '/Game/my/levels/tutorial_lvl.tutorial_lvl:PersistentLevel.tutorial_lvl' with GeneratedClass '/Game/my/levels/tutorial_lvl.tutorial_lvl_C' with ClassGeneratedBy '/Game/my/levels/tutorial_lvl.tutorial_lvl:PersistentLevel.tutorial_lvl'
+[2020.03.22-10.10.53:223][416]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.22-10.10.53:224][416]LogWorld: BeginTearingDown for /Game/my/levels/UEDPIE_0_tutorial_lvl
+[2020.03.22-10.10.53:241][416]LogSlate: Window 'akvarel Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2020.03.22-10.10.53:247][416]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.22-10.10.53:247][416]LogWorld: UWorld::CleanupWorld for tutorial_lvl, bSessionEnded=true, bCleanupResources=true
+[2020.03.22-10.10.53:250][416]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.03.22-10.10.53:264][416]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.03.22-10.10.53:264][416]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/my/levels/tutorial_lvl.tutorial_lvl:PersistentLevel' has LevelScriptBlueprint '/Game/my/levels/tutorial_lvl.tutorial_lvl:PersistentLevel.tutorial_lvl' with GeneratedClass '/Game/my/levels/tutorial_lvl.tutorial_lvl_C' with ClassGeneratedBy '/Game/my/levels/tutorial_lvl.tutorial_lvl:PersistentLevel.tutorial_lvl'
+[2020.03.22-10.10.53:272][416]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.03.22-10.10.53:320][416]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.22-10.10.53:331][416]LogUObjectHash: Compacting FUObjectHashTables data took   4.83ms
+[2020.03.22-10.10.53:390][417]LogPlayLevel: Display: Destroying online subsystem :Context_113
+[2020.03.22-10.10.55:441][661]BlueprintLog: New page: Compile You_Zon_spavn_Child
+[2020.03.22-10.10.55:892][661]LogUObjectHash: Compacting FUObjectHashTables data took   5.81ms
+[2020.03.22-10.11.00:826][ 35]LogSlate: Window 'Message' being destroyed
+[2020.03.22-10.11.03:440][ 35]LogMaterial: Display: Missing cached shader map for material ornament_Mat, compiling. 
+[2020.03.22-10.11.03:515][ 35]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 24
+[2020.03.22-10.11.03:515][ 35]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 23
+[2020.03.22-10.11.03:515][ 35]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 22
+[2020.03.22-10.11.03:515][ 35]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 21
+[2020.03.22-10.11.03:515][ 35]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 20
+[2020.03.22-10.11.03:515][ 35]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 19
+[2020.03.22-10.11.03:515][ 35]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 18
+[2020.03.22-10.11.03:515][ 35]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 17
+[2020.03.22-10.11.03:549][ 35]LogMaterial: Display: Missing cached shader map for material ornament_Mat, compiling. 
+[2020.03.22-10.11.03:681][ 35]LogUObjectHash: Compacting FUObjectHashTables data took   5.67ms
+[2020.03.22-10.11.03:698][ 35]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.03.22-10.11.05:925][ 35]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 61
+[2020.03.22-10.11.05:925][ 35]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 60
+[2020.03.22-10.11.05:925][ 35]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 59
+[2020.03.22-10.11.05:925][ 35]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 58
+[2020.03.22-10.11.05:925][ 35]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 57
+[2020.03.22-10.11.05:925][ 35]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 56
+[2020.03.22-10.11.05:926][ 35]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 55
+[2020.03.22-10.11.05:926][ 35]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 54
+[2020.03.22-10.11.05:926][ 35]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 53
+[2020.03.22-10.11.05:926][ 35]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 52
+[2020.03.22-10.11.05:926][ 35]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 51
+[2020.03.22-10.11.05:926][ 35]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 50
+[2020.03.22-10.11.05:926][ 35]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 49
+[2020.03.22-10.11.05:926][ 35]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 48
+[2020.03.22-10.11.05:926][ 35]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 47
+[2020.03.22-10.11.05:926][ 35]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 46
+[2020.03.22-10.11.05:926][ 35]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 45
+[2020.03.22-10.11.05:926][ 35]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 44
+[2020.03.22-10.11.05:926][ 35]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 43
+[2020.03.22-10.11.05:926][ 35]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 37
+[2020.03.22-10.11.05:926][ 35]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 32
+[2020.03.22-10.11.05:926][ 35]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 27
+[2020.03.22-10.11.05:926][ 35]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 23
+[2020.03.22-10.11.05:929][ 35]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 20
+[2020.03.22-10.11.05:934][ 35]TextureStreamingBuild: Display: Compiling optional shaders took 2.251 seconds.
+[2020.03.22-10.11.06:034][ 35]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 17
+[2020.03.22-10.11.06:034][ 35]LogUObjectHash: Compacting FUObjectHashTables data took   4.18ms
+[2020.03.22-10.11.06:163][ 35]LogWorld: UWorld::CleanupWorld for World_34, bSessionEnded=true, bCleanupResources=true
+[2020.03.22-10.11.06:164][ 35]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.03.22-10.11.06:456][ 36]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 14
+[2020.03.22-10.11.07:518][ 83]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 12
+[2020.03.22-10.11.07:670][ 90]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 10
+[2020.03.22-10.11.08:338][120]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 8
+[2020.03.22-10.11.08:356][121]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 6
+[2020.03.22-10.11.08:468][127]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 5
+[2020.03.22-10.11.09:036][150]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 4
+[2020.03.22-10.11.09:107][154]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 3
+[2020.03.22-10.11.09:140][156]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 2
+[2020.03.22-10.11.09:208][160]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 1
+[2020.03.22-10.13.27:614][596]LogUObjectHash: Compacting FUObjectHashTables data took   4.67ms
+[2020.03.22-10.13.28:181][596]LogSavePackage: Moving 'D:/UnrealProjects/WillMarch1/Will_o_wisp2/Saved/tutorial_lvl_Auto8B9F35A6248F0DD9F91EDA0AC585B9A65.tmp' to 'D:/UnrealProjects/WillMarch1/Will_o_wisp2/Saved/Autosaves/Game/my/levels/tutorial_lvl_Auto8.umap'
+[2020.03.22-10.13.28:185][596]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/my/levels/tutorial_lvl' took 0.618
+[2020.03.22-10.13.28:185][596]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.618
+[2020.03.22-10.13.28:185][596]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Tutorial_dialog/NewFolder/You_Zon_spavn_Child] ([1] browsable assets)...
+[2020.03.22-10.13.28:236][596]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Tutorial_dialog/NewFolder/You_Zon_spavn_Child.You_Zon_spavn_Child]
+[2020.03.22-10.13.28:236][596]OBJ SavePackage: Finished generating thumbnails for package [/Game/Tutorial_dialog/NewFolder/You_Zon_spavn_Child]
+[2020.03.22-10.13.28:286][596]LogSavePackage: Moving 'D:/UnrealProjects/WillMarch1/Will_o_wisp2/Saved/You_Zon_spavn_Child_Auto8C28BB54B4D9F04FBC638ED9848A0D207.tmp' to 'D:/UnrealProjects/WillMarch1/Will_o_wisp2/Saved/Autosaves/Game/Tutorial_dialog/NewFolder/You_Zon_spavn_Child_Auto8.uasset'
+[2020.03.22-10.13.28:286][596]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/my/asset/texture/fon/ornament_Mat] ([1] browsable assets)...
+[2020.03.22-10.13.28:317][596]OBJ SavePackage:     Rendered thumbnail for [Material /Game/my/asset/texture/fon/ornament_Mat.ornament_Mat]
+[2020.03.22-10.13.28:317][596]OBJ SavePackage: Finished generating thumbnails for package [/Game/my/asset/texture/fon/ornament_Mat]
+[2020.03.22-10.13.28:342][596]LogSavePackage: Moving 'D:/UnrealProjects/WillMarch1/Will_o_wisp2/Saved/ornament_Mat_Auto85C66908C4741D44CA8A82789B7EBD996.tmp' to 'D:/UnrealProjects/WillMarch1/Will_o_wisp2/Saved/Autosaves/Game/my/asset/texture/fon/ornament_Mat_Auto8.uasset'
+[2020.03.22-10.13.28:342][596]LogFileHelpers: Auto-saving content packages took 0.157
+[2020.03.22-10.21.45:858][302]BlueprintLog: New page: Compile Fazer_Zon_spavn
+[2020.03.22-10.21.46:325][302]LogUObjectHash: Compacting FUObjectHashTables data took   5.34ms
+[2020.03.22-10.21.49:400][642]BlueprintLog: New page: Compile You_Zon_spavn_Child
+[2020.03.22-10.21.49:856][642]LogUObjectHash: Compacting FUObjectHashTables data took   6.59ms
+[2020.03.22-10.22.11:675][231]BlueprintLog: New page: Compile You_Zon_spavn_Child
+[2020.03.22-10.22.12:137][231]LogUObjectHash: Compacting FUObjectHashTables data took   6.42ms
+[2020.03.22-10.22.13:086][332]LogWorld: UWorld::CleanupWorld for World_38, bSessionEnded=true, bCleanupResources=true
+[2020.03.22-10.22.13:086][332]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.03.22-10.22.15:584][613]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2020.03.22-10.22.15:584][613]LogWorld: UWorld::CleanupWorld for World_29, bSessionEnded=true, bCleanupResources=true
+[2020.03.22-10.22.15:584][613]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.03.22-10.22.19:638][ 60]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2020.03.22-10.22.20:449][148]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2020.03.22-10.22.21:219][236]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2020.03.22-10.22.22:385][366]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2020.03.22-10.22.22:402][366]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/my/levels/tutorial_lvl.tutorial_lvl:PersistentLevel' has LevelScriptBlueprint '/Game/my/levels/tutorial_lvl.tutorial_lvl:PersistentLevel.tutorial_lvl' with GeneratedClass '/Game/my/levels/tutorial_lvl.tutorial_lvl_C' with ClassGeneratedBy '/Game/my/levels/tutorial_lvl.tutorial_lvl:PersistentLevel.tutorial_lvl'
+[2020.03.22-10.22.22:402][366]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.03.22-10.22.22:402][366]PIE: New page: PIE session: tutorial_lvl (Mar 22, 2020, 4:22:22 PM)
+[2020.03.22-10.22.22:403][366]LogPlayLevel: Creating play world package: /Game/my/levels/UEDPIE_0_tutorial_lvl
+[2020.03.22-10.22.22:429][366]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026721s)
+[2020.03.22-10.22.22:430][366]LogAIModule: Creating AISystem for world tutorial_lvl
+[2020.03.22-10.22.22:430][366]LogPlayLevel: PIE: World Init took: (0.000935s)
+[2020.03.22-10.22.22:430][366]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/my/levels/tutorial_lvl.tutorial_lvl to /Game/my/levels/UEDPIE_0_tutorial_lvl.tutorial_lvl (0.027815s)
+[2020.03.22-10.22.22:523][366]LogUObjectHash: Compacting FUObjectHashTables data took   6.57ms
+[2020.03.22-10.22.22:527][366]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.03.22-10.22.22:527][366]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.03.22-10.22.22:527][366]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.03.22-10.22.22:527][366]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.03.22-10.22.22:527][366]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.03.22-10.22.22:527][366]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.03.22-10.22.22:527][366]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.03.22-10.22.22:527][366]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.03.22-10.22.22:528][366]LogAudio: Display: Using built-in audio occlusion.
+[2020.03.22-10.22.22:528][366]LogAudioMixer: Display: Initializing audio mixer.
+[2020.03.22-10.22.22:548][366]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.03.22-10.22.22:548][366]LogAudioMixer: Display: Name: Speakers (2- Realtek(R) Audio)
+[2020.03.22-10.22.22:548][366]LogAudioMixer: Display: Is Default: Yes
+[2020.03.22-10.22.22:548][366]LogAudioMixer: Display: Sample Rate: 48000
+[2020.03.22-10.22.22:548][366]LogAudioMixer: Display: Channel Count Used: 2
+[2020.03.22-10.22.22:548][366]LogAudioMixer: Display: Device Channel Count: 2
+[2020.03.22-10.22.22:548][366]LogAudioMixer: Display: Channel Order:
+[2020.03.22-10.22.22:548][366]LogAudioMixer: Display: 0: FrontLeft
+[2020.03.22-10.22.22:548][366]LogAudioMixer: Display: 1: FrontRight
+[2020.03.22-10.22.22:565][366]LogAudioMixer: Display: Using Audio Device Speakers (2- Realtek(R) Audio)
+[2020.03.22-10.22.22:567][366]LogInit: FAudioDevice initialized.
+[2020.03.22-10.22.22:620][366]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.22-10.22.22:620][366]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2020.03.22-10.22.22:629][366]LogWorld: Bringing World /Game/my/levels/UEDPIE_0_tutorial_lvl.tutorial_lvl up for play (max tick rate 0) at 2020.03.22-13.22.22
+[2020.03.22-10.22.22:630][366]LogWorld: Bringing up level for play took: 0.009574
+[2020.03.22-10.22.22:631][366]LogOnline: OSS: Creating online subsystem instance for: :Context_114
+[2020.03.22-10.22.22:638][366]LogBlueprintUserMessages: [BP_ExampleCharacter_C_0] 1.0
+[2020.03.22-10.22.22:640][366]PIE: Play in editor start time for /Game/my/levels/UEDPIE_0_tutorial_lvl -0.548
+[2020.03.22-10.22.22:640][366]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/my/levels/tutorial_lvl.tutorial_lvl:PersistentLevel' has LevelScriptBlueprint '/Game/my/levels/tutorial_lvl.tutorial_lvl:PersistentLevel.tutorial_lvl' with GeneratedClass '/Game/my/levels/tutorial_lvl.tutorial_lvl_C' with ClassGeneratedBy '/Game/my/levels/tutorial_lvl.tutorial_lvl:PersistentLevel.tutorial_lvl'
+[2020.03.22-10.22.22:641][366]LogBlueprintUserMessages: [ABP_CustomMovement_C_0] 2_4
+[2020.03.22-10.22.25:263][666]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.22-10.22.25:272][666]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2020.03.22-10.22.25:301][666]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2020.03.22-10.22.25:302][666]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/my/levels/tutorial_lvl.tutorial_lvl:PersistentLevel' has LevelScriptBlueprint '/Game/my/levels/tutorial_lvl.tutorial_lvl:PersistentLevel.tutorial_lvl' with GeneratedClass '/Game/my/levels/tutorial_lvl.tutorial_lvl_C' with ClassGeneratedBy '/Game/my/levels/tutorial_lvl.tutorial_lvl:PersistentLevel.tutorial_lvl'
+[2020.03.22-10.22.25:302][666]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.22-10.22.25:302][666]LogWorld: BeginTearingDown for /Game/my/levels/UEDPIE_0_tutorial_lvl
+[2020.03.22-10.22.25:318][666]LogSlate: Window 'akvarel Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2020.03.22-10.22.25:322][666]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.22-10.22.25:323][666]LogWorld: UWorld::CleanupWorld for tutorial_lvl, bSessionEnded=true, bCleanupResources=true
+[2020.03.22-10.22.25:325][666]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.03.22-10.22.25:335][666]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.03.22-10.22.25:335][666]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/my/levels/tutorial_lvl.tutorial_lvl:PersistentLevel' has LevelScriptBlueprint '/Game/my/levels/tutorial_lvl.tutorial_lvl:PersistentLevel.tutorial_lvl' with GeneratedClass '/Game/my/levels/tutorial_lvl.tutorial_lvl_C' with ClassGeneratedBy '/Game/my/levels/tutorial_lvl.tutorial_lvl:PersistentLevel.tutorial_lvl'
+[2020.03.22-10.22.25:343][666]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.03.22-10.22.25:377][666]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.22-10.22.25:425][666]LogUObjectHash: Compacting FUObjectHashTables data took   4.66ms
+[2020.03.22-10.22.25:444][667]LogPlayLevel: Display: Destroying online subsystem :Context_114
+[2020.03.22-10.22.27:615][921]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2020.03.22-10.22.35:969][902]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2020.03.22-10.22.37:227][ 50]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2020.03.22-10.22.37:244][ 50]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/my/levels/tutorial_lvl.tutorial_lvl:PersistentLevel' has LevelScriptBlueprint '/Game/my/levels/tutorial_lvl.tutorial_lvl:PersistentLevel.tutorial_lvl' with GeneratedClass '/Game/my/levels/tutorial_lvl.tutorial_lvl_C' with ClassGeneratedBy '/Game/my/levels/tutorial_lvl.tutorial_lvl:PersistentLevel.tutorial_lvl'
+[2020.03.22-10.22.37:244][ 50]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.03.22-10.22.37:244][ 50]PIE: New page: PIE session: tutorial_lvl (Mar 22, 2020, 4:22:37 PM)
+[2020.03.22-10.22.37:248][ 50]LogPlayLevel: Creating play world package: /Game/my/levels/UEDPIE_0_tutorial_lvl
+[2020.03.22-10.22.37:274][ 50]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026856s)
+[2020.03.22-10.22.37:275][ 50]LogAIModule: Creating AISystem for world tutorial_lvl
+[2020.03.22-10.22.37:275][ 50]LogPlayLevel: PIE: World Init took: (0.000983s)
+[2020.03.22-10.22.37:276][ 50]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/my/levels/tutorial_lvl.tutorial_lvl to /Game/my/levels/UEDPIE_0_tutorial_lvl.tutorial_lvl (0.028015s)
+[2020.03.22-10.22.37:314][ 50]LogUObjectHash: Compacting FUObjectHashTables data took   3.28ms
+[2020.03.22-10.22.37:319][ 50]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.03.22-10.22.37:319][ 50]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.03.22-10.22.37:319][ 50]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.03.22-10.22.37:319][ 50]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.03.22-10.22.37:319][ 50]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.03.22-10.22.37:319][ 50]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.03.22-10.22.37:319][ 50]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.03.22-10.22.37:319][ 50]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.03.22-10.22.37:319][ 50]LogAudio: Display: Using built-in audio occlusion.
+[2020.03.22-10.22.37:319][ 50]LogAudioMixer: Display: Initializing audio mixer.
+[2020.03.22-10.22.37:338][ 50]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.03.22-10.22.37:338][ 50]LogAudioMixer: Display: Name: Speakers (2- Realtek(R) Audio)
+[2020.03.22-10.22.37:338][ 50]LogAudioMixer: Display: Is Default: Yes
+[2020.03.22-10.22.37:338][ 50]LogAudioMixer: Display: Sample Rate: 48000
+[2020.03.22-10.22.37:338][ 50]LogAudioMixer: Display: Channel Count Used: 2
+[2020.03.22-10.22.37:338][ 50]LogAudioMixer: Display: Device Channel Count: 2
+[2020.03.22-10.22.37:338][ 50]LogAudioMixer: Display: Channel Order:
+[2020.03.22-10.22.37:338][ 50]LogAudioMixer: Display: 0: FrontLeft
+[2020.03.22-10.22.37:338][ 50]LogAudioMixer: Display: 1: FrontRight
+[2020.03.22-10.22.37:355][ 50]LogAudioMixer: Display: Using Audio Device Speakers (2- Realtek(R) Audio)
+[2020.03.22-10.22.37:356][ 50]LogInit: FAudioDevice initialized.
+[2020.03.22-10.22.37:403][ 50]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.22-10.22.37:403][ 50]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2020.03.22-10.22.37:412][ 50]LogWorld: Bringing World /Game/my/levels/UEDPIE_0_tutorial_lvl.tutorial_lvl up for play (max tick rate 0) at 2020.03.22-13.22.37
+[2020.03.22-10.22.37:413][ 50]LogWorld: Bringing up level for play took: 0.009518
+[2020.03.22-10.22.37:414][ 50]LogOnline: OSS: Creating online subsystem instance for: :Context_115
+[2020.03.22-10.22.37:421][ 50]LogBlueprintUserMessages: [BP_ExampleCharacter_C_0] 1.0
+[2020.03.22-10.22.37:423][ 50]PIE: Play in editor start time for /Game/my/levels/UEDPIE_0_tutorial_lvl 0.235
+[2020.03.22-10.22.37:423][ 50]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/my/levels/tutorial_lvl.tutorial_lvl:PersistentLevel' has LevelScriptBlueprint '/Game/my/levels/tutorial_lvl.tutorial_lvl:PersistentLevel.tutorial_lvl' with GeneratedClass '/Game/my/levels/tutorial_lvl.tutorial_lvl_C' with ClassGeneratedBy '/Game/my/levels/tutorial_lvl.tutorial_lvl:PersistentLevel.tutorial_lvl'
+[2020.03.22-10.22.37:424][ 50]LogBlueprintUserMessages: [ABP_CustomMovement_C_0] 2_4
+[2020.03.22-10.23.01:637][951]LogBlueprintUserMessages: [colba_bluprint_2] Hello
+[2020.03.22-10.23.01:729][962]LogBlueprintUserMessages: [colba_bluprint_2] Hello
+[2020.03.22-10.23.01:737][963]LogBlueprintUserMessages: [colba_bluprint_2] Hello
+[2020.03.22-10.23.27:960][105]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Example_Character_1". Blueprint:  trubs_a Function:  Execute Ubergraph Trubs A Graph:  EventGraph Node:  Fly Start
+[2020.03.22-10.23.27:961][105]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Example_Character_1". Blueprint:  trubs_a Function:  Execute Ubergraph Trubs A Graph:  EventGraph Node:  SetActorLocation
+[2020.03.22-10.23.27:961][105]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Example_Character_1". Blueprint:  trubs_a Function:  Execute Ubergraph Trubs A Graph:  EventGraph Node:  Set Hidden in Game
+[2020.03.22-10.23.27:961][105]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  trubs_a Function:  Execute Ubergraph Trubs A Graph:  EventGraph Node:  Set Hidden in Game
+[2020.03.22-10.23.27:961][105]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Example_Character_1". Blueprint:  trubs_a Function:  Execute Ubergraph Trubs A Graph:  EventGraph Node:  Set Hidden in Game
+[2020.03.22-10.23.27:961][105]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  trubs_a Function:  Execute Ubergraph Trubs A Graph:  EventGraph Node:  Set Hidden in Game
+[2020.03.22-10.23.27:961][105]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_DynamicCast_AsBP_Example_Character_1". Blueprint:  trubs_a Function:  Execute Ubergraph Trubs A Graph:  EventGraph Node:  Set Hidden in Game
+[2020.03.22-10.23.27:961][105]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  trubs_a Function:  Execute Ubergraph Trubs A Graph:  EventGraph Node:  Set Hidden in Game
+[2020.03.22-10.23.34:128][843]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.22-10.23.34:128][843]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.22-10.23.34:128][843]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/my/levels/tutorial_lvl.tutorial_lvl:PersistentLevel' has LevelScriptBlueprint '/Game/my/levels/tutorial_lvl.tutorial_lvl:PersistentLevel.tutorial_lvl' with GeneratedClass '/Game/my/levels/tutorial_lvl.tutorial_lvl_C' with ClassGeneratedBy '/Game/my/levels/tutorial_lvl.tutorial_lvl:PersistentLevel.tutorial_lvl'
+[2020.03.22-10.23.34:128][843]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.22-10.23.34:128][843]LogWorld: BeginTearingDown for /Game/my/levels/UEDPIE_0_tutorial_lvl
+[2020.03.22-10.23.34:145][843]LogSlate: Window 'akvarel Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2020.03.22-10.23.34:149][843]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.22-10.23.34:150][843]LogWorld: UWorld::CleanupWorld for tutorial_lvl, bSessionEnded=true, bCleanupResources=true
+[2020.03.22-10.23.34:153][843]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.03.22-10.23.34:162][843]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.03.22-10.23.34:162][843]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/my/levels/tutorial_lvl.tutorial_lvl:PersistentLevel' has LevelScriptBlueprint '/Game/my/levels/tutorial_lvl.tutorial_lvl:PersistentLevel.tutorial_lvl' with GeneratedClass '/Game/my/levels/tutorial_lvl.tutorial_lvl_C' with ClassGeneratedBy '/Game/my/levels/tutorial_lvl.tutorial_lvl:PersistentLevel.tutorial_lvl'
+[2020.03.22-10.23.34:169][843]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.03.22-10.23.34:209][843]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.22-10.23.34:219][843]LogUObjectHash: Compacting FUObjectHashTables data took   3.37ms
+[2020.03.22-10.23.34:296][844]LogPlayLevel: Display: Destroying online subsystem :Context_115
+[2020.03.22-10.23.38:207][281]LogSlate: Window 'Message Log' being destroyed
+[2020.03.22-10.23.38:211][281]LogSlate: Window 'Message Log' being destroyed
+[2020.03.22-10.23.44:375][992]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Tutorial_dialog/NewFolder/Fazer_Zon_spavn.Fazer_Zon_spavn
+[2020.03.22-10.23.59:391][705]BlueprintLog: New page: Compile Fazer_Zon_spavn
+[2020.03.22-10.23.59:778][705]LogUObjectHash: Compacting FUObjectHashTables data took   4.33ms
+[2020.03.22-10.24.28:078][ 45]LogUObjectHash: Compacting FUObjectHashTables data took   4.58ms
+[2020.03.22-10.24.28:549][ 45]LogSavePackage: Moving 'D:/UnrealProjects/WillMarch1/Will_o_wisp2/Saved/tutorial_lvl_Auto9866F9849401268E85251638C66B7F410.tmp' to 'D:/UnrealProjects/WillMarch1/Will_o_wisp2/Saved/Autosaves/Game/my/levels/tutorial_lvl_Auto9.umap'
+[2020.03.22-10.24.28:550][ 45]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/my/levels/tutorial_lvl' took 0.517
+[2020.03.22-10.24.28:550][ 45]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.517
+[2020.03.22-10.24.28:551][ 45]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Tutorial_dialog/NewFolder/Fazer_Zon_spavn] ([1] browsable assets)...
+[2020.03.22-10.24.28:578][ 45]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Tutorial_dialog/NewFolder/Fazer_Zon_spavn.Fazer_Zon_spavn]
+[2020.03.22-10.24.28:578][ 45]OBJ SavePackage: Finished generating thumbnails for package [/Game/Tutorial_dialog/NewFolder/Fazer_Zon_spavn]
+[2020.03.22-10.24.28:647][ 45]LogSavePackage: Moving 'D:/UnrealProjects/WillMarch1/Will_o_wisp2/Saved/Fazer_Zon_spavn_Auto97CB18276429F4661D966A388B06EFAB4.tmp' to 'D:/UnrealProjects/WillMarch1/Will_o_wisp2/Saved/Autosaves/Game/Tutorial_dialog/NewFolder/Fazer_Zon_spavn_Auto9.uasset'
+[2020.03.22-10.24.28:648][ 45]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Tutorial_dialog/NewFolder/You_Zon_spavn_Child] ([1] browsable assets)...
+[2020.03.22-10.24.28:675][ 45]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Tutorial_dialog/NewFolder/You_Zon_spavn_Child.You_Zon_spavn_Child]
+[2020.03.22-10.24.28:676][ 45]OBJ SavePackage: Finished generating thumbnails for package [/Game/Tutorial_dialog/NewFolder/You_Zon_spavn_Child]
+[2020.03.22-10.24.28:720][ 45]LogSavePackage: Moving 'D:/UnrealProjects/WillMarch1/Will_o_wisp2/Saved/You_Zon_spavn_Child_Auto95B0985AB499F72B0D1C2A6A0C2964347.tmp' to 'D:/UnrealProjects/WillMarch1/Will_o_wisp2/Saved/Autosaves/Game/Tutorial_dialog/NewFolder/You_Zon_spavn_Child_Auto9.uasset'
+[2020.03.22-10.24.28:720][ 45]LogFileHelpers: Auto-saving content packages took 0.170
+[2020.03.22-10.25.13:535][262]BlueprintLog: New page: Compile Fazer_Zon_spavn
+[2020.03.22-10.25.13:913][262]LogUObjectHash: Compacting FUObjectHashTables data took   4.83ms
+[2020.03.22-10.25.19:818][935]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane114)
+[2020.03.22-10.25.20:679][ 29]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2020.03.22-10.25.22:563][241]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane115)
+[2020.03.22-10.25.22:905][277]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2020.03.22-10.25.39:542][167]LogEditorViewport: Clicking on Actor (LMB): You_Zon_spavn_Child_C (You_Zon_spavn_Child)
+[2020.03.22-10.26.04:750][959]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2020.03.22-10.26.27:287][446]LogWorld: UWorld::CleanupWorld for World_39, bSessionEnded=true, bCleanupResources=true
+[2020.03.22-10.26.27:287][446]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.03.22-10.26.30:531][822]LogEditorViewport: Clicking on Actor (LMB): Fazer_Zon_spavn_Child2_C (Fazer_Zon_spavn_Child2)
+[2020.03.22-10.26.35:539][399]LogEditorViewport: Clicking on Actor (LMB): Fazer_Zon_spavn_Child2_C (Fazer_Zon_spavn_Child2)
+[2020.03.22-10.27.09:018][134]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Tutorial_dialog/NewFolder/Fazer_Zon_spavn_Child2.Fazer_Zon_spavn_Child2
+[2020.03.22-10.27.18:503][ 67]LogSlate: Window 'Fazer_Zon_spavn_Child2' being destroyed
+[2020.03.22-10.27.20:220][256]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Tutorial_dialog/NewFolder/Fazer_Zon_spavn.Fazer_Zon_spavn
+[2020.03.22-10.27.24:644][715]LogWorld: UWorld::CleanupWorld for World_42, bSessionEnded=true, bCleanupResources=true
+[2020.03.22-10.27.24:644][715]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.03.22-10.27.28:387][118]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Tutorial_dialog/NewFolder/You_Zon_spavn_Child.You_Zon_spavn_Child
+[2020.03.22-10.28.09:528][623]BlueprintLog: New page: Compile Fazer_Zon_spavn_Child2
+[2020.03.22-10.28.09:993][623]LogUObjectHash: Compacting FUObjectHashTables data took   5.29ms
+[2020.03.22-10.28.45:045][490]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2020.03.22-10.28.47:938][810]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2020.03.22-10.28.49:228][952]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2020.03.22-10.28.49:963][ 37]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2020.03.22-10.28.49:981][ 37]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/my/levels/tutorial_lvl.tutorial_lvl:PersistentLevel' has LevelScriptBlueprint '/Game/my/levels/tutorial_lvl.tutorial_lvl:PersistentLevel.tutorial_lvl' with GeneratedClass '/Game/my/levels/tutorial_lvl.tutorial_lvl_C' with ClassGeneratedBy '/Game/my/levels/tutorial_lvl.tutorial_lvl:PersistentLevel.tutorial_lvl'
+[2020.03.22-10.28.49:981][ 37]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.03.22-10.28.49:981][ 37]PIE: New page: PIE session: tutorial_lvl (Mar 22, 2020, 4:28:49 PM)
+[2020.03.22-10.28.49:981][ 37]LogPlayLevel: Creating play world package: /Game/my/levels/UEDPIE_0_tutorial_lvl
+[2020.03.22-10.28.50:008][ 37]LogPlayLevel: PIE: StaticDuplicateObject took: (0.027059s)
+[2020.03.22-10.28.50:009][ 37]LogAIModule: Creating AISystem for world tutorial_lvl
+[2020.03.22-10.28.50:009][ 37]LogPlayLevel: PIE: World Init took: (0.000941s)
+[2020.03.22-10.28.50:009][ 37]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/my/levels/tutorial_lvl.tutorial_lvl to /Game/my/levels/UEDPIE_0_tutorial_lvl.tutorial_lvl (0.028153s)
+[2020.03.22-10.28.50:056][ 37]LogUObjectHash: Compacting FUObjectHashTables data took   3.82ms
+[2020.03.22-10.28.50:059][ 37]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.03.22-10.28.50:059][ 37]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.03.22-10.28.50:059][ 37]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.03.22-10.28.50:059][ 37]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.03.22-10.28.50:059][ 37]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.03.22-10.28.50:059][ 37]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.03.22-10.28.50:059][ 37]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.03.22-10.28.50:059][ 37]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.03.22-10.28.50:060][ 37]LogAudio: Display: Using built-in audio occlusion.
+[2020.03.22-10.28.50:060][ 37]LogAudioMixer: Display: Initializing audio mixer.
+[2020.03.22-10.28.50:081][ 37]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.03.22-10.28.50:081][ 37]LogAudioMixer: Display: Name: Speakers (2- Realtek(R) Audio)
+[2020.03.22-10.28.50:081][ 37]LogAudioMixer: Display: Is Default: Yes
+[2020.03.22-10.28.50:081][ 37]LogAudioMixer: Display: Sample Rate: 48000
+[2020.03.22-10.28.50:081][ 37]LogAudioMixer: Display: Channel Count Used: 2
+[2020.03.22-10.28.50:081][ 37]LogAudioMixer: Display: Device Channel Count: 2
+[2020.03.22-10.28.50:081][ 37]LogAudioMixer: Display: Channel Order:
+[2020.03.22-10.28.50:081][ 37]LogAudioMixer: Display: 0: FrontLeft
+[2020.03.22-10.28.50:081][ 37]LogAudioMixer: Display: 1: FrontRight
+[2020.03.22-10.28.50:098][ 37]LogAudioMixer: Display: Using Audio Device Speakers (2- Realtek(R) Audio)
+[2020.03.22-10.28.50:100][ 37]LogInit: FAudioDevice initialized.
+[2020.03.22-10.28.50:162][ 37]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.22-10.28.50:162][ 37]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2020.03.22-10.28.50:172][ 37]LogWorld: Bringing World /Game/my/levels/UEDPIE_0_tutorial_lvl.tutorial_lvl up for play (max tick rate 0) at 2020.03.22-13.28.50
+[2020.03.22-10.28.50:173][ 37]LogWorld: Bringing up level for play took: 0.009946
+[2020.03.22-10.28.50:173][ 37]LogOnline: OSS: Creating online subsystem instance for: :Context_121
+[2020.03.22-10.28.50:181][ 37]LogBlueprintUserMessages: [BP_ExampleCharacter_C_0] 1.0
+[2020.03.22-10.28.50:183][ 37]PIE: Play in editor start time for /Game/my/levels/UEDPIE_0_tutorial_lvl 0.995
+[2020.03.22-10.28.50:183][ 37]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/my/levels/tutorial_lvl.tutorial_lvl:PersistentLevel' has LevelScriptBlueprint '/Game/my/levels/tutorial_lvl.tutorial_lvl:PersistentLevel.tutorial_lvl' with GeneratedClass '/Game/my/levels/tutorial_lvl.tutorial_lvl_C' with ClassGeneratedBy '/Game/my/levels/tutorial_lvl.tutorial_lvl:PersistentLevel.tutorial_lvl'
+[2020.03.22-10.28.50:184][ 37]LogBlueprintUserMessages: [ABP_CustomMovement_C_0] 2_4
+[2020.03.22-10.29.19:473][528]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.22-10.29.19:473][528]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.22-10.29.19:473][528]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/my/levels/tutorial_lvl.tutorial_lvl:PersistentLevel' has LevelScriptBlueprint '/Game/my/levels/tutorial_lvl.tutorial_lvl:PersistentLevel.tutorial_lvl' with GeneratedClass '/Game/my/levels/tutorial_lvl.tutorial_lvl_C' with ClassGeneratedBy '/Game/my/levels/tutorial_lvl.tutorial_lvl:PersistentLevel.tutorial_lvl'
+[2020.03.22-10.29.19:473][528]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.22-10.29.19:473][528]LogWorld: BeginTearingDown for /Game/my/levels/UEDPIE_0_tutorial_lvl
+[2020.03.22-10.29.19:490][528]LogSlate: Window 'akvarel Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2020.03.22-10.29.19:494][528]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.22-10.29.19:495][528]LogWorld: UWorld::CleanupWorld for tutorial_lvl, bSessionEnded=true, bCleanupResources=true
+[2020.03.22-10.29.19:497][528]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.03.22-10.29.19:521][528]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.03.22-10.29.19:522][528]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/my/levels/tutorial_lvl.tutorial_lvl:PersistentLevel' has LevelScriptBlueprint '/Game/my/levels/tutorial_lvl.tutorial_lvl:PersistentLevel.tutorial_lvl' with GeneratedClass '/Game/my/levels/tutorial_lvl.tutorial_lvl_C' with ClassGeneratedBy '/Game/my/levels/tutorial_lvl.tutorial_lvl:PersistentLevel.tutorial_lvl'
+[2020.03.22-10.29.19:529][528]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.03.22-10.29.19:570][528]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.22-10.29.19:581][528]LogUObjectHash: Compacting FUObjectHashTables data took   4.06ms
+[2020.03.22-10.29.19:597][529]LogPlayLevel: Display: Destroying online subsystem :Context_121
+[2020.03.22-10.30.05:483][894]BlueprintLog: New page: Compile Fazer_Zon_spavn_Child2
+[2020.03.22-10.30.05:854][894]LogUObjectHash: Compacting FUObjectHashTables data took   5.15ms
+[2020.03.22-10.30.06:727][986]LogWorld: UWorld::CleanupWorld for World_41, bSessionEnded=true, bCleanupResources=true
+[2020.03.22-10.30.06:727][986]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.03.22-10.30.08:202][146]BlueprintLog: New page: Compile You_Zon_spavn_Child
+[2020.03.22-10.30.08:579][146]LogUObjectHash: Compacting FUObjectHashTables data took   4.51ms
+[2020.03.22-10.30.09:170][205]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2020.03.22-10.30.09:170][205]LogWorld: UWorld::CleanupWorld for World_43, bSessionEnded=true, bCleanupResources=true
+[2020.03.22-10.30.09:170][205]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.03.22-10.30.10:210][314]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2020.03.22-10.30.10:227][314]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/my/levels/tutorial_lvl.tutorial_lvl:PersistentLevel' has LevelScriptBlueprint '/Game/my/levels/tutorial_lvl.tutorial_lvl:PersistentLevel.tutorial_lvl' with GeneratedClass '/Game/my/levels/tutorial_lvl.tutorial_lvl_C' with ClassGeneratedBy '/Game/my/levels/tutorial_lvl.tutorial_lvl:PersistentLevel.tutorial_lvl'
+[2020.03.22-10.30.10:228][314]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.03.22-10.30.10:228][314]PIE: New page: PIE session: tutorial_lvl (Mar 22, 2020, 4:30:10 PM)
+[2020.03.22-10.30.10:228][314]LogPlayLevel: Creating play world package: /Game/my/levels/UEDPIE_0_tutorial_lvl
+[2020.03.22-10.30.10:255][314]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026841s)
+[2020.03.22-10.30.10:255][314]LogAIModule: Creating AISystem for world tutorial_lvl
+[2020.03.22-10.30.10:256][314]LogPlayLevel: PIE: World Init took: (0.000942s)
+[2020.03.22-10.30.10:256][314]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/my/levels/tutorial_lvl.tutorial_lvl to /Game/my/levels/UEDPIE_0_tutorial_lvl.tutorial_lvl (0.027990s)
+[2020.03.22-10.30.10:300][314]LogUObjectHash: Compacting FUObjectHashTables data took   4.50ms
+[2020.03.22-10.30.10:301][314]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.03.22-10.30.10:301][314]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.03.22-10.30.10:301][314]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.03.22-10.30.10:301][314]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.03.22-10.30.10:301][314]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.03.22-10.30.10:301][314]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.03.22-10.30.10:301][314]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.03.22-10.30.10:301][314]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.03.22-10.30.10:302][314]LogAudio: Display: Using built-in audio occlusion.
+[2020.03.22-10.30.10:302][314]LogAudioMixer: Display: Initializing audio mixer.
+[2020.03.22-10.30.10:322][314]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.03.22-10.30.10:322][314]LogAudioMixer: Display: Name: Speakers (2- Realtek(R) Audio)
+[2020.03.22-10.30.10:322][314]LogAudioMixer: Display: Is Default: Yes
+[2020.03.22-10.30.10:322][314]LogAudioMixer: Display: Sample Rate: 48000
+[2020.03.22-10.30.10:322][314]LogAudioMixer: Display: Channel Count Used: 2
+[2020.03.22-10.30.10:322][314]LogAudioMixer: Display: Device Channel Count: 2
+[2020.03.22-10.30.10:322][314]LogAudioMixer: Display: Channel Order:
+[2020.03.22-10.30.10:322][314]LogAudioMixer: Display: 0: FrontLeft
+[2020.03.22-10.30.10:322][314]LogAudioMixer: Display: 1: FrontRight
+[2020.03.22-10.30.10:338][314]LogAudioMixer: Display: Using Audio Device Speakers (2- Realtek(R) Audio)
+[2020.03.22-10.30.10:340][314]LogInit: FAudioDevice initialized.
+[2020.03.22-10.30.10:393][314]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.22-10.30.10:393][314]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2020.03.22-10.30.10:402][314]LogWorld: Bringing World /Game/my/levels/UEDPIE_0_tutorial_lvl.tutorial_lvl up for play (max tick rate 0) at 2020.03.22-13.30.10
+[2020.03.22-10.30.10:404][314]LogWorld: Bringing up level for play took: 0.009554
+[2020.03.22-10.30.10:404][314]LogOnline: OSS: Creating online subsystem instance for: :Context_122
+[2020.03.22-10.30.10:412][314]LogBlueprintUserMessages: [BP_ExampleCharacter_C_0] 1.0
+[2020.03.22-10.30.10:414][314]PIE: Play in editor start time for /Game/my/levels/UEDPIE_0_tutorial_lvl -0.774
+[2020.03.22-10.30.10:414][314]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/my/levels/tutorial_lvl.tutorial_lvl:PersistentLevel' has LevelScriptBlueprint '/Game/my/levels/tutorial_lvl.tutorial_lvl:PersistentLevel.tutorial_lvl' with GeneratedClass '/Game/my/levels/tutorial_lvl.tutorial_lvl_C' with ClassGeneratedBy '/Game/my/levels/tutorial_lvl.tutorial_lvl:PersistentLevel.tutorial_lvl'
+[2020.03.22-10.30.10:415][314]LogBlueprintUserMessages: [ABP_CustomMovement_C_0] 2_4
+[2020.03.22-10.30.46:313][613]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.22-10.30.46:313][613]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.22-10.30.46:313][613]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/my/levels/tutorial_lvl.tutorial_lvl:PersistentLevel' has LevelScriptBlueprint '/Game/my/levels/tutorial_lvl.tutorial_lvl:PersistentLevel.tutorial_lvl' with GeneratedClass '/Game/my/levels/tutorial_lvl.tutorial_lvl_C' with ClassGeneratedBy '/Game/my/levels/tutorial_lvl.tutorial_lvl:PersistentLevel.tutorial_lvl'
+[2020.03.22-10.30.46:314][613]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.22-10.30.46:314][613]LogWorld: BeginTearingDown for /Game/my/levels/UEDPIE_0_tutorial_lvl
+[2020.03.22-10.30.46:332][613]LogSlate: Window 'akvarel Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2020.03.22-10.30.46:335][613]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.22-10.30.46:336][613]LogWorld: UWorld::CleanupWorld for tutorial_lvl, bSessionEnded=true, bCleanupResources=true
+[2020.03.22-10.30.46:338][613]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.03.22-10.30.46:349][613]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.03.22-10.30.46:349][613]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/my/levels/tutorial_lvl.tutorial_lvl:PersistentLevel' has LevelScriptBlueprint '/Game/my/levels/tutorial_lvl.tutorial_lvl:PersistentLevel.tutorial_lvl' with GeneratedClass '/Game/my/levels/tutorial_lvl.tutorial_lvl_C' with ClassGeneratedBy '/Game/my/levels/tutorial_lvl.tutorial_lvl:PersistentLevel.tutorial_lvl'
+[2020.03.22-10.30.46:357][613]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.03.22-10.30.46:394][613]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.22-10.30.46:406][613]LogUObjectHash: Compacting FUObjectHashTables data took   3.81ms
+[2020.03.22-10.30.46:423][614]LogPlayLevel: Display: Destroying online subsystem :Context_122
+[2020.03.22-10.35.34:731][731]LogUObjectHash: Compacting FUObjectHashTables data took   1.36ms
+[2020.03.22-10.35.35:206][731]LogSavePackage: Moving 'D:/UnrealProjects/WillMarch1/Will_o_wisp2/Saved/tutorial_lvl_Auto0B973AD2949497906CB54A3B6BCF17181.tmp' to 'D:/UnrealProjects/WillMarch1/Will_o_wisp2/Saved/Autosaves/Game/my/levels/tutorial_lvl_Auto0.umap'
+[2020.03.22-10.35.35:207][731]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/my/levels/tutorial_lvl' took 0.507
+[2020.03.22-10.35.35:207][731]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.507
+[2020.03.22-10.35.35:208][731]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Tutorial_dialog/NewFolder/Fazer_Zon_spavn] ([1] browsable assets)...
+[2020.03.22-10.35.35:236][731]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Tutorial_dialog/NewFolder/Fazer_Zon_spavn.Fazer_Zon_spavn]
+[2020.03.22-10.35.35:236][731]OBJ SavePackage: Finished generating thumbnails for package [/Game/Tutorial_dialog/NewFolder/Fazer_Zon_spavn]
+[2020.03.22-10.35.35:284][731]LogSavePackage: Moving 'D:/UnrealProjects/WillMarch1/Will_o_wisp2/Saved/Fazer_Zon_spavn_Auto0376F9B0D41C10167384BB2914AD6503C.tmp' to 'D:/UnrealProjects/WillMarch1/Will_o_wisp2/Saved/Autosaves/Game/Tutorial_dialog/NewFolder/Fazer_Zon_spavn_Auto0.uasset'
+[2020.03.22-10.35.35:285][731]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Tutorial_dialog/NewFolder/You_Zon_spavn_Child] ([1] browsable assets)...
+[2020.03.22-10.35.35:313][731]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Tutorial_dialog/NewFolder/You_Zon_spavn_Child.You_Zon_spavn_Child]
+[2020.03.22-10.35.35:313][731]OBJ SavePackage: Finished generating thumbnails for package [/Game/Tutorial_dialog/NewFolder/You_Zon_spavn_Child]
+[2020.03.22-10.35.35:382][731]LogSavePackage: Moving 'D:/UnrealProjects/WillMarch1/Will_o_wisp2/Saved/You_Zon_spavn_Child_Auto09B3CD6074645B005AF7330A4FDEA8A7D.tmp' to 'D:/UnrealProjects/WillMarch1/Will_o_wisp2/Saved/Autosaves/Game/Tutorial_dialog/NewFolder/You_Zon_spavn_Child_Auto0.uasset'
+[2020.03.22-10.35.35:383][731]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Tutorial_dialog/NewFolder/Fazer_Zon_spavn_Child2] ([1] browsable assets)...
+[2020.03.22-10.35.35:409][731]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Tutorial_dialog/NewFolder/Fazer_Zon_spavn_Child2.Fazer_Zon_spavn_Child2]
+[2020.03.22-10.35.35:409][731]OBJ SavePackage: Finished generating thumbnails for package [/Game/Tutorial_dialog/NewFolder/Fazer_Zon_spavn_Child2]
+[2020.03.22-10.35.35:446][731]LogSavePackage: Moving 'D:/UnrealProjects/WillMarch1/Will_o_wisp2/Saved/Fazer_Zon_spavn_Child2_Auto0AA4B82A14CEF7C0AB6651FBE632AAE5B.tmp' to 'D:/UnrealProjects/WillMarch1/Will_o_wisp2/Saved/Autosaves/Game/Tutorial_dialog/NewFolder/Fazer_Zon_spavn_Child2_Auto0.uasset'
+[2020.03.22-10.35.35:447][731]LogFileHelpers: Auto-saving content packages took 0.239
+[2020.03.22-10.56.52:076][ 36]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane80)
+[2020.03.22-10.56.55:905][489]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2020.03.22-10.57.04:490][392]LogAIModule: Creating AISystem for world III_modul_ann
+[2020.03.22-10.57.04:509][392]LogBlueprintUserMessages: [ABP_CustomMovement_C_0] 2_4
+[2020.03.22-10.57.04:656][392]LogAssetEditorSubsystem: Opening Asset editor for World /Game/my/levels/III_modul_ann.III_modul_ann
+[2020.03.22-10.57.04:707][392]LogUObjectHash: Compacting FUObjectHashTables data took   5.23ms
+[2020.03.22-10.57.08:482][392]LogSlate: Window 'Save Content' being destroyed
+[2020.03.22-10.57.08:966][392]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/my/asset/texture/fon/ornament_Mat" FILE="D:/UnrealProjects/WillMarch1/Will_o_wisp2/Content/my/asset/texture/fon/ornament_Mat.uasset" SILENT=true
+[2020.03.22-10.57.09:031][392]LogSavePackage: Moving 'D:/UnrealProjects/WillMarch1/Will_o_wisp2/Saved/ornament_Mat4FB20DDA4599A8EE25B7E8B44521BF64.tmp' to 'D:/UnrealProjects/WillMarch1/Will_o_wisp2/Content/my/asset/texture/fon/ornament_Mat.uasset'
+[2020.03.22-10.57.09:037][392]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/my/levels/Interactiv_BP/vent1_bp" FILE="D:/UnrealProjects/WillMarch1/Will_o_wisp2/Content/my/levels/Interactiv_BP/vent1_bp.uasset" SILENT=true
+[2020.03.22-10.57.09:090][392]LogSavePackage: Moving 'D:/UnrealProjects/WillMarch1/Will_o_wisp2/Saved/vent1_bp2BFFAD65402DB5BFA314FBA63E0547AA.tmp' to 'D:/UnrealProjects/WillMarch1/Will_o_wisp2/Content/my/levels/Interactiv_BP/vent1_bp.uasset'
+[2020.03.22-10.57.09:096][392]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/my/levels/tutorial_lvl" FILE="D:/UnrealProjects/WillMarch1/Will_o_wisp2/Content/my/levels/tutorial_lvl.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.03.22-10.57.09:132][392]LogUObjectHash: Compacting FUObjectHashTables data took   1.22ms
+[2020.03.22-10.57.09:671][392]LogSavePackage: Moving 'D:/UnrealProjects/WillMarch1/Will_o_wisp2/Saved/tutorial_lvl899CA9A64BF0B2189EF62590BBC50A4C.tmp' to 'D:/UnrealProjects/WillMarch1/Will_o_wisp2/Content/my/levels/tutorial_lvl.umap'
+[2020.03.22-10.57.09:883][392]LogFileHelpers: Saving map 'tutorial_lvl' took 0.788
+[2020.03.22-10.57.09:883][392]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tutorial_dialog/NewFolder/Fazer_Zon_spavn" FILE="D:/UnrealProjects/WillMarch1/Will_o_wisp2/Content/Tutorial_dialog/NewFolder/Fazer_Zon_spavn.uasset" SILENT=true
+[2020.03.22-10.57.09:944][392]LogSavePackage: Moving 'D:/UnrealProjects/WillMarch1/Will_o_wisp2/Saved/Fazer_Zon_spavn793CD86E4AF291D541FD86AA9F1F88DA.tmp' to 'D:/UnrealProjects/WillMarch1/Will_o_wisp2/Content/Tutorial_dialog/NewFolder/Fazer_Zon_spavn.uasset'
+[2020.03.22-10.57.09:982][392]LogSavePackage: Moving 'D:/UnrealProjects/WillMarch1/Will_o_wisp2/Saved/Fazer_Zon_spavn_Child2B01337DF4DA44D8CCCA0CB9D2CCDC7E8.tmp' to 'D:/UnrealProjects/WillMarch1/Will_o_wisp2/Content/Tutorial_dialog/NewFolder/Fazer_Zon_spavn_Child2.uasset'
+[2020.03.22-10.57.10:458][392]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tutorial_dialog/NewFolder/You_Zon_spavn_Child" FILE="D:/UnrealProjects/WillMarch1/Will_o_wisp2/Content/Tutorial_dialog/NewFolder/You_Zon_spavn_Child.uasset" SILENT=true
+[2020.03.22-10.57.10:496][392]LogSavePackage: Moving 'D:/UnrealProjects/WillMarch1/Will_o_wisp2/Saved/You_Zon_spavn_Child1224AEA84CE4B8DDC7BEA3B3876A7E90.tmp' to 'D:/UnrealProjects/WillMarch1/Will_o_wisp2/Content/Tutorial_dialog/NewFolder/You_Zon_spavn_Child.uasset'
+[2020.03.22-10.57.10:553][392]Cmd: MAP LOAD FILE="D:/UnrealProjects/WillMarch1/Will_o_wisp2/Content/my/levels/III_modul_ann.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.03.22-10.57.10:553][392]LightingResults: New page: Lighting Build
+[2020.03.22-10.57.10:554][392]LoadErrors: New page: Loading map: III_modul_ann.umap
+[2020.03.22-10.57.10:567][392]LogWorld: UWorld::CleanupWorld for tutorial_lvl, bSessionEnded=true, bCleanupResources=true
+[2020.03.22-10.57.10:567][392]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.03.22-10.57.10:567][392]MapCheck: New page: Map Check
+[2020.03.22-10.57.10:567][392]LightingResults: New page: Lighting Build
+[2020.03.22-10.57.10:687][392]LogUObjectHash: Compacting FUObjectHashTables data took   4.95ms
+[2020.03.22-10.57.10:738][392]LogPhysics: Warning: Scale for /Game/my/levels/III_modul_ann.III_modul_ann:PersistentLevel.room_statick_camera14.bottom_free_cam has a component set to zero, which will result in a bad body instance. Scale:X=18.375 Y=108.750 Z=0.000
+[2020.03.22-10.57.10:763][392]LogBlueprintUserMessages: [ABP_CustomMovement_C_1] 2_4
+[2020.03.22-10.57.10:809][392]LogPhysics: Warning: Scale for /Game/my/levels/III_modul_ann.III_modul_ann:PersistentLevel.room_statick_camera14.bottom_free_cam has a component set to zero, which will result in a bad body instance. Scale:X=18.375 Y=108.750 Z=0.000
+[2020.03.22-10.57.11:698][392]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.03.22-10.57.11:699][392]LogNavigation: Warning: Recreating dtNavMesh instance due to saved navmesh origin (X=1025.000 Y=115030.000 Z=11105.000, usually the RecastNavMesh location) not being aligned with tile size (988 uu) 
+[2020.03.22-10.57.11:762][392]LogUObjectHash: Compacting FUObjectHashTables data took   4.48ms
+[2020.03.22-10.57.11:838][392]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.03.22-10.57.11:838][392]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.194ms to complete.
+[2020.03.22-10.57.11:838][392]LogFileHelpers: Loading map 'III_modul_ann' took 1.320
+[2020.03.22-10.57.11:982][392]AssetCheck: New page: Asset Save: multiple assets
+[2020.03.22-10.57.11:982][392]LogContentValidation: Display: Validating Material /Game/my/asset/texture/fon/ornament_Mat.ornament_Mat
+[2020.03.22-10.57.11:982][392]LogContentValidation: Display: Validating Blueprint /Game/my/levels/Interactiv_BP/vent1_bp.vent1_bp
+[2020.03.22-10.57.11:982][392]LogContentValidation: Display: Validating World /Game/my/levels/tutorial_lvl.tutorial_lvl
+[2020.03.22-10.57.12:619][392]LogAIModule: Creating AISystem for world tutorial_lvl
+[2020.03.22-10.57.12:671][392]LogContentValidation: Display: Validating Blueprint /Game/Tutorial_dialog/NewFolder/Fazer_Zon_spavn.Fazer_Zon_spavn
+[2020.03.22-10.57.12:671][392]LogContentValidation: Display: Validating Blueprint /Game/Tutorial_dialog/NewFolder/Fazer_Zon_spavn_Child2.Fazer_Zon_spavn_Child2
+[2020.03.22-10.57.12:671][392]LogContentValidation: Display: Validating Blueprint /Game/Tutorial_dialog/NewFolder/You_Zon_spavn_Child.You_Zon_spavn_Child
